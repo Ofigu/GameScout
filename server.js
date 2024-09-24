@@ -6,8 +6,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/gamescout', { useNewUrlParser: true, useUnifiedTopology: true });
-
+mongoose.connect('mongodb+srv://ofiralmog2:2YIoYX7moljlhN22@gamescout.vbdbi.mongodb.net/', {
+})
+  .then(() => {
+      console.log('Connected to MongoDB');
+  })
+  .catch((error) => {
+      console.error('Error connecting to MongoDB:', error);
+  });
 app.get('/', (req, res) => {
   res.send('GameScout API is running');
 });
