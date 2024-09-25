@@ -18,6 +18,22 @@ app.get('/', (req, res) => {
   res.send('GameScout API is running');
 });
 
-app.listen(5000, () => {
-  console.log('Server is running on port 5000');
+// Start Server
+const port = 3200;
+app.listen(port, function () {
+    console.log("Server started on port", port);
 });
+
+// Parse JSON data
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('./views'));
+
+// Set home page
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'views', 'homePage.html'));
+});
+
+// Set Routers
+var pages = require('./backend/routers/routePages');
+app.use('/', pages);
+

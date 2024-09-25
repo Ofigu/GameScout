@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ScoutGame</title>
+    <title>Sign up</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="container">
-            <form action="http://localhost:3200/" method="post">
+            <form action="http://localhost:3200/addUser" method="post">
                 <input type="text" name="Username" placeholder="Username" required><br><br>
                 <input type="password" name="Password" placeholder="Password" required><br><br>
-                <input type="submit" value="Login" id="login-button">
+                <input type="submit" value="Sign Up" id="signup-button">
             </form>
-            <p>Don't have an account yet? <a href="signup.html" style="text-decoration: underline;">Sign up here</a></p>        </div>
+            <p>Already have an account? <a href="homePage.html">log in here</a></p>
+        </div>
     </div>
 </body>
 <script>
     window.addEventListener('DOMContentLoaded', () => {
-        const inputFields = document.querySelectorAll('input[type="text"], input[type="password"], input[type="number"]');
+        const inputFields = document.querySelectorAll('input[type="text"], input[type="password"]');
         
         inputFields.forEach(field => {
             field.addEventListener('focus', () => {
