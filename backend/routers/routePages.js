@@ -4,6 +4,17 @@ const path = require('path');
 const User = require('../models/user');
 const { getTodaysFixtures } = require('../../server.js'); 
 
+// Function to add hours to the time based on the league
+const adjustTime = (time, league) => {
+    const [hours, minutes] = time.split(':').map(Number);
+    const date = new Date();
+    if (league === 'Premier League 2024/25' || league == 'Championship 2024/25') {
+      date.setHours(hours + 2, minutes, 0, 0); // Add two hours for Premier League
+    } else {
+      date.setHours(hours + 1, minutes, 0, 0); // Add one hour for other leagues
+    }
+    return date.toTimeString().slice(0, 5); // Return time in HH:MM format
+  };
 
 // Middleware to parse request body
 router.use(express.json());
@@ -62,6 +73,12 @@ router.get('/home', function (req, res) {
     if (req.session.user) {
       // Get today's fixtures and render the home page
       getTodaysFixtures((fixtures) => {
+       // Adjust time for each fixture based on the league
+       fixtures.forEach(fixture => {
+        fixture.time = adjustTime(fixture.time, fixture.league);
+      });
+      // Sort fixtures by time
+      fixtures.sort((a, b) => new Date(`1970-01-01T${a.time}:00Z`) - new Date(`1970-01-01T${b.time}:00Z`));
         res.render('home', { username: req.session.user.username, fixtures: fixtures });
       });
     } else {
