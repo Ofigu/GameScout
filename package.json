@@ -2,9 +2,14 @@
   "name": "gamescout",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "backend/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "install-all": "npm install && npm install --prefix client"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +23,9 @@
     "express-session": "^1.18.0",
     "mongodb": "^6.9.0",
     "mongoose": "^8.6.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1",
+    "nodemon": "^3.1.7"
   }
 }

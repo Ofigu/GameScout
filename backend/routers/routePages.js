@@ -2,7 +2,18 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 const User = require('../models/user');
-const { getTodaysFixtures } = require('../../server.js'); 
+const fs = require('fs');  
+const csv = require('csv-parser');
+
+
+// Check if user is authenticated
+const isAuthenticated = (req, res, next) => {
+    if (req.session.user) {
+      next();
+    } else {
+      res.status(401).json({ error: 'Not authenticated' });
+    }
+  };
 
 // Function to add hours to the time based on the league
 const adjustTime = (time, league) => {
@@ -44,29 +55,26 @@ router.post('/addUser', async (req, res) => {
 });
 // login route
 router.post('/login', async (req, res) => {
-    const { Username, Password } = req.body;
-
+    const { username, password } = req.body;
     try {
-        const user = await User.findOne({ username: Username, password: Password });
-
-        if (user) {
-            req.session.user = user; // Set user in session
-            res.redirect('/home');
-        } else {
-            const errorMessage = 'Invalid username or password.';
-            console.error(errorMessage);
-            res.send(`<script>alert('${errorMessage}'); window.location.href='/loginPage'</script>`);
-        }
+      const user = await User.findOne({ username, password });
+      if (user) {
+        req.session.user = user;
+        res.json({ success: true, username: user.username });
+      } else {
+        console.log('Invalid login attempt:', username); // For debugging
+        res.status(401).json({ error: 'Invalid username or password' });
+      }
     } catch (error) {
-        console.error('Error during login:', error);
-        res.status(500).send('An error occurred during login.');
+      console.error('Login error:', error); // For debugging
+      res.status(500).json({ error: 'Server error' });
     }
-});
+  });
 
 
 // Sends to login page
 router.get('/loginPage', function (req, res) {
-    res.sendFile(path.join(__dirname, '../../views/login.html'));
+    res.sendFile(path.join(__dirname, '../../client/src/components', 'login.js'));
 });
 // sends logged in user to home page
 router.get('/home', function (req, res) {
@@ -97,5 +105,58 @@ router.get('/logout', function (req, res) {
         }
     });
 });
+
+// Get user data
+router.get('/user', isAuthenticated, (req, res) => {
+    res.json({ username: req.session.user.username });
+  });
+  
+
+
+const getTodaysFixtures = (callback) => {
+const fixtures = [];
+const today = new Date();
+
+// Format today's date as YYYY-MM-DD
+const formattedToday = today.toISOString().split('T')[0]; // calculate today's date
+
+ fs.createReadStream(path.join(__dirname, '../fixtures/fixtures.csv'))
+    .pipe(csv())
+    .on('data', (row) => {
+      if (row.Date === formattedToday) {
+        fixtures.push({
+          round: row['Round'], 
+          team1: row['Team 1'],
+          team2: row['Team 2'],
+          time: row['Time'],
+          league: row['League']
+        });
+      }
+    })
+    .on('end', () => {
+       callback(fixtures); 
+    })
+    .on('error', (err) => {
+      console.error("Error reading CSV:", err);
+      callback([]); 
+    });
+};
+
+  // Get fixtures
+  router.get('/fixtures', isAuthenticated, (req, res) => {
+    getTodaysFixtures((fixtures) => {
+      if (fixtures instanceof Error) {
+        console.error('Error fetching fixtures:', fixtures);
+        return res.status(500).json({ error: 'Error fetching fixtures' });
+      }
+      res.json(fixtures);
+    });
+  });
+  
+  // Catch-all error handler
+  router.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ error: 'Something went wrong!' });
+  });
 
 module.exports = router;
