@@ -30,9 +30,11 @@ function Login() {
     }
   };
 
+
   return (
     <div>
       <h1>Login Page</h1>
+      {error && <p style={{ color: 'red' }}>{error}</p>}
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="username">Username:</label>
