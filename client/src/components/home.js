@@ -1,6 +1,128 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Accordion, Button } from 'react-bootstrap';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+const FixturesComponent = ({ username, selectedDate, fixturesByLeague, handleDateChange, handleLogout, getLogoUrl }) => {
+  // Function to format date as DD/MM/YYYY
+  const formatDateForDisplay = (date) => {
+    return date.toLocaleDateString('en-GB', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    }).replace(/\//g, '/');
+  };
+
+  // Function to parse DD/MM/YYYY to Date object
+  const parseDateInput = (dateString) => {
+    const [day, month, year] = dateString.split('/');
+    return new Date(year, month - 1, day);
+  };
+
+  // Custom handler for date input change
+  const handleCustomDateChange = (e) => {
+    const dateValue = e.target.value;
+    const parsedDate = parseDateInput(dateValue);
+    handleDateChange({ target: { value: parsedDate.toISOString().split('T')[0] } });
+  };
+
+  // Function to change date by a given number of days
+  const changeDateByDays = (days) => {
+    const newDate = new Date(selectedDate);
+    newDate.setDate(newDate.getDate() + days);
+    handleDateChange({ target: { value: newDate.toISOString().split('T')[0] } });
+  };
+
+  return (
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-12 text-end p-3">
+          <Button variant="outline-danger" onClick={handleLogout}>Logout</Button>
+        </div>
+      </div>
+      <div className="row justify-content-center">
+        <div className="col-md-8">
+          <div className="text-center mb-4">
+            <h1 className="mt-3">Welcome, {username}!</h1>
+          </div>
+          <div className="mb-3 d-flex align-items-center justify-content-center">
+            <Button variant="outline-primary" onClick={() => changeDateByDays(-1)} className="me-2">
+              <ChevronLeft size={20} />
+            </Button>
+            <div className="d-flex flex-column align-items-center" style={{width: '200px'}}>
+              <label htmlFor="dateSelect" className="form-label mb-0">Select Date:</label>
+              <input
+                type="text"
+                className="form-control text-center"
+                id="dateSelect"
+                value={formatDateForDisplay(selectedDate)}
+                onChange={handleCustomDateChange}
+                placeholder="DD/MM/YYYY"
+              />
+            </div>
+            <Button variant="outline-primary" onClick={() => changeDateByDays(1)} className="ms-2">
+              <ChevronRight size={20} />
+            </Button>
+          </div>
+          <h2 className="text-center mb-4">Fixtures for {formatDateForDisplay(selectedDate)}</h2>
+          <Accordion alwaysOpen>
+            {Object.entries(fixturesByLeague).map(([league, fixtures], index) => (
+              <Accordion.Item eventKey={index.toString()} key={league}>
+                <Accordion.Header>
+                  <div className="d-flex align-items-center w-100">
+                    <span>{league}</span>
+                    <span className="badge bg-primary rounded-pill ms-2">{fixtures.length}</span>
+                    <div className="flex-grow-1"></div>
+                  </div>
+                </Accordion.Header>
+                <Accordion.Body>
+                  <ul className="list-unstyled">
+                    {fixtures.map((fixture, fixtureIndex) => (
+                      <React.Fragment key={fixtureIndex}>
+                        <li className="d-flex align-items-center justify-content-between mb-2">
+                          <div className="d-flex align-items-center justify-content-end" style={{width: '40%'}}>
+                            <span className="me-2">{fixture.team1}</span>
+                            <img 
+                              src={getLogoUrl(fixture.team1, league).specific}
+                              alt={`${fixture.team1} logo`} 
+                              style={{width: '30px', height: '30px'}}
+                              onError={(e) => {
+                                e.target.onerror = null;
+                                e.target.src = getLogoUrl(fixture.team1, league).generic;
+                              }}
+                            />
+                          </div>
+                          <div style={{width: '20%', textAlign: 'center'}}>
+                            <span className="mx-2">vs</span>
+                          </div>
+                          <div className="d-flex align-items-center justify-content-start" style={{width: '40%'}}>
+                            <img 
+                              src={getLogoUrl(fixture.team2, league).specific}
+                              alt={`${fixture.team2} logo`} 
+                              style={{width: '30px', height: '30px'}}
+                              onError={(e) => {
+                                e.target.onerror = null; 
+                                e.target.src = getLogoUrl(fixture.team2, league).generic;
+                              }}
+                            />
+                            <span className="ms-2">{fixture.team2}</span>
+                          </div>
+                          <span style={{width: '10%', textAlign: 'right'}}>{fixture.time}</span>
+                        </li>
+                        {fixtureIndex < fixtures.length - 1 && <hr className="my-2" />}
+                      </React.Fragment>
+                    ))}
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            ))}
+          </Accordion>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 function Home() {
   const [username, setUsername] = useState('');
   const [fixturesByLeague, setFixturesByLeague] = useState({});
@@ -93,14 +215,9 @@ function Home() {
   };
 
   const getLogoUrl = useCallback((teamName, league) => {
-    // Encode the league and team names to handle spaces and special characters in the URL
     const encodedLeague = encodeURIComponent(league);
     const encodedTeamName = encodeURIComponent(teamName);
-
-    // Construct the path to the logo
     const logoPath = `${process.env.PUBLIC_URL}/logo's/${encodedLeague}/${encodedTeamName}.png`;
-
-    // Return an object with both the specific logo path and a generic fallback
     return {
       specific: logoPath,
       generic: `${process.env.PUBLIC_URL}/generic_team_logo.png`
@@ -112,84 +229,15 @@ function Home() {
   }
 
   return (
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-12 text-end p-3">
-            <Button variant="outline-danger" onClick={handleLogout}>Logout</Button>
-          </div>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-md-8">
-            <div className="text-center mb-4">
-              <h1 className="mt-3">Welcome, {username}!</h1>
-            </div>
-            <div className="mb-3">
-              <label htmlFor="dateSelect" className="form-label">Select Date:</label>
-              <input
-                type="date"
-                className="form-control"
-                id="dateSelect"
-                value={selectedDate.toISOString().split('T')[0]}
-                onChange={handleDateChange}
-              />
-            </div>
-            <h2 className="text-center mb-4">Fixtures for {selectedDate.toDateString()}</h2>
-            <Accordion alwaysOpen>
-        {Object.entries(fixturesByLeague).map(([league, fixtures], index) => (
-          <Accordion.Item eventKey={index.toString()} key={league}>
-            <Accordion.Header>
-              <div className="d-flex align-items-center w-100">
-                <span>{league}</span>
-                <span className="badge bg-primary rounded-pill ms-2">{fixtures.length}</span>
-                <div className="flex-grow-1"></div>
-              </div>
-            </Accordion.Header>
-            <Accordion.Body>
-              <ul className="list-unstyled">
-                {fixtures.map((fixture, fixtureIndex) => (
-                  <React.Fragment key={fixtureIndex}>
-                    <li className="d-flex align-items-center justify-content-between mb-2">
-                      <div className="d-flex align-items-center justify-content-end" style={{width: '40%'}}>
-                        <span className="me-2">{fixture.team1}</span>
-                        <img 
-                          src={getLogoUrl(fixture.team1, league).specific}
-                          alt={`${fixture.team1} logo`} 
-                          style={{width: '30px', height: '30px'}}
-                          onError={(e) => {
-                            e.target.onerror = null;
-                            e.target.src = getLogoUrl(fixture.team1, league).generic;
-                          }}
-                        />
-                      </div>
-                      <div style={{width: '20%', textAlign: 'center'}}>
-                        <span className="mx-2">vs</span>
-                      </div>
-                      <div className="d-flex align-items-center justify-content-start" style={{width: '40%'}}>
-                        <img 
-                          src={getLogoUrl(fixture.team2, league).specific}
-                          alt={`${fixture.team2} logo`} 
-                          style={{width: '30px', height: '30px'}}
-                          onError={(e) => {
-                            e.target.onerror = null; 
-                            e.target.src = getLogoUrl(fixture.team2, league).generic;
-                          }}
-                        />
-                        <span className="ms-2">{fixture.team2}</span>
-                      </div>
-                      <span style={{width: '10%', textAlign: 'right'}}>{fixture.time}</span>
-                    </li>
-                    {fixtureIndex < fixtures.length - 1 && <hr className="my-2" />}
-                  </React.Fragment>
-                ))}
-              </ul>
-            </Accordion.Body>
-          </Accordion.Item>
-        ))}
-      </Accordion>
-          </div>
-        </div>
-      </div>
-    );
-  };
+    <FixturesComponent 
+      username={username}
+      selectedDate={selectedDate}
+      fixturesByLeague={fixturesByLeague}
+      handleDateChange={handleDateChange}
+      handleLogout={handleLogout}
+      getLogoUrl={getLogoUrl}
+    />
+  );
+}
 
 export default Home;
