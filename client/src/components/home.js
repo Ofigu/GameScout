@@ -112,87 +112,84 @@ function Home() {
   }
 
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-12 text-end p-3">
-          <Button variant="outline-danger" onClick={handleLogout}>Logout</Button>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-12 text-end p-3">
+            <Button variant="outline-danger" onClick={handleLogout}>Logout</Button>
+          </div>
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-md-8">
+            <div className="text-center mb-4">
+              <h1 className="mt-3">Welcome, {username}!</h1>
+            </div>
+            <div className="mb-3">
+              <label htmlFor="dateSelect" className="form-label">Select Date:</label>
+              <input
+                type="date"
+                className="form-control"
+                id="dateSelect"
+                value={selectedDate.toISOString().split('T')[0]}
+                onChange={handleDateChange}
+              />
+            </div>
+            <h2 className="text-center mb-4">Fixtures for {selectedDate.toDateString()}</h2>
+            <Accordion alwaysOpen>
+        {Object.entries(fixturesByLeague).map(([league, fixtures], index) => (
+          <Accordion.Item eventKey={index.toString()} key={league}>
+            <Accordion.Header>
+              <div className="d-flex align-items-center w-100">
+                <span>{league}</span>
+                <span className="badge bg-primary rounded-pill ms-2">{fixtures.length}</span>
+                <div className="flex-grow-1"></div>
+              </div>
+            </Accordion.Header>
+            <Accordion.Body>
+              <ul className="list-unstyled">
+                {fixtures.map((fixture, fixtureIndex) => (
+                  <React.Fragment key={fixtureIndex}>
+                    <li className="d-flex align-items-center justify-content-between mb-2">
+                      <div className="d-flex align-items-center justify-content-end" style={{width: '40%'}}>
+                        <span className="me-2">{fixture.team1}</span>
+                        <img 
+                          src={getLogoUrl(fixture.team1, league).specific}
+                          alt={`${fixture.team1} logo`} 
+                          style={{width: '30px', height: '30px'}}
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = getLogoUrl(fixture.team1, league).generic;
+                          }}
+                        />
+                      </div>
+                      <div style={{width: '20%', textAlign: 'center'}}>
+                        <span className="mx-2">vs</span>
+                      </div>
+                      <div className="d-flex align-items-center justify-content-start" style={{width: '40%'}}>
+                        <img 
+                          src={getLogoUrl(fixture.team2, league).specific}
+                          alt={`${fixture.team2} logo`} 
+                          style={{width: '30px', height: '30px'}}
+                          onError={(e) => {
+                            e.target.onerror = null; 
+                            e.target.src = getLogoUrl(fixture.team2, league).generic;
+                          }}
+                        />
+                        <span className="ms-2">{fixture.team2}</span>
+                      </div>
+                      <span style={{width: '10%', textAlign: 'right'}}>{fixture.time}</span>
+                    </li>
+                    {fixtureIndex < fixtures.length - 1 && <hr className="my-2" />}
+                  </React.Fragment>
+                ))}
+              </ul>
+            </Accordion.Body>
+          </Accordion.Item>
+        ))}
+      </Accordion>
+          </div>
         </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-md-8">
-          <div className="text-center mb-4">
-            <h1 className="mt-3">Welcome, {username}!</h1>
-          </div>
-          <div className="mb-3">
-            <label htmlFor="dateSelect" className="form-label">Select Date:</label>
-            <input
-              type="date"
-              className="form-control"
-              id="dateSelect"
-              value={selectedDate.toISOString().split('T')[0]}
-              onChange={handleDateChange}
-            />
-          </div>
-          <h2 className="text-center mb-4">Fixtures for {selectedDate.toDateString()}</h2>
-          <Accordion alwaysOpen>
-            {Object.entries(fixturesByLeague).map(([league, fixtures], index) => (
-              <Accordion.Item eventKey={index.toString()} key={league}>
-                <Accordion.Header>
-                  <div className="d-flex justify-content-between align-items-center w-100">
-                    <div className="flex-grow-1"></div>
-                    <span className="text-center">{league}</span>
-                    <div className="flex-grow-1 text-end">
-                      <span className="badge bg-primary rounded-pill">{fixtures.length}</span>
-                    </div>
-                  </div>
-                </Accordion.Header>
-                <Accordion.Body>
-                  <ul className="list-unstyled">
-                    {fixtures.map((fixture, fixtureIndex) => (
-                      <React.Fragment key={fixtureIndex}>
-                        <li className="d-flex align-items-center justify-content-between mb-2">
-                          <div className="d-flex align-items-center">
-                            <img 
-                              src={getLogoUrl(fixture.team1, league).specific}
-                              alt={`${fixture.team1} logo`} 
-                              className="me-2" 
-                              style={{width: '30px', height: '30px'}}
-                              onError={(e) => {
-                                console.log(`Failed to load: ${e.target.src}`);
-                                e.target.onerror = null;
-                                e.target.src = getLogoUrl(fixture.team1, league).generic;
-                              }}
-                            />
-                            <span>{fixture.team1}</span>
-                          </div>
-                          <span className="mx-2">vs</span>
-                          <div className="d-flex align-items-center">
-                            <span>{fixture.team2}</span>
-                            <img 
-                              src={getLogoUrl(fixture.team2, league).specific}
-                              alt={`${fixture.team2} logo`} 
-                              className="ms-2" 
-                              style={{width: '30px', height: '30px'}}
-                              onError={(e) => {
-                                e.target.onerror = null; 
-                                e.target.src = getLogoUrl(fixture.team2, league).generic;
-                              }}
-                            />
-                          </div>
-                          <span className="ms-2">{fixture.time}</span>
-                        </li>
-                        {fixtureIndex < fixtures.length - 1 && <hr className="my-2" />}
-                      </React.Fragment>
-                    ))}
-                  </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-            ))}
-          </Accordion>
-        </div>
-      </div>
-    </div>
-  );
-}
+    );
+  };
 
 export default Home;
