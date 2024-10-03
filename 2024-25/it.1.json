@@ -1,12 +1,12 @@
 {
-  "name": "Serie A 2024/25",
+  "name": "Italy - Serie A",
   "matches": [
     {
       "round": "Matchday 1",
       "date": "2024-08-17",
       "time": "18:30",
       "team1": "Genoa CFC",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
         "ht": [
           1,
@@ -39,7 +39,7 @@
       "round": "Matchday 1",
       "date": "2024-08-17",
       "time": "20:45",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "AC Monza",
       "score": {
         "ft": [
@@ -86,7 +86,7 @@
       "round": "Matchday 1",
       "date": "2024-08-18",
       "time": "18:30",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "SSC Napoli",
       "score": {
         "ht": [
@@ -201,7 +201,7 @@
       "round": "Matchday 2",
       "date": "2024-08-24",
       "time": "20:45",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "US Lecce",
       "score": {
         "ht": [
@@ -283,7 +283,7 @@
       "date": "2024-08-25",
       "time": "20:45",
       "team1": "AS Roma",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
         "ht": [
           0,
@@ -316,7 +316,7 @@
       "round": "Matchday 2",
       "date": "2024-08-26",
       "time": "20:45",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Juventus FC",
       "score": {
         "ht": [
@@ -350,7 +350,7 @@
       "round": "Matchday 3",
       "date": "2024-08-30",
       "time": "20:45",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Atalanta BC",
       "score": {
         "ht": [
@@ -368,7 +368,7 @@
       "date": "2024-08-31",
       "time": "18:30",
       "team1": "Bologna FC 1909",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
         "ht": [
           1,
@@ -453,7 +453,7 @@
       "date": "2024-09-01",
       "time": "18:30",
       "team1": "Genoa CFC",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
         "ht": [
           0,
@@ -516,7 +516,7 @@
       "round": "Matchday 4",
       "date": "2024-09-14",
       "time": "18:00",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Juventus FC",
       "score": {
         "ft": [
@@ -611,7 +611,7 @@
       "date": "2024-09-15",
       "time": "20:45",
       "team1": "AC Monza",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
         "ht": [
           0,
@@ -645,7 +645,7 @@
       "date": "2024-09-16",
       "time": "20:45",
       "team1": "SS Lazio",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
         "ht": [
           2,
@@ -662,7 +662,7 @@
       "date": "2024-09-20",
       "time": "18:30",
       "team1": "Cagliari Calcio",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -670,7 +670,7 @@
       "round": "Matchday 5",
       "date": "2024-09-20",
       "time": "20:45",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Torino FC",
       "score": {
       }
@@ -733,7 +733,7 @@
       "round": "Matchday 5",
       "date": "2024-09-22",
       "time": "20:45",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "AC Milan",
       "score": {
       }
@@ -761,7 +761,7 @@
       "date": "2024-09-28",
       "time": "15:00",
       "team1": "Udinese Calcio",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -797,7 +797,7 @@
       "date": "2024-09-29",
       "time": "15:00",
       "team1": "Como 1907",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -814,7 +814,7 @@
       "round": "Matchday 6",
       "date": "2024-09-29",
       "time": "18:00",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "ACF Fiorentina",
       "score": {
       }
@@ -850,7 +850,7 @@
       "round": "Matchday 7",
       "date": "2024-10-04",
       "time": "20:45",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Venezia FC",
       "score": {
       }
@@ -877,7 +877,7 @@
       "round": "Matchday 7",
       "date": "2024-10-05",
       "time": "20:45",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Torino FC",
       "score": {
       }
@@ -905,7 +905,7 @@
       "date": "2024-10-06",
       "time": "15:00",
       "team1": "SS Lazio",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -967,7 +967,7 @@
       "round": "Matchday 8",
       "date": "2024-10-20",
       "time": "12:30",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "SSC Napoli",
       "score": {
       }
@@ -1004,7 +1004,7 @@
       "date": "2024-10-20",
       "time": "20:45",
       "team1": "AS Roma",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -1012,7 +1012,7 @@
       "round": "Matchday 8",
       "date": "2024-10-21",
       "time": "20:45",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "AC Monza",
       "score": {
       }
@@ -1058,7 +1058,7 @@
       "date": "2024-10-26",
       "time": "20:45",
       "team1": "Atalanta BC",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -1067,7 +1067,7 @@
       "date": "2024-10-27",
       "time": "12:30",
       "team1": "Parma Calcio 1913",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -1093,7 +1093,7 @@
       "round": "Matchday 9",
       "date": "2024-10-27",
       "time": "18:00",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Juventus FC",
       "score": {
       }
@@ -1121,7 +1121,7 @@
       "date": "2024-10-29",
       "time": "18:30",
       "team1": "US Lecce",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -1138,8 +1138,8 @@
       "round": "Matchday 10",
       "date": "2024-10-30",
       "time": "18:30",
-      "team1": "Empoli FC",
-      "team2": "FC Internazionale Milano",
+      "team1": "FC Empoli",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -1246,7 +1246,7 @@
       "round": "Matchday 11",
       "date": "2024-11-03",
       "time": "18:00",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "AS Roma",
       "score": {
       }
@@ -1255,7 +1255,7 @@
       "round": "Matchday 11",
       "date": "2024-11-03",
       "time": "20:45",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Venezia FC",
       "score": {
       }
@@ -1264,7 +1264,7 @@
       "round": "Matchday 11",
       "date": "2024-11-04",
       "time": "18:30",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Como 1907",
       "score": {
       }
@@ -1310,7 +1310,7 @@
       "date": "2024-11-08",
       "time": "20:45",
       "team1": "US Lecce",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -1346,7 +1346,7 @@
       "date": "2024-11-10",
       "time": "15:00",
       "team1": "ACF Fiorentina",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -1372,7 +1372,7 @@
       "round": "Matchday 12",
       "date": "2024-11-10",
       "time": "20:45",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "SSC Napoli",
       "score": {
       }
@@ -1381,8 +1381,8 @@
       "round": "Matchday 13",
       "date": "2024-11-23",
       "time": "15:00",
-      "team1": "Hellas Verona FC",
-      "team2": "FC Internazionale Milano",
+      "team1": "Hellas Verona",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -1453,7 +1453,7 @@
       "round": "Matchday 13",
       "date": "2024-11-25",
       "time": "18:30",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Udinese Calcio",
       "score": {
       }
@@ -1479,7 +1479,7 @@
       "round": "Matchday 14",
       "date": "2024-12-01",
       "team1": "Cagliari Calcio",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -1495,7 +1495,7 @@
       "round": "Matchday 14",
       "date": "2024-12-01",
       "team1": "ACF Fiorentina",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -1511,7 +1511,7 @@
       "round": "Matchday 14",
       "date": "2024-12-01",
       "team1": "AC Milan",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -1574,15 +1574,15 @@
     {
       "round": "Matchday 15",
       "date": "2024-12-08",
-      "team1": "Hellas Verona FC",
-      "team2": "Empoli FC",
+      "team1": "Hellas Verona",
+      "team2": "FC Empoli",
       "score": {
       }
     },
     {
       "round": "Matchday 15",
       "date": "2024-12-08",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Parma Calcio 1913",
       "score": {
       }
@@ -1654,7 +1654,7 @@
     {
       "round": "Matchday 16",
       "date": "2024-12-15",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Torino FC",
       "score": {
       }
@@ -1671,7 +1671,7 @@
       "round": "Matchday 16",
       "date": "2024-12-15",
       "team1": "SS Lazio",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -1695,7 +1695,7 @@
       "round": "Matchday 16",
       "date": "2024-12-15",
       "team1": "Parma Calcio 1913",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -1711,7 +1711,7 @@
       "round": "Matchday 17",
       "date": "2024-12-22",
       "team1": "Atalanta BC",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -1734,7 +1734,7 @@
     {
       "round": "Matchday 17",
       "date": "2024-12-22",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "AC Milan",
       "score": {
       }
@@ -1742,7 +1742,7 @@
     {
       "round": "Matchday 17",
       "date": "2024-12-22",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Como 1907",
       "score": {
       }
@@ -1791,7 +1791,7 @@
       "round": "Matchday 18",
       "date": "2024-12-29",
       "team1": "Bologna FC 1909",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -1799,7 +1799,7 @@
       "round": "Matchday 18",
       "date": "2024-12-29",
       "team1": "Cagliari Calcio",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -1814,7 +1814,7 @@
     {
       "round": "Matchday 18",
       "date": "2024-12-29",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Genoa CFC",
       "score": {
       }
@@ -1894,7 +1894,7 @@
     {
       "round": "Matchday 19",
       "date": "2025-01-05",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Udinese Calcio",
       "score": {
       }
@@ -1902,7 +1902,7 @@
     {
       "round": "Matchday 19",
       "date": "2025-01-05",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Bologna FC 1909",
       "score": {
       }
@@ -1943,7 +1943,7 @@
       "round": "Matchday 19",
       "date": "2025-01-05",
       "team1": "Venezia FC",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -1958,7 +1958,7 @@
     {
       "round": "Matchday 20",
       "date": "2025-01-12",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "US Lecce",
       "score": {
       }
@@ -1999,7 +1999,7 @@
       "round": "Matchday 20",
       "date": "2025-01-12",
       "team1": "SSC Napoli",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -2023,7 +2023,7 @@
       "round": "Matchday 20",
       "date": "2025-01-12",
       "team1": "Venezia FC",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -2070,7 +2070,7 @@
     {
       "round": "Matchday 21",
       "date": "2025-01-19",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "SS Lazio",
       "score": {
       }
@@ -2078,8 +2078,8 @@
     {
       "round": "Matchday 21",
       "date": "2025-01-19",
-      "team1": "FC Internazionale Milano",
-      "team2": "Empoli FC",
+      "team1": "Inter Milan",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -2118,7 +2118,7 @@
     {
       "round": "Matchday 22",
       "date": "2025-01-26",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Bologna FC 1909",
       "score": {
       }
@@ -2143,7 +2143,7 @@
       "round": "Matchday 22",
       "date": "2025-01-26",
       "team1": "US Lecce",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -2183,7 +2183,7 @@
       "round": "Matchday 22",
       "date": "2025-01-26",
       "team1": "Venezia FC",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -2223,7 +2223,7 @@
       "round": "Matchday 23",
       "date": "2025-02-02",
       "team1": "Juventus FC",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -2231,7 +2231,7 @@
       "round": "Matchday 23",
       "date": "2025-02-02",
       "team1": "AC Milan",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -2239,7 +2239,7 @@
       "round": "Matchday 23",
       "date": "2025-02-02",
       "team1": "AC Monza",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -2286,7 +2286,7 @@
     {
       "round": "Matchday 24",
       "date": "2025-02-09",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "AC Milan",
       "score": {
       }
@@ -2294,7 +2294,7 @@
     {
       "round": "Matchday 24",
       "date": "2025-02-09",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Atalanta BC",
       "score": {
       }
@@ -2302,7 +2302,7 @@
     {
       "round": "Matchday 24",
       "date": "2025-02-09",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "ACF Fiorentina",
       "score": {
       }
@@ -2383,7 +2383,7 @@
       "round": "Matchday 25",
       "date": "2025-02-16",
       "team1": "Juventus FC",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -2399,7 +2399,7 @@
       "round": "Matchday 25",
       "date": "2025-02-16",
       "team1": "AC Milan",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -2423,14 +2423,14 @@
       "round": "Matchday 25",
       "date": "2025-02-16",
       "team1": "Udinese Calcio",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
     {
       "round": "Matchday 26",
       "date": "2025-02-23",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "ACF Fiorentina",
       "score": {
       }
@@ -2438,7 +2438,7 @@
     {
       "round": "Matchday 26",
       "date": "2025-02-23",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Genoa CFC",
       "score": {
       }
@@ -2502,7 +2502,7 @@
     {
       "round": "Matchday 26",
       "date": "2025-02-23",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Atalanta BC",
       "score": {
       }
@@ -2535,7 +2535,7 @@
       "round": "Matchday 27",
       "date": "2025-03-02",
       "team1": "Genoa CFC",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -2543,7 +2543,7 @@
       "round": "Matchday 27",
       "date": "2025-03-02",
       "team1": "Juventus FC",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -2567,7 +2567,7 @@
       "round": "Matchday 27",
       "date": "2025-03-02",
       "team1": "SSC Napoli",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -2606,7 +2606,7 @@
     {
       "round": "Matchday 28",
       "date": "2025-03-09",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "AS Roma",
       "score": {
       }
@@ -2614,7 +2614,7 @@
     {
       "round": "Matchday 28",
       "date": "2025-03-09",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Bologna FC 1909",
       "score": {
       }
@@ -2622,7 +2622,7 @@
     {
       "round": "Matchday 28",
       "date": "2025-03-09",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "AC Monza",
       "score": {
       }
@@ -2671,7 +2671,7 @@
       "round": "Matchday 29",
       "date": "2025-03-16",
       "team1": "Atalanta BC",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -2727,7 +2727,7 @@
       "round": "Matchday 29",
       "date": "2025-03-16",
       "team1": "Torino FC",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -2735,7 +2735,7 @@
       "round": "Matchday 29",
       "date": "2025-03-16",
       "team1": "Udinese Calcio",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -2759,7 +2759,7 @@
       "round": "Matchday 30",
       "date": "2025-03-30",
       "team1": "Como 1907",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -2774,7 +2774,7 @@
     {
       "round": "Matchday 30",
       "date": "2025-03-30",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Parma Calcio 1913",
       "score": {
       }
@@ -2782,7 +2782,7 @@
     {
       "round": "Matchday 30",
       "date": "2025-03-30",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Udinese Calcio",
       "score": {
       }
@@ -2846,7 +2846,7 @@
     {
       "round": "Matchday 31",
       "date": "2025-04-06",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Cagliari Calcio",
       "score": {
       }
@@ -2887,7 +2887,7 @@
       "round": "Matchday 31",
       "date": "2025-04-06",
       "team1": "Parma Calcio 1913",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -2903,7 +2903,7 @@
       "round": "Matchday 31",
       "date": "2025-04-06",
       "team1": "Torino FC",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -2934,7 +2934,7 @@
     {
       "round": "Matchday 32",
       "date": "2025-04-13",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Genoa CFC",
       "score": {
       }
@@ -2942,7 +2942,7 @@
     {
       "round": "Matchday 32",
       "date": "2025-04-13",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Cagliari Calcio",
       "score": {
       }
@@ -2967,7 +2967,7 @@
       "round": "Matchday 32",
       "date": "2025-04-13",
       "team1": "SSC Napoli",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -2991,7 +2991,7 @@
       "round": "Matchday 33",
       "date": "2025-04-20",
       "team1": "Bologna FC 1909",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -3006,7 +3006,7 @@
     {
       "round": "Matchday 33",
       "date": "2025-04-20",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Venezia FC",
       "score": {
       }
@@ -3055,7 +3055,7 @@
       "round": "Matchday 33",
       "date": "2025-04-20",
       "team1": "AS Roma",
-      "team2": "Hellas Verona FC",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -3087,14 +3087,14 @@
       "round": "Matchday 34",
       "date": "2025-04-27",
       "team1": "ACF Fiorentina",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
     {
       "round": "Matchday 34",
       "date": "2025-04-27",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Cagliari Calcio",
       "score": {
       }
@@ -3102,7 +3102,7 @@
     {
       "round": "Matchday 34",
       "date": "2025-04-27",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "AS Roma",
       "score": {
       }
@@ -3166,7 +3166,7 @@
     {
       "round": "Matchday 35",
       "date": "2025-05-04",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "SS Lazio",
       "score": {
       }
@@ -3182,8 +3182,8 @@
     {
       "round": "Matchday 35",
       "date": "2025-05-04",
-      "team1": "FC Internazionale Milano",
-      "team2": "Hellas Verona FC",
+      "team1": "Inter Milan",
+      "team2": "Hellas Verona",
       "score": {
       }
     },
@@ -3246,7 +3246,7 @@
     {
       "round": "Matchday 36",
       "date": "2025-05-11",
-      "team1": "Empoli FC",
+      "team1": "FC Empoli",
       "team2": "Parma Calcio 1913",
       "score": {
       }
@@ -3254,7 +3254,7 @@
     {
       "round": "Matchday 36",
       "date": "2025-05-11",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "US Lecce",
       "score": {
       }
@@ -3287,7 +3287,7 @@
       "round": "Matchday 36",
       "date": "2025-05-11",
       "team1": "Torino FC",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -3334,7 +3334,7 @@
     {
       "round": "Matchday 37",
       "date": "2025-05-18",
-      "team1": "Hellas Verona FC",
+      "team1": "Hellas Verona",
       "team2": "Como 1907",
       "score": {
       }
@@ -3342,7 +3342,7 @@
     {
       "round": "Matchday 37",
       "date": "2025-05-18",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "SS Lazio",
       "score": {
       }
@@ -3367,7 +3367,7 @@
       "round": "Matchday 37",
       "date": "2025-05-18",
       "team1": "AC Monza",
-      "team2": "Empoli FC",
+      "team2": "FC Empoli",
       "score": {
       }
     },
@@ -3407,15 +3407,15 @@
       "round": "Matchday 38",
       "date": "2025-05-25",
       "team1": "Como 1907",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
     {
       "round": "Matchday 38",
       "date": "2025-05-25",
-      "team1": "Empoli FC",
-      "team2": "Hellas Verona FC",
+      "team1": "FC Empoli",
+      "team2": "Hellas Verona",
       "score": {
       }
     },

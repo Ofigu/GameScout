@@ -1,12 +1,12 @@
 {
-  "name": "UEFA Champions League 2024/25",
+  "name": "UEFA Champions League",
   "matches": [
     {
       "round": "Matchday 1",
       "date": "2024-09-17",
       "time": "18:45",
       "team1": "BSC Young Boys",
-      "team2": "Aston Villa FC",
+      "team2": "Aston Villa",
       "score": {
         "ht": [
           0,
@@ -39,8 +39,8 @@
       "round": "Matchday 1",
       "date": "2024-09-17",
       "time": "21:00",
-      "team1": "Sporting Clube de Portugal",
-      "team2": "Lille OSC",
+      "team1": "Sporting CP",
+      "team2": "LOSC Lille",
       "score": {
         "ht": [
           1,
@@ -56,7 +56,7 @@
       "round": "Matchday 1",
       "date": "2024-09-17",
       "time": "21:00",
-      "team1": "FC Bayern München",
+      "team1": "Bayern Munich",
       "team2": "GNK Dinamo Zagreb",
       "score": {
         "ht": [
@@ -73,7 +73,7 @@
       "round": "Matchday 1",
       "date": "2024-09-17",
       "time": "21:00",
-      "team1": "Real Madrid CF",
+      "team1": "Real Madrid",
       "team2": "VfB Stuttgart",
       "score": {
         "ht": [
@@ -125,8 +125,8 @@
       "round": "Matchday 1",
       "date": "2024-09-18",
       "time": "21:00",
-      "team1": "Manchester City FC",
-      "team2": "FC Internazionale Milano",
+      "team1": "Manchester City",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -134,7 +134,7 @@
       "round": "Matchday 1",
       "date": "2024-09-18",
       "time": "21:00",
-      "team1": "Paris Saint-Germain FC",
+      "team1": "Paris Saint-Germain",
       "team2": "Girona FC",
       "score": {
       }
@@ -171,7 +171,7 @@
       "date": "2024-09-19",
       "time": "18:45",
       "team1": "FK Crvena Zvezda",
-      "team2": "Sport Lisboa e Benfica",
+      "team2": "SL Benfica",
       "score": {
       }
     },
@@ -206,7 +206,7 @@
       "round": "Matchday 1",
       "date": "2024-09-19",
       "time": "21:00",
-      "team1": "Club Atlético de Madrid",
+      "team1": "Atlético de Madrid",
       "team2": "RB Leipzig",
       "score": {
       }
@@ -234,7 +234,7 @@
       "date": "2024-10-01",
       "time": "21:00",
       "team1": "ŠK Slovan Bratislava",
-      "team2": "Manchester City FC",
+      "team2": "Manchester City",
       "score": {
       }
     },
@@ -260,7 +260,7 @@
       "round": "Matchday 2",
       "date": "2024-10-01",
       "time": "21:00",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "FK Crvena Zvezda",
       "score": {
       }
@@ -279,7 +279,7 @@
       "date": "2024-10-01",
       "time": "21:00",
       "team1": "Arsenal FC",
-      "team2": "Paris Saint-Germain FC",
+      "team2": "Paris Saint-Germain",
       "score": {
       }
     },
@@ -288,7 +288,7 @@
       "date": "2024-10-01",
       "time": "21:00",
       "team1": "PSV",
-      "team2": "Sporting Clube de Portugal",
+      "team2": "Sporting CP",
       "score": {
       }
     },
@@ -314,8 +314,8 @@
       "round": "Matchday 2",
       "date": "2024-10-02",
       "time": "21:00",
-      "team1": "Aston Villa FC",
-      "team2": "FC Bayern München",
+      "team1": "Aston Villa",
+      "team2": "Bayern Munich",
       "score": {
       }
     },
@@ -350,8 +350,8 @@
       "round": "Matchday 2",
       "date": "2024-10-02",
       "time": "21:00",
-      "team1": "Sport Lisboa e Benfica",
-      "team2": "Club Atlético de Madrid",
+      "team1": "SL Benfica",
+      "team2": "Atlético de Madrid",
       "score": {
       }
     },
@@ -368,8 +368,8 @@
       "round": "Matchday 2",
       "date": "2024-10-02",
       "time": "21:00",
-      "team1": "Lille OSC",
-      "team2": "Real Madrid CF",
+      "team1": "LOSC Lille",
+      "team2": "Real Madrid",
       "score": {
       }
     },
@@ -395,7 +395,7 @@
       "round": "Matchday 3",
       "date": "2024-10-22",
       "time": "21:00",
-      "team1": "Aston Villa FC",
+      "team1": "Aston Villa",
       "team2": "Bologna FC 1909",
       "score": {
       }
@@ -414,7 +414,7 @@
       "date": "2024-10-22",
       "time": "21:00",
       "team1": "SK Sturm Graz",
-      "team2": "Sporting Clube de Portugal",
+      "team2": "Sporting CP",
       "score": {
       }
     },
@@ -422,7 +422,7 @@
       "round": "Matchday 3",
       "date": "2024-10-22",
       "time": "21:00",
-      "team1": "Paris Saint-Germain FC",
+      "team1": "Paris Saint-Germain",
       "team2": "PSV",
       "score": {
       }
@@ -431,7 +431,7 @@
       "round": "Matchday 3",
       "date": "2024-10-22",
       "time": "21:00",
-      "team1": "Real Madrid CF",
+      "team1": "Real Madrid",
       "team2": "Borussia Dortmund",
       "score": {
       }
@@ -477,7 +477,7 @@
       "date": "2024-10-23",
       "time": "21:00",
       "team1": "BSC Young Boys",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -486,7 +486,7 @@
       "date": "2024-10-23",
       "time": "21:00",
       "team1": "FC Barcelona",
-      "team2": "FC Bayern München",
+      "team2": "Bayern Munich",
       "score": {
       }
     },
@@ -494,7 +494,7 @@
       "round": "Matchday 3",
       "date": "2024-10-23",
       "time": "21:00",
-      "team1": "Manchester City FC",
+      "team1": "Manchester City",
       "team2": "AC Sparta Praha",
       "score": {
       }
@@ -512,8 +512,8 @@
       "round": "Matchday 3",
       "date": "2024-10-23",
       "time": "21:00",
-      "team1": "Club Atlético de Madrid",
-      "team2": "Lille OSC",
+      "team1": "Atlético de Madrid",
+      "team2": "LOSC Lille",
       "score": {
       }
     },
@@ -521,7 +521,7 @@
       "round": "Matchday 3",
       "date": "2024-10-23",
       "time": "21:00",
-      "team1": "Sport Lisboa e Benfica",
+      "team1": "SL Benfica",
       "team2": "Feyenoord Rotterdam",
       "score": {
       }
@@ -557,8 +557,8 @@
       "round": "Matchday 4",
       "date": "2024-11-05",
       "time": "21:00",
-      "team1": "Sporting Clube de Portugal",
-      "team2": "Manchester City FC",
+      "team1": "Sporting CP",
+      "team2": "Manchester City",
       "score": {
       }
     },
@@ -593,7 +593,7 @@
       "round": "Matchday 4",
       "date": "2024-11-05",
       "time": "21:00",
-      "team1": "Real Madrid CF",
+      "team1": "Real Madrid",
       "team2": "AC Milan",
       "score": {
       }
@@ -611,7 +611,7 @@
       "round": "Matchday 4",
       "date": "2024-11-05",
       "time": "21:00",
-      "team1": "Lille OSC",
+      "team1": "LOSC Lille",
       "team2": "Juventus FC",
       "score": {
       }
@@ -621,7 +621,7 @@
       "date": "2024-11-06",
       "time": "18:45",
       "team1": "Club Brugge KV",
-      "team2": "Aston Villa FC",
+      "team2": "Aston Villa",
       "score": {
       }
     },
@@ -656,8 +656,8 @@
       "round": "Matchday 4",
       "date": "2024-11-06",
       "time": "21:00",
-      "team1": "FC Bayern München",
-      "team2": "Sport Lisboa e Benfica",
+      "team1": "Bayern Munich",
+      "team2": "SL Benfica",
       "score": {
       }
     },
@@ -665,7 +665,7 @@
       "round": "Matchday 4",
       "date": "2024-11-06",
       "time": "21:00",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "Arsenal FC",
       "score": {
       }
@@ -674,8 +674,8 @@
       "round": "Matchday 4",
       "date": "2024-11-06",
       "time": "21:00",
-      "team1": "Paris Saint-Germain FC",
-      "team2": "Club Atlético de Madrid",
+      "team1": "Paris Saint-Germain",
+      "team2": "Atlético de Madrid",
       "score": {
       }
     },
@@ -711,7 +711,7 @@
       "date": "2024-11-26",
       "time": "18:45",
       "team1": "AC Sparta Praha",
-      "team2": "Club Atlético de Madrid",
+      "team2": "Atlético de Madrid",
       "score": {
       }
     },
@@ -719,7 +719,7 @@
       "round": "Matchday 5",
       "date": "2024-11-26",
       "time": "21:00",
-      "team1": "Sporting Clube de Portugal",
+      "team1": "Sporting CP",
       "team2": "Arsenal FC",
       "score": {
       }
@@ -737,8 +737,8 @@
       "round": "Matchday 5",
       "date": "2024-11-26",
       "time": "21:00",
-      "team1": "FC Bayern München",
-      "team2": "Paris Saint-Germain FC",
+      "team1": "Bayern Munich",
+      "team2": "Paris Saint-Germain",
       "score": {
       }
     },
@@ -755,7 +755,7 @@
       "round": "Matchday 5",
       "date": "2024-11-26",
       "time": "21:00",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "RB Leipzig",
       "score": {
       }
@@ -764,7 +764,7 @@
       "round": "Matchday 5",
       "date": "2024-11-26",
       "time": "21:00",
-      "team1": "Manchester City FC",
+      "team1": "Manchester City",
       "team2": "Feyenoord Rotterdam",
       "score": {
       }
@@ -801,7 +801,7 @@
       "date": "2024-11-27",
       "time": "21:00",
       "team1": "AS Monaco FC",
-      "team2": "Sport Lisboa e Benfica",
+      "team2": "SL Benfica",
       "score": {
       }
     },
@@ -809,7 +809,7 @@
       "round": "Matchday 5",
       "date": "2024-11-27",
       "time": "21:00",
-      "team1": "Aston Villa FC",
+      "team1": "Aston Villa",
       "team2": "Juventus FC",
       "score": {
       }
@@ -819,7 +819,7 @@
       "date": "2024-11-27",
       "time": "21:00",
       "team1": "Bologna FC 1909",
-      "team2": "Lille OSC",
+      "team2": "LOSC Lille",
       "score": {
       }
     },
@@ -828,7 +828,7 @@
       "date": "2024-11-27",
       "time": "21:00",
       "team1": "Liverpool FC",
-      "team2": "Real Madrid CF",
+      "team2": "Real Madrid",
       "score": {
       }
     },
@@ -891,7 +891,7 @@
       "date": "2024-12-10",
       "time": "21:00",
       "team1": "RB Leipzig",
-      "team2": "Aston Villa FC",
+      "team2": "Aston Villa",
       "score": {
       }
     },
@@ -900,7 +900,7 @@
       "date": "2024-12-10",
       "time": "21:00",
       "team1": "Atalanta BC",
-      "team2": "Real Madrid CF",
+      "team2": "Real Madrid",
       "score": {
       }
     },
@@ -909,7 +909,7 @@
       "date": "2024-12-10",
       "time": "21:00",
       "team1": "Bayer 04 Leverkusen",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -918,7 +918,7 @@
       "date": "2024-12-10",
       "time": "21:00",
       "team1": "Club Brugge KV",
-      "team2": "Sporting Clube de Portugal",
+      "team2": "Sporting CP",
       "score": {
       }
     },
@@ -927,7 +927,7 @@
       "date": "2024-12-10",
       "time": "21:00",
       "team1": "FK Shakhtar Donetsk",
-      "team2": "FC Bayern München",
+      "team2": "Bayern Munich",
       "score": {
       }
     },
@@ -936,7 +936,7 @@
       "date": "2024-12-10",
       "time": "21:00",
       "team1": "FC Red Bull Salzburg",
-      "team2": "Paris Saint-Germain FC",
+      "team2": "Paris Saint-Germain",
       "score": {
       }
     },
@@ -944,7 +944,7 @@
       "round": "Matchday 6",
       "date": "2024-12-11",
       "time": "18:45",
-      "team1": "Club Atlético de Madrid",
+      "team1": "Atlético de Madrid",
       "team2": "ŠK Slovan Bratislava",
       "score": {
       }
@@ -953,7 +953,7 @@
       "round": "Matchday 6",
       "date": "2024-12-11",
       "time": "18:45",
-      "team1": "Lille OSC",
+      "team1": "LOSC Lille",
       "team2": "SK Sturm Graz",
       "score": {
       }
@@ -989,7 +989,7 @@
       "round": "Matchday 6",
       "date": "2024-12-11",
       "time": "21:00",
-      "team1": "Sport Lisboa e Benfica",
+      "team1": "SL Benfica",
       "team2": "Bologna FC 1909",
       "score": {
       }
@@ -1008,7 +1008,7 @@
       "date": "2024-12-11",
       "time": "21:00",
       "team1": "Juventus FC",
-      "team2": "Manchester City FC",
+      "team2": "Manchester City",
       "score": {
       }
     },
@@ -1026,7 +1026,7 @@
       "date": "2025-01-21",
       "time": "18:45",
       "team1": "AS Monaco FC",
-      "team2": "Aston Villa FC",
+      "team2": "Aston Villa",
       "score": {
       }
     },
@@ -1062,7 +1062,7 @@
       "date": "2025-01-21",
       "time": "21:00",
       "team1": "Liverpool FC",
-      "team2": "Lille OSC",
+      "team2": "LOSC Lille",
       "score": {
       }
     },
@@ -1070,7 +1070,7 @@
       "round": "Matchday 7",
       "date": "2025-01-21",
       "time": "21:00",
-      "team1": "Club Atlético de Madrid",
+      "team1": "Atlético de Madrid",
       "team2": "Bayer 04 Leverkusen",
       "score": {
       }
@@ -1079,7 +1079,7 @@
       "round": "Matchday 7",
       "date": "2025-01-21",
       "time": "21:00",
-      "team1": "Sport Lisboa e Benfica",
+      "team1": "SL Benfica",
       "team2": "FC Barcelona",
       "score": {
       }
@@ -1107,7 +1107,7 @@
       "date": "2025-01-22",
       "time": "18:45",
       "team1": "RB Leipzig",
-      "team2": "Sporting Clube de Portugal",
+      "team2": "Sporting CP",
       "score": {
       }
     },
@@ -1125,7 +1125,7 @@
       "date": "2025-01-22",
       "time": "21:00",
       "team1": "AC Sparta Praha",
-      "team2": "FC Internazionale Milano",
+      "team2": "Inter Milan",
       "score": {
       }
     },
@@ -1133,8 +1133,8 @@
       "round": "Matchday 7",
       "date": "2025-01-22",
       "time": "21:00",
-      "team1": "Paris Saint-Germain FC",
-      "team2": "Manchester City FC",
+      "team1": "Paris Saint-Germain",
+      "team2": "Manchester City",
       "score": {
       }
     },
@@ -1142,7 +1142,7 @@
       "round": "Matchday 7",
       "date": "2025-01-22",
       "time": "21:00",
-      "team1": "Real Madrid CF",
+      "team1": "Real Madrid",
       "team2": "FC Red Bull Salzburg",
       "score": {
       }
@@ -1179,7 +1179,7 @@
       "date": "2025-01-22",
       "time": "21:00",
       "team1": "Feyenoord Rotterdam",
-      "team2": "FC Bayern München",
+      "team2": "Bayern Munich",
       "score": {
       }
     },
@@ -1187,7 +1187,7 @@
       "round": "Matchday 8",
       "date": "2025-01-29",
       "time": "21:00",
-      "team1": "Sporting Clube de Portugal",
+      "team1": "Sporting CP",
       "team2": "Bologna FC 1909",
       "score": {
       }
@@ -1205,7 +1205,7 @@
       "round": "Matchday 8",
       "date": "2025-01-29",
       "time": "21:00",
-      "team1": "Aston Villa FC",
+      "team1": "Aston Villa",
       "team2": "Celtic FC",
       "score": {
       }
@@ -1224,7 +1224,7 @@
       "date": "2025-01-29",
       "time": "21:00",
       "team1": "Stade Brestois 29",
-      "team2": "Real Madrid CF",
+      "team2": "Real Madrid",
       "score": {
       }
     },
@@ -1242,7 +1242,7 @@
       "date": "2025-01-29",
       "time": "21:00",
       "team1": "VfB Stuttgart",
-      "team2": "Paris Saint-Germain FC",
+      "team2": "Paris Saint-Germain",
       "score": {
       }
     },
@@ -1250,7 +1250,7 @@
       "round": "Matchday 8",
       "date": "2025-01-29",
       "time": "21:00",
-      "team1": "FC Bayern München",
+      "team1": "Bayern Munich",
       "team2": "ŠK Slovan Bratislava",
       "score": {
       }
@@ -1277,7 +1277,7 @@
       "round": "Matchday 8",
       "date": "2025-01-29",
       "time": "21:00",
-      "team1": "FC Internazionale Milano",
+      "team1": "Inter Milan",
       "team2": "AS Monaco FC",
       "score": {
       }
@@ -1286,7 +1286,7 @@
       "round": "Matchday 8",
       "date": "2025-01-29",
       "time": "21:00",
-      "team1": "Manchester City FC",
+      "team1": "Manchester City",
       "team2": "Club Brugge KV",
       "score": {
       }
@@ -1305,7 +1305,7 @@
       "date": "2025-01-29",
       "time": "21:00",
       "team1": "Juventus FC",
-      "team2": "Sport Lisboa e Benfica",
+      "team2": "SL Benfica",
       "score": {
       }
     },
@@ -1322,7 +1322,7 @@
       "round": "Matchday 8",
       "date": "2025-01-29",
       "time": "21:00",
-      "team1": "Lille OSC",
+      "team1": "LOSC Lille",
       "team2": "Feyenoord Rotterdam",
       "score": {
       }
@@ -1341,7 +1341,7 @@
       "date": "2025-01-29",
       "time": "21:00",
       "team1": "FC Red Bull Salzburg",
-      "team2": "Club Atlético de Madrid",
+      "team2": "Atlético de Madrid",
       "score": {
       }
     },

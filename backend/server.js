@@ -38,5 +38,13 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
+// Serve static files from the public folder
+app.use(express.static(path.join(__dirname, '../client/public')));
+
+// Handle routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/public', 'index.html'));
+});
+
 const port = process.env.PORT || 3200;
 app.listen(port, () => console.log(`Server started on port ${port}`));

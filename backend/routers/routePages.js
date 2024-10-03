@@ -4,6 +4,7 @@ const path = require('path');
 const User = require('../models/user');
 const fs = require('fs');
 const csv = require('csv-parser');
+const axios = require('axios');
 
 // Authentication middleware
 const isAuthenticated = (req, res, next) => {
@@ -90,15 +91,14 @@ router.get('/logout', (req, res) => {
 });
 
 // Function to get today's fixtures
-const getTodaysFixtures = (callback) => {
+const getFixturesForDate = (date, callback) => {
     const fixtures = [];
-    const today = new Date();
-    const formattedToday = today.toISOString().split('T')[0];
+    const formattedDate = date.toISOString().split('T')[0];
 
     fs.createReadStream(path.join(__dirname, '../fixtures/fixtures.csv'))
         .pipe(csv())
         .on('data', (row) => {
-            if (row.Date === formattedToday) {
+            if (row.Date === formattedDate) {
                 fixtures.push({
                     round: row['Round'],
                     team1: row['Team 1'],
@@ -118,8 +118,9 @@ const getTodaysFixtures = (callback) => {
 };
 
 // Get fixtures route
-router.get('/fixtures', isAuthenticated, (req, res) => {
-    getTodaysFixtures((fixtures) => {
+router.get('/fixtures/:date', isAuthenticated, (req, res) => {
+    const date = new Date(req.params.date);
+    getFixturesForDate(date, (fixtures) => {
         if (fixtures instanceof Error) {
             console.error('Error fetching fixtures:', fixtures);
             return res.status(500).json({ error: 'Error fetching fixtures' });
