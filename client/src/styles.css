@@ -1,0 +1,30 @@
+.team-logo {
+    width: 30px;
+    height: 30px;
+  }
+  
+  @media (min-width: 768px) {
+    .team-logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .react-datepicker-wrapper {
+    width: auto;
+  }
+  
+  .react-datepicker__input-container button {
+    min-width: 120px;
+  }
+  
+  .team-logo {
+    width: 30px;
+    height: 30px;
+  }
+  
+  @media (min-width: 768px) {
+    .team-logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
