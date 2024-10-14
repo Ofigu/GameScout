@@ -2,9 +2,10 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Accordion, Button } from 'react-bootstrap';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import GameStats from './GameStats'; // Make sure this path is correct
 import '../styles.css'
 
-const FixturesComponent = ({ username, selectedDate, fixturesByLeague, handleDateChange, handleLogout, getLogoUrl }) => {
+const FixturesComponent = ({ username, selectedDate, fixturesByLeague, handleDateChange, handleLogout, getLogoUrl, gameStats, fetchGameStats, loading }) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   useEffect(() => {
@@ -32,7 +33,9 @@ const FixturesComponent = ({ username, selectedDate, fixturesByLeague, handleDat
   const handleCustomDateChange = (e) => {
     const dateValue = e.target.value;
     const parsedDate = parseDateInput(dateValue);
-    handleDateChange({ target: { value: parsedDate.toISOString().split('T')[0] } });
+    if (parsedDate && !isNaN(parsedDate.getTime())) {
+      handleDateChange({ target: { value: parsedDate.toISOString().split('T')[0] } });
+    }
   };
 
   const changeDateByDays = (days) => {
@@ -115,6 +118,19 @@ const FixturesComponent = ({ username, selectedDate, fixturesByLeague, handleDat
                             <span className="ms-2 text-truncate">{fixture.team2}</span>
                           </div>
                           <span className="w-100 text-center text-md-end mt-2 mt-md-0">{fixture.time}</span>
+                          <Button 
+                            variant="outline-info" 
+                            size="sm" 
+                            onClick={() => fetchGameStats(fixture.team1, fixture.team2)}
+                            className="mt-2 w-100"
+                            disabled={loading[`${fixture.team1}-${fixture.team2}`]}
+                          >
+                            {loading[`${fixture.team1}-${fixture.team2}`] ? 'Loading...' : 
+                              (gameStats[`${fixture.team1}-${fixture.team2}`] ? 'Update Stats' : 'Show Stats')}
+                          </Button>
+                          {gameStats[`${fixture.team1}-${fixture.team2}`] && (
+                            <GameStats stats={gameStats[`${fixture.team1}-${fixture.team2}`]} />
+                          )}
                         </li>
                         {fixtureIndex < fixtures.length - 1 && <hr className="my-2" />}
                       </React.Fragment>
@@ -135,6 +151,8 @@ function Home() {
   const [fixturesByLeague, setFixturesByLeague] = useState({});
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [error, setError] = useState('');
+  const [gameStats, setGameStats] = useState({});
+  const [loading, setLoading] = useState({});
   const navigate = useNavigate();
 
   const fetchFixtures = useCallback(async (date) => {
@@ -157,6 +175,41 @@ function Home() {
     } catch (error) {
       console.error('Error fetching fixtures:', error);
       setError('Failed to fetch fixtures. Please try again.');
+    }
+  }, []);
+
+  const fetchGameStats = useCallback(async (team1, team2) => {
+    if (!team1 || !team2) {
+      console.error('Both team names are required');
+      return;
+    }
+    console.log(`Fetching game stats for: ${team1} vs ${team2}`);
+    setError('');
+    setLoading(prevLoading => ({...prevLoading, [`${team1}-${team2}`]: true}));
+    try {
+      const url = `http://localhost:3200/api/game-stats/${encodeURIComponent(team1)}/${encodeURIComponent(team2)}`;
+      console.log(`Sending request to: ${url}`);
+      const response = await fetch(url, {
+        credentials: 'include',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+      });
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      console.log('Received data:', data);
+      if (data.error) {
+        throw new Error(data.error);
+      }
+      setGameStats(prevStats => ({...prevStats, [`${team1}-${team2}`]: data}));
+    } catch (error) {
+      console.error('Error fetching game stats:', error);
+      setError(`Failed to fetch game stats: ${error.message}`);
+    } finally {
+      setLoading(prevLoading => ({...prevLoading, [`${team1}-${team2}`]: false}));
     }
   }, []);
 
@@ -243,6 +296,9 @@ function Home() {
       handleDateChange={handleDateChange}
       handleLogout={handleLogout}
       getLogoUrl={getLogoUrl}
+      gameStats={gameStats}
+      fetchGameStats={fetchGameStats}
+      loading={loading}
     />
   );
 }

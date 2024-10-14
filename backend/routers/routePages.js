@@ -5,6 +5,7 @@ const User = require('../models/user');
 const fs = require('fs');
 const csv = require('csv-parser');
 const axios = require('axios');
+const { PythonShell } = require('python-shell'); 
 
 // Authentication middleware
 const isAuthenticated = (req, res, next) => {
@@ -90,7 +91,7 @@ router.get('/logout', (req, res) => {
     });
 });
 
-// Function to get today's fixtures
+// get fixtures by date
 const getFixturesForDate = (date, callback) => {
     const fixtures = [];
     const formattedDate = date.toISOString().split('T')[0];
@@ -99,13 +100,15 @@ const getFixturesForDate = (date, callback) => {
         .pipe(csv())
         .on('data', (row) => {
             if (row.Date === formattedDate) {
-                fixtures.push({
+                const fixture = {
                     round: row['Round'],
                     team1: row['Team 1'],
                     team2: row['Team 2'],
                     time: row['Time'],
-                    league: row['League']
-                });
+                    league: row['League'],
+                    game_id: row['game_id'] 
+                };
+                fixtures.push(fixture);
             }
         })
         .on('end', () => {
@@ -134,6 +137,83 @@ router.get('/fixtures/:date', isAuthenticated, (req, res) => {
         res.json(fixtures);
     });
 });
+
+// Game stats route
+router.get('/game-stats/:team1/:team2', isAuthenticated, (req, res) => {
+    const { team1, team2 } = req.params;
+    console.log(`Received request for game stats: ${team1} vs ${team2}`);
+
+    // Set the correct path to the directory containing app.py
+    const scriptPath = path.join(__dirname, '..');
+    const appPath = path.join(scriptPath, 'app.py');
+
+    console.log('Script directory:', scriptPath);
+    console.log('app.py path:', appPath);
+
+    // Check if app.py exists
+    if (!fs.existsSync(appPath)) {
+        console.error('Error: app.py not found at', appPath);
+        return res.status(500).json({ error: 'Internal server error: Python script not found' });
+    }
+
+    const options = {
+        mode: 'text',
+        pythonPath: 'python', // or 'python3' if that's your Python command
+        scriptPath: scriptPath,
+        args: ['generate_game_stats', team1, team2]
+    };
+
+    console.log('Python script options:', JSON.stringify(options, null, 2));
+
+    let pyshell = new PythonShell('app.py', options);
+    let scriptOutput = [];
+    let scriptError = null;
+
+    pyshell.on('message', function (message) {
+        console.log('Python script output:', message);
+        scriptOutput.push(message);
+    });
+
+    pyshell.on('stderr', function (stderr) {
+        console.error('Python script error:', stderr);
+        scriptError = stderr;
+    });
+
+    pyshell.end(function (err, code, signal) {
+        if (err) {
+            console.error('Error running Python script:', err);
+            return res.status(500).json({ 
+                error: 'An error occurred while fetching game stats', 
+                details: err.message,
+                pythonError: scriptError
+            });
+        }
+
+        console.log('Python script finished');
+
+        if (scriptOutput.length === 0) {
+            return res.status(500).json({ error: 'No output from Python script' });
+        }
+
+        try {
+            const data = JSON.parse(scriptOutput[scriptOutput.length - 1]);
+            if (data.error) {
+                console.error('Error in Python script result:', data.error);
+                return res.status(404).json(data);
+            }
+            res.json(data);
+        } catch (parseError) {
+            console.error('Error parsing Python script output:', parseError);
+            res.status(500).json({ 
+                error: 'An error occurred while processing game stats', 
+                details: parseError.message,
+                rawOutput: scriptOutput
+            });
+        }
+    });
+});
+  
+
 
 // Catch-all error handler
 router.use((err, req, res, next) => {

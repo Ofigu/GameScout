@@ -26,6 +26,7 @@
     "lucide-react": "^0.447.0",
     "mongodb": "^6.9.0",
     "mongoose": "^8.6.3",
+    "python-shell": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.5",
     "react-bootstrap-icons": "^1.11.4",
@@ -33,7 +34,8 @@
     "react-dom": "^18.2.0",
     "react-responsive": "^10.0.0",
     "react-scripts": "^5.0.1",
-    "uid-safe": "^2.1.5"
+    "uid-safe": "^2.1.5",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",

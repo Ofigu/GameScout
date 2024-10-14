@@ -5,7 +5,7 @@
       "round": "Matchday 1",
       "date": "2024-08-15",
       "time": "19:00",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Getafe CF",
       "score": {
         "ht": [
@@ -227,7 +227,7 @@
       "date": "2024-08-24",
       "time": "19:00",
       "team1": "FC Barcelona",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
         "ht": [
           1,
@@ -384,7 +384,7 @@
       "round": "Matchday 3",
       "date": "2024-08-28",
       "time": "19:00",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Valencia CF",
       "score": {
         "ht": [
@@ -495,7 +495,7 @@
       "round": "Matchday 4",
       "date": "2024-08-31",
       "time": "19:00",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Atlético de Madrid",
       "score": {
         "ht": [
@@ -764,7 +764,7 @@
       "date": "2024-09-15",
       "time": "18:30",
       "team1": "UD Las Palmas",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
         "ht": [
           0,
@@ -841,7 +841,7 @@
       "date": "2024-09-19",
       "time": "19:00",
       "team1": "CD Leganés",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -903,7 +903,7 @@
       "round": "Matchday 6",
       "date": "2024-09-22",
       "time": "16:15",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Celta de Vigo",
       "score": {
       }
@@ -1065,7 +1065,7 @@
       "round": "Matchday 8",
       "date": "2024-09-29",
       "time": "16:15",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Sevilla FC",
       "score": {
       }
@@ -1156,7 +1156,7 @@
       "date": "2024-10-06",
       "time": "14:00",
       "team1": "Girona FC",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -1200,7 +1200,7 @@
       "round": "Matchday 10",
       "date": "2024-10-19",
       "time": "14:00",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "RCD Espanyol Barcelona",
       "score": {
       }
@@ -1313,7 +1313,7 @@
       "round": "Matchday 11",
       "date": "2024-10-27",
       "team1": "RCD Mallorca",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -1360,7 +1360,7 @@
     {
       "round": "Matchday 12",
       "date": "2024-11-03",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Real Betis Balompié",
       "score": {
       }
@@ -1505,7 +1505,7 @@
       "round": "Matchday 13",
       "date": "2024-11-10",
       "team1": "Real Valladolid CF",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -1520,7 +1520,7 @@
     {
       "round": "Matchday 14",
       "date": "2024-11-24",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Real Sociedad",
       "score": {
       }
@@ -1633,7 +1633,7 @@
       "round": "Matchday 15",
       "date": "2024-12-01",
       "team1": "Rayo Vallecano",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -1680,7 +1680,7 @@
     {
       "round": "Matchday 16",
       "date": "2024-12-08",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Villarreal CF",
       "score": {
       }
@@ -1769,7 +1769,7 @@
       "round": "Matchday 17",
       "date": "2024-12-15",
       "team1": "Deportivo Alavés",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -1849,7 +1849,7 @@
       "round": "Matchday 18",
       "date": "2024-12-22",
       "team1": "CA Osasuna",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -1928,7 +1928,7 @@
     {
       "round": "Matchday 19",
       "date": "2025-01-12",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Real Madrid",
       "score": {
       }
@@ -2025,7 +2025,7 @@
       "round": "Matchday 20",
       "date": "2025-01-19",
       "team1": "Celta de Vigo",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -2080,7 +2080,7 @@
     {
       "round": "Matchday 21",
       "date": "2025-01-26",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "CD Leganés",
       "score": {
       }
@@ -2169,7 +2169,7 @@
       "round": "Matchday 22",
       "date": "2025-02-02",
       "team1": "Real Betis Balompié",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -2240,7 +2240,7 @@
     {
       "round": "Matchday 23",
       "date": "2025-02-09",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Girona FC",
       "score": {
       }
@@ -2393,14 +2393,14 @@
       "round": "Matchday 24",
       "date": "2025-02-16",
       "team1": "RCD Espanyol Barcelona",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
     {
       "round": "Matchday 25",
       "date": "2025-02-23",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Real Valladolid CF",
       "score": {
       }
@@ -2481,7 +2481,7 @@
       "round": "Matchday 26",
       "date": "2025-03-02",
       "team1": "Atlético de Madrid",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -2560,7 +2560,7 @@
     {
       "round": "Matchday 27",
       "date": "2025-03-09",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "RCD Mallorca",
       "score": {
       }
@@ -2673,7 +2673,7 @@
       "round": "Matchday 28",
       "date": "2025-03-16",
       "team1": "Sevilla FC",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -2720,7 +2720,7 @@
     {
       "round": "Matchday 29",
       "date": "2025-03-30",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "CA Osasuna",
       "score": {
       }
@@ -2833,7 +2833,7 @@
       "round": "Matchday 30",
       "date": "2025-04-06",
       "team1": "Villarreal CF",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -2880,7 +2880,7 @@
     {
       "round": "Matchday 31",
       "date": "2025-04-13",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Rayo Vallecano",
       "score": {
       }
@@ -3009,7 +3009,7 @@
       "round": "Matchday 32",
       "date": "2025-04-20",
       "team1": "Real Madrid",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -3040,7 +3040,7 @@
     {
       "round": "Matchday 33",
       "date": "2025-04-23",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "UD Las Palmas",
       "score": {
       }
@@ -3161,7 +3161,7 @@
       "round": "Matchday 34",
       "date": "2025-05-04",
       "team1": "Real Sociedad",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -3200,7 +3200,7 @@
     {
       "round": "Matchday 35",
       "date": "2025-05-11",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "Deportivo Alavés",
       "score": {
       }
@@ -3297,7 +3297,7 @@
       "round": "Matchday 36",
       "date": "2025-05-14",
       "team1": "Getafe CF",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -3393,7 +3393,7 @@
       "round": "Matchday 37",
       "date": "2025-05-18",
       "team1": "Valencia CF",
-      "team2": "Athletic Blibao",
+      "team2": "Athletic Bilbao",
       "score": {
       }
     },
@@ -3440,7 +3440,7 @@
     {
       "round": "Matchday 38",
       "date": "2025-05-25",
-      "team1": "Athletic Blibao",
+      "team1": "Athletic Bilbao",
       "team2": "FC Barcelona",
       "score": {
       }

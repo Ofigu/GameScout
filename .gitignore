@@ -5,6 +5,10 @@ node_modules/
 /client/node_modules/
 /.pnp
 .pnp.js
+/backend/data
+/backend/fixtures
+/client/public
+2024-25
 
 # testing
 /coverage

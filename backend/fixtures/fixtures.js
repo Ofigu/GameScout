@@ -1,76 +1,104 @@
 const fs = require('fs');
 const path = require('path');
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+const XLSX = require('xlsx');
 
-// Directory containing JSON files
-const jsonDir = path.join(__dirname, '../../2024-25');
+const baseDir = path.join(__dirname, '..', '..', 'data', 'football.json-master', 'football.json-master');
+console.log('Base directory:', baseDir);
 
-// Get the current date and time
-const now = new Date();
 
-// Function to read and parse JSON files
-const readJsonFiles = (dir) => {
-  const files = fs.readdirSync(dir);
-  let allMatches = [];
-
-  files.forEach(file => {
-    if (path.extname(file) === '.json') {
-      const filePath = path.join(dir, file);
-      const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-
-      // Extract the league name from the JSON file
-      const leagueName = jsonData.name;
-
-      // Combine the league name with each match
-      const matchesWithLeague = jsonData.matches.map(match => ({
-        round: match.round,
-        date: match.date,
-        time: match.time,
-        team1: match.team1,
-        team2: match.team2,
-        league: leagueName
-      }));
-
-      allMatches = allMatches.concat(matchesWithLeague);
+const processMatch = (match, leagueName, round = 'N/A') => {
+    let scoreString = 'N/A';
+    if (match.score && match.score.ft && Array.isArray(match.score.ft) && match.score.ft.length === 2) {
+        scoreString = `${match.score.ft[0]}-${match.score.ft[1]}`;
+    } else if (match.score && typeof match.score === 'string') {
+        scoreString = match.score;
     }
-  });
 
-  return allMatches;
+    return {
+        round: match.round || round,
+        date: match.date || 'N/A',
+        time: match.time || 'N/A',
+        team1: match.team1 || 'N/A',
+        team2: match.team2 || 'N/A',
+        score: scoreString,
+        league: leagueName
+    };
 };
 
-// Read all JSON files and combine data
-const allMatches = readJsonFiles(jsonDir);
+const readJsonFiles = (dir) => {
+    console.log(`Reading files from directory: ${dir}`);
+    const files = fs.readdirSync(dir);
+    console.log(`Files found in ${path.basename(dir)}:`, files);
+    let allMatches = [];
 
-// Extract relevant data and filter fixtures that haven't started yet
-const fixtures = allMatches
-  .filter(match => new Date(`${match.date}T${match.time}`) > now)
-  .map(match => ({
-    round: match.round,
-    date: match.date,
-    time: match.time,
-    team1: match.team1,
-    team2: match.team2,
-    league: match.league
-  }));
+    files.forEach(file => {
+        if (path.extname(file) === '.json' && !file.includes('clubs')) {
+            const filePath = path.join(dir, file);
+            console.log(`Processing file: ${file}`);
+            try {
+                const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                const leagueName = jsonData.name;
 
-// Define the CSV writer
-const csvWriter = createCsvWriter({
-  path: path.join(__dirname, 'fixtures.csv'), // Path to the same folder
-  header: [
-    { id: 'round', title: 'Round' },
-    { id: 'date', title: 'Date' },
-    { id: 'time', title: 'Time' },
-    { id: 'team1', title: 'Team 1' },
-    { id: 'team2', title: 'Team 2' },
-    { id: 'league', title: 'League' } // Add league column to the CSV
-  ]
-});
+                if (Array.isArray(jsonData.matches)) {
+                    // New format
+                    console.log(`League name: ${leagueName}, Matches found: ${jsonData.matches.length}`);
+                    allMatches = allMatches.concat(jsonData.matches.map(match => processMatch(match, leagueName)));
+                } else if (Array.isArray(jsonData.rounds)) {
+                    // Old format
+                    console.log(`League name: ${leagueName}, Rounds found: ${jsonData.rounds.length}`);
+                    jsonData.rounds.forEach(round => {
+                        if (Array.isArray(round.matches)) {
+                            allMatches = allMatches.concat(round.matches.map(match => processMatch(match, leagueName, round.name)));
+                        }
+                    });
+                } else {
+                    console.log(`Skipping file as it does not contain valid match data: ${file}`);
+                }
+            } catch (error) {
+                console.error(`Error processing file ${file}:`, error.message);
+            }
+        }
+    });
 
-// Write the data to the CSV file
-csvWriter.writeRecords(fixtures)
-  .then(() => {
-    console.log('CSV file was written successfully');
-  })
-  .catch(err => {
-    console.error('Error writing CSV file:', err);
-  });
+    console.log(`Total matches found in ${path.basename(dir)}: ${allMatches.length}`);
+    return allMatches;
+};
+
+const processAllYears = () => {
+    console.log('Starting to process all years');
+    const allFolders = fs.readdirSync(baseDir);
+    console.log('All folders found:', allFolders);
+    
+    const yearFolders = allFolders.filter(folder => 
+        fs.statSync(path.join(baseDir, folder)).isDirectory() && 
+        /^\d{4}-\d{2}$/.test(folder)
+    );
+    console.log('Year folders identified:', yearFolders);
+
+    const workbook = XLSX.utils.book_new();
+
+    yearFolders.forEach(yearFolder => {
+        console.log(`\nProcessing year folder: ${yearFolder}`);
+        const yearDir = path.join(baseDir, yearFolder);
+        const matches = readJsonFiles(yearDir);
+
+        if (matches.length > 0) {
+            const ws = XLSX.utils.json_to_sheet(matches);
+            XLSX.utils.book_append_sheet(workbook, ws, yearFolder);
+            console.log(`Added worksheet for ${yearFolder} with ${matches.length} matches`);
+        } else {
+            console.log(`No matches found for ${yearFolder}. Skipping this year.`);
+        }
+    });
+
+    if (workbook.SheetNames.length > 0) {
+        const outputPath = path.join(__dirname, 'all_fixtures.xlsx');
+        XLSX.writeFile(workbook, outputPath);
+        console.log(`\nExcel file was written successfully: ${outputPath}`);
+        console.log('Sheets created:', workbook.SheetNames);
+    } else {
+        console.log('\nNo data to write. Workbook is empty.');
+    }
+};
+
+processAllYears();

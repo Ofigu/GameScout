@@ -4,6 +4,7 @@ const cors = require('cors');
 const session = require('express-session');
 const path = require('path');
 const app = express();
+const { PythonShell } = require('python-shell');
 const routePages = require('./routers/routePages.js');
 
 app.use(cors({
@@ -37,6 +38,31 @@ if (process.env.NODE_ENV === 'production') {
     res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
   });
 }
+
+app.get('/api/game-stats/:team1/:team2', (req, res) => {
+  const { team1, team2 } = req.params;
+  console.log(`Fetching game stats for teams: ${team1} vs ${team2}`);
+  
+  PythonShell.run(path.join(__dirname, 'app.py'), { args: ['generate_game_stats', team1, team2] }, (err, results) => {
+    if (err) {
+      console.error('Error running Python script:', err);
+      res.status(500).json({ error: 'An error occurred while fetching game stats' });
+    } else {
+      console.log('Python script results:', results);
+      try {
+        const data = JSON.parse(results[0]);
+        if (data.error) {
+          res.status(404).json(data);
+        } else {
+          res.status(200).json(data);
+        }
+      } catch (parseError) {
+        console.error('Error parsing Python script results:', parseError);
+        res.status(500).json({ error: 'An error occurred while processing game stats' });
+      }
+    }
+  });
+});
 
 // Serve static files from the public folder
 app.use(express.static(path.join(__dirname, '../client/public')));
