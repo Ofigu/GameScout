@@ -2,8 +2,9 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Accordion, Button } from 'react-bootstrap';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import GameStats from './GameStats'; // Make sure this path is correct
+import GameStats from './GameStats'; 
 import '../styles.css'
+
 
 const FixturesComponent = ({ username, selectedDate, fixturesByLeague, handleDateChange, handleLogout, getLogoUrl, gameStats, fetchGameStats, loading }) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -129,8 +130,8 @@ const FixturesComponent = ({ username, selectedDate, fixturesByLeague, handleDat
                               (gameStats[`${fixture.team1}-${fixture.team2}`] ? 'Update Stats' : 'Show Stats')}
                           </Button>
                           {gameStats[`${fixture.team1}-${fixture.team2}`] && (
-                            <GameStats stats={gameStats[`${fixture.team1}-${fixture.team2}`]} />
-                          )}
+                          <GameStats stats={gameStats[`${fixture.team1}-${fixture.team2}`]} />
+                        )}
                         </li>
                         {fixtureIndex < fixtures.length - 1 && <hr className="my-2" />}
                       </React.Fragment>
@@ -169,6 +170,7 @@ function Home() {
         const fixturesData = await fixturesResponse.json();
         const groupedFixtures = groupFixturesByLeague(fixturesData);
         setFixturesByLeague(groupedFixtures);
+        console.log(groupedFixtures);
       } else {
         throw new Error('Failed to fetch fixtures');
       }
@@ -197,7 +199,8 @@ function Home() {
         },
       });
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        const errorData = await response.json();
+        throw new Error(errorData.error || `HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
       console.log('Received data:', data);
@@ -207,7 +210,11 @@ function Home() {
       setGameStats(prevStats => ({...prevStats, [`${team1}-${team2}`]: data}));
     } catch (error) {
       console.error('Error fetching game stats:', error);
-      setError(`Failed to fetch game stats: ${error.message}`);
+      if (error.message.includes('Club not found')) {
+        alert(`Error: ${error.message}. Please check the team names.`);
+      } else {
+        setError(`Failed to fetch game stats: ${error.message}`);
+      }
     } finally {
       setLoading(prevLoading => ({...prevLoading, [`${team1}-${team2}`]: false}));
     }

@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 const { PythonShell } = require('python-shell');
 const routePages = require('./routers/routePages.js');
-
+// enable server to handle cross-origin requests(from client)
 app.use(cors({
   origin: 'http://localhost:3000',
   credentials: true
@@ -14,14 +14,14 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(session({
+app.use(session({ 
   secret: 'your_secret_key',
-  resave: false,
-  saveUninitialized: false,
+  resave: false, // don't save session if unmodified
+  saveUninitialized: false, // only save session if session data exists
   cookie: { 
-    secure: process.env.NODE_ENV === 'production',
+    secure: process.env.NODE_ENV === 'production', // only HTTPS in production
     maxAge: 24 * 60 * 60 * 1000,
-    sameSite: 'lax'
+    sameSite: 'lax' // protect against CSRF attacks
   }
 }));
 
@@ -42,7 +42,7 @@ if (process.env.NODE_ENV === 'production') {
 app.get('/api/game-stats/:team1/:team2', (req, res) => {
   const { team1, team2 } = req.params;
   console.log(`Fetching game stats for teams: ${team1} vs ${team2}`);
-  
+  // run app.py to fetch game stats
   PythonShell.run(path.join(__dirname, 'app.py'), { args: ['generate_game_stats', team1, team2] }, (err, results) => {
     if (err) {
       console.error('Error running Python script:', err);

@@ -2,57 +2,50 @@ const fs = require('fs');
 const path = require('path');
 const XLSX = require('xlsx');
 
-const baseDir = path.join(__dirname, '..', '..', 'data', 'football.json-master', 'football.json-master');
-console.log('Base directory:', baseDir);
+const baseDir = path.join(__dirname, '..', '..', '2024-25');
 
+const processMatch = (match, leagueName) => {
+    // Skip matches with completed scores
+    if (match.score && 
+        ((match.score.ft && match.score.ft.length === 2) || 
+         (typeof match.score === 'string' && match.score !== ''))) {
+        return null;
+    }
 
-const processMatch = (match, leagueName, round = 'N/A') => {
-    let scoreString = 'N/A';
-    if (match.score && match.score.ft && Array.isArray(match.score.ft) && match.score.ft.length === 2) {
-        scoreString = `${match.score.ft[0]}-${match.score.ft[1]}`;
-    } else if (match.score && typeof match.score === 'string') {
-        scoreString = match.score;
+    // Process time field
+    let matchTime = 'TBD';
+    if (match.time && match.time.includes(':')) {
+        matchTime = match.time;
+    } else if (!match.time && match.date && match.date.includes('2024')) {
+        matchTime = 'TBD';  // Ensure future matches without time get 'TBD'
     }
 
     return {
-        round: match.round || round,
-        date: match.date || 'N/A',
-        time: match.time || 'N/A',
-        team1: match.team1 || 'N/A',
-        team2: match.team2 || 'N/A',
-        score: scoreString,
-        league: leagueName
+        'Round': match.round || 'N/A',
+        'Date': match.date || 'N/A',
+        'Time': matchTime,
+        'Team 1': match.team1 || 'N/A',
+        'Team 2': match.team2 || 'N/A',
+        'League': leagueName
     };
 };
 
-const readJsonFiles = (dir) => {
-    console.log(`Reading files from directory: ${dir}`);
-    const files = fs.readdirSync(dir);
-    console.log(`Files found in ${path.basename(dir)}:`, files);
+const processAllMatches = () => {
+    const files = fs.readdirSync(baseDir);
     let allMatches = [];
 
     files.forEach(file => {
         if (path.extname(file) === '.json' && !file.includes('clubs')) {
-            const filePath = path.join(dir, file);
-            console.log(`Processing file: ${file}`);
+            const filePath = path.join(baseDir, file);
             try {
                 const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
                 const leagueName = jsonData.name;
 
                 if (Array.isArray(jsonData.matches)) {
-                    // New format
-                    console.log(`League name: ${leagueName}, Matches found: ${jsonData.matches.length}`);
-                    allMatches = allMatches.concat(jsonData.matches.map(match => processMatch(match, leagueName)));
-                } else if (Array.isArray(jsonData.rounds)) {
-                    // Old format
-                    console.log(`League name: ${leagueName}, Rounds found: ${jsonData.rounds.length}`);
-                    jsonData.rounds.forEach(round => {
-                        if (Array.isArray(round.matches)) {
-                            allMatches = allMatches.concat(round.matches.map(match => processMatch(match, leagueName, round.name)));
-                        }
-                    });
-                } else {
-                    console.log(`Skipping file as it does not contain valid match data: ${file}`);
+                    const futureMatches = jsonData.matches
+                        .map(match => processMatch(match, leagueName))
+                        .filter(match => match !== null && match.Date.includes('2024'));
+                    allMatches = allMatches.concat(futureMatches);
                 }
             } catch (error) {
                 console.error(`Error processing file ${file}:`, error.message);
@@ -60,45 +53,23 @@ const readJsonFiles = (dir) => {
         }
     });
 
-    console.log(`Total matches found in ${path.basename(dir)}: ${allMatches.length}`);
-    return allMatches;
-};
-
-const processAllYears = () => {
-    console.log('Starting to process all years');
-    const allFolders = fs.readdirSync(baseDir);
-    console.log('All folders found:', allFolders);
-    
-    const yearFolders = allFolders.filter(folder => 
-        fs.statSync(path.join(baseDir, folder)).isDirectory() && 
-        /^\d{4}-\d{2}$/.test(folder)
-    );
-    console.log('Year folders identified:', yearFolders);
-
-    const workbook = XLSX.utils.book_new();
-
-    yearFolders.forEach(yearFolder => {
-        console.log(`\nProcessing year folder: ${yearFolder}`);
-        const yearDir = path.join(baseDir, yearFolder);
-        const matches = readJsonFiles(yearDir);
-
-        if (matches.length > 0) {
-            const ws = XLSX.utils.json_to_sheet(matches);
-            XLSX.utils.book_append_sheet(workbook, ws, yearFolder);
-            console.log(`Added worksheet for ${yearFolder} with ${matches.length} matches`);
-        } else {
-            console.log(`No matches found for ${yearFolder}. Skipping this year.`);
+    // Sort matches by date and time
+    allMatches.sort((a, b) => {
+        const dateCompare = new Date(a.Date) - new Date(b.Date);
+        if (dateCompare === 0) {
+            if (a.Time === 'TBD') return 1;  // TBD times go last
+            if (b.Time === 'TBD') return -1;
+            return a.Time.localeCompare(b.Time);
         }
+        return dateCompare;
     });
 
-    if (workbook.SheetNames.length > 0) {
-        const outputPath = path.join(__dirname, 'all_fixtures.xlsx');
-        XLSX.writeFile(workbook, outputPath);
-        console.log(`\nExcel file was written successfully: ${outputPath}`);
-        console.log('Sheets created:', workbook.SheetNames);
-    } else {
-        console.log('\nNo data to write. Workbook is empty.');
+    if (allMatches.length > 0) {
+        const ws = XLSX.utils.json_to_sheet(allMatches);
+        const csvContent = XLSX.utils.sheet_to_csv(ws);
+        fs.writeFileSync('fixtures.csv', csvContent, 'utf8');
+        console.log(`Processed ${allMatches.length} matches`);
     }
 };
 
-processAllYears();
+processAllMatches();

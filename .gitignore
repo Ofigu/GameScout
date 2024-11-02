@@ -9,7 +9,7 @@ node_modules/
 /backend/fixtures
 /client/public
 2024-25
-
+/client/build/logo's
 # testing
 /coverage
 

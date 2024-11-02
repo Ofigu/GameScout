@@ -8,18 +8,15 @@ import re
 from fuzzywuzzy import fuzz
 import numpy as np
 
-
+# Set up logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 # Get the directory of the current script
 current_dir = os.path.dirname(os.path.abspath(__file__))
-logging.debug(f"Current directory: {current_dir}")
-logging.debug(f"Files in current directory: {os.listdir(current_dir)}")
 
 # Construct the path to the data directory
 data_dir = os.path.join(current_dir, 'data','stats')
-logging.debug(f"Data directory: {data_dir}")
 
 try:
     # load csv files
@@ -29,19 +26,22 @@ try:
     game_events = pd.read_csv(os.path.join(data_dir, 'game_events.csv'))
     players = pd.read_csv(os.path.join(data_dir, 'players.csv'))
     player_valuations = pd.read_csv(os.path.join(data_dir, 'player_valuations.csv'))
+    esp_players = pd.read_csv(os.path.join(data_dir, 'la_liga_players.csv'))
+
 except Exception as e:
     logging.error(f"Error loading CSV files: {str(e)}")
     print(json.dumps({"error": f"Error loading CSV files: {str(e)}"}))
     sys.exit(1)
 
+# Normalize club name - cross between different data sources
 def normalize_club_name(name):
     # Remove common suffixes and prefixes
-    name = re.sub(r'\b(FC|SC|AC|SS|CF|United|City)\b', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\b(FC|SC|AC|SS|CF|United|City|Club|VfB|VfL)\b', '', name, flags=re.IGNORECASE)
     # Remove non-alphanumeric characters
     name = re.sub(r'[^a-zA-Z0-9\s]', '', name)
     # Convert to lowercase and trim
     return name.lower().strip()
-
+    
 
 # get club id by name
 def get_club_id_by_name(club_name):
@@ -222,6 +222,46 @@ def get_key_player(club_id):
     except Exception as e:
         return f"An error occurred: {str(e)}\nClub ID: {club_id}\nPlayers DataFrame Shape: {players.shape}\nValuations DataFrame Shape: {player_valuations.shape}"
 
+#currenyly only for la liga
+def get_esp_key_player(club_name): 
+    logging.debug(f"Getting key player stats for esp club name: {club_name}")
+    try:
+        # Get all players for the given club
+        club_players = esp_players[esp_players['Team'] == club_name]
+
+        if club_players.empty:
+            return f"No players found for the club name: {club_name}"
+        
+        # Group by player and aggregate their stats
+        aggregated_stats = club_players.groupby(['Player', 'Position']).agg({
+            'Goals': 'sum',
+            'Assists': 'sum',
+            'Minutes': 'sum',
+            'Expected Goals (xG)': 'sum',
+            'Passes Completed': 'sum',
+            'Passes Attempted': 'sum'
+        }).reset_index()
+        
+        # Calculate combined score and pass completion rate
+        aggregated_stats['Combined'] = aggregated_stats['Goals'] + aggregated_stats['Assists']
+        aggregated_stats['Pass Completion %'] = (aggregated_stats['Passes Completed'] / aggregated_stats['Passes Attempted']) * 100
+
+        # Find the key player (player with highest combined score)
+        key_player = aggregated_stats.loc[aggregated_stats['Combined'].idxmax()]
+
+        return {
+            'name': key_player['Player'],
+            'position': key_player['Position'],
+            'goals': int(key_player['Goals']),
+            'assists': int(key_player['Assists']),
+            'minutes_played': int(key_player['Minutes']),
+            'games_played': len(club_players[club_players['Player'] == key_player['Player']]),
+            'pass_rate': round(float(key_player['Pass Completion %']), 2),
+            'expected_goals': round(float(key_player['Expected Goals (xG)']), 2)
+        }
+    except Exception as e:
+        return f"An error occurred: {str(e)}\nClub Name: {club_name}\nPlayers DataFrame Shape: {esp_players.shape}"
+    
 def get_clean_sheet_probability(club_id, num_games=10):
     try:
         # Get the last 10 games for the club
@@ -299,6 +339,68 @@ def convert_to_json_serializable(obj):
     else:
         return obj
 
+
+def is_la_liga(team1, team2):
+    """
+    Check if both teams are La Liga clubs using fuzzy matching.
+    Returns a tuple (bool, dict) with the match result and matched team names.
+    """
+    logging.debug(f"Checking if teams are La Liga clubs: {team1} and {team2}")
+    
+    try:
+        # Get unique La Liga team names
+        la_liga_teams = esp_players['Team'].unique()
+        
+        # Initialize best matches and ratios for both teams
+        best_matches = {team1: None, team2: None}
+        best_ratios = {team1: 0, team2: 0}
+        
+        # Normalize input team names
+        normalized_teams = {
+            team1: normalize_club_name(team1),
+            team2: normalize_club_name(team2)
+        }
+        
+        # Check each input team against La Liga teams
+        for input_team in [team1, team2]:
+            normalized_input = normalized_teams[input_team]
+            
+            for la_liga_team in la_liga_teams:
+                normalized_la_liga = normalize_club_name(la_liga_team)
+                
+                # Check for exact match first
+                if normalized_la_liga == normalized_input:
+                    logging.debug(f"Exact match found for {input_team}: {la_liga_team}")
+                    best_matches[input_team] = la_liga_team
+                    best_ratios[input_team] = 100
+                    break
+                
+                # If no exact match, check fuzzy match
+                ratio = fuzz.partial_ratio(normalized_input, normalized_la_liga)
+                if ratio > best_ratios[input_team]:
+                    best_ratios[input_team] = ratio
+                    best_matches[input_team] = la_liga_team
+        
+        # Log the best matches found
+        logging.debug(f"Best matches found: {best_matches}")
+        logging.debug(f"Match ratios: {best_ratios}")
+        
+        # Both teams must have a good match (>80%) to be considered La Liga teams
+        is_la_liga_match = (best_ratios[team1] > 80 and best_ratios[team2] > 80)
+        
+        if is_la_liga_match:
+            logging.debug(f"Both teams confirmed as La Liga clubs")
+            return True, best_matches
+        else:
+            logging.debug(f"One or both teams not confirmed as La Liga clubs")
+            return False, {}
+            
+    except Exception as e:
+        logging.error(f"Error in is_la_liga for {team1} and {team2}: {str(e)}")
+        return False, {}
+
+
+
 def generate_game_stats(team1, team2):
     logging.debug(f"Generating game stats for {team1} vs {team2}")
     
@@ -326,17 +428,23 @@ def generate_game_stats(team1, team2):
         matched_team1 = clubs[clubs['club_id'] == club_id_1]['name'].iloc[0]
         matched_team2 = clubs[clubs['club_id'] == club_id_2]['name'].iloc[0]
 
+        # Get La Liga status and matched names
+        is_la_liga_match, la_liga_teams = is_la_liga(team1, team2)
+
         stats = {
             "team1": {
                 "input_name": team1,
                 "matched_name": matched_team1,
+                "la_liga_name": la_liga_teams.get(team1) if is_la_liga_match else None,
                 "club_id": club_id_1
             },
             "team2": {
                 "input_name": team2,
                 "matched_name": matched_team2,
+                "la_liga_name": la_liga_teams.get(team2) if is_la_liga_match else None,
                 "club_id": club_id_2
             },
+            "is_la_liga": is_la_liga_match,
             "recent_form": {
                 team1: get_recent_form(club_id_1),
                 team2: get_recent_form(club_id_2)
@@ -345,6 +453,10 @@ def generate_game_stats(team1, team2):
             "key_players": {
                 team1: get_key_player(club_id_1),
                 team2: get_key_player(club_id_2)
+            },
+            "esp_key_players": {
+                team1: get_esp_key_player(la_liga_teams.get(team1)) if is_la_liga_match else None,
+                team2: get_esp_key_player(la_liga_teams.get(team2)) if is_la_liga_match else None
             },
             "high_scoring": is_high_scoring(club_id_1, club_id_2),
             "high_card": is_high_card_game(club_id_1, club_id_2),
@@ -358,7 +470,7 @@ def generate_game_stats(team1, team2):
     except Exception as e:
         logging.error(f"Error generating game stats: {str(e)}")
         return {"error": f"Error generating game stats: {str(e)}"}
-    
+       
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
     logging.debug(f"Script started with arguments: {sys.argv}")

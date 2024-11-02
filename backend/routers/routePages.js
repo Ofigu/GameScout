@@ -23,7 +23,7 @@ const adjustTime = (time, league) => {
     const [hours, minutes] = time.split(':').map(Number);
     const date = new Date();
     if (league === 'Premier League 2024/25' || league == 'Championship 2024/25') {
-        date.setHours(hours + 2, minutes, 0, 0); // Add two hours for Premier League
+        date.setHours(hours + 2, minutes, 0, 0); // Add two hours for epl and championship
     } else {
         date.setHours(hours + 1, minutes, 0, 0); // Add one hour for other leagues
     }
@@ -158,19 +158,16 @@ router.get('/game-stats/:team1/:team2', isAuthenticated, (req, res) => {
 
     const options = {
         mode: 'text',
-        pythonPath: 'python', // or 'python3' if that's your Python command
+        pythonPath: 'python', 
         scriptPath: scriptPath,
         args: ['generate_game_stats', team1, team2]
     };
-
-    console.log('Python script options:', JSON.stringify(options, null, 2));
-
+    // Run the Python script
     let pyshell = new PythonShell('app.py', options);
     let scriptOutput = [];
     let scriptError = null;
 
     pyshell.on('message', function (message) {
-        console.log('Python script output:', message);
         scriptOutput.push(message);
     });
 
@@ -189,8 +186,6 @@ router.get('/game-stats/:team1/:team2', isAuthenticated, (req, res) => {
             });
         }
 
-        console.log('Python script finished');
-
         if (scriptOutput.length === 0) {
             return res.status(500).json({ error: 'No output from Python script' });
         }
@@ -199,6 +194,13 @@ router.get('/game-stats/:team1/:team2', isAuthenticated, (req, res) => {
             const data = JSON.parse(scriptOutput[scriptOutput.length - 1]);
             if (data.error) {
                 console.error('Error in Python script result:', data.error);
+                // Check if the error is due to club not found
+                if (data.error.includes("Could not find club ID")) {
+                    return res.status(404).json({
+                        error: 'Club not found',
+                        details: data.error
+                    });
+                }
                 return res.status(404).json(data);
             }
             res.json(data);

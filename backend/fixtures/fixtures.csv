@@ -1,146 +1,739 @@
 Round,Date,Time,Team 1,Team 2,League
+Matchday 5,2024-09-15,TBD,AFC Ajax,FC Utrecht,Netherlands - Eredivisie
+Matchday 1,2024-09-18,18:45,Bologna FC 1909,FK Shakhtar Donetsk,UEFA Champions League
+Matchday 1,2024-09-18,18:45,AC Sparta Praha,FC Red Bull Salzburg,UEFA Champions League
+Matchday 3,2024-09-18,20:00,AFC Ajax,Fortuna Sittard,Netherlands - Eredivisie
+Matchday 1,2024-09-18,21:00,Manchester City,Inter Milan,UEFA Champions League
+Matchday 1,2024-09-18,21:00,Paris Saint-Germain,Girona FC,UEFA Champions League
+Matchday 1,2024-09-18,21:00,Club Brugge KV,Borussia Dortmund,UEFA Champions League
+Matchday 1,2024-09-18,21:00,Celtic FC,ŠK Slovan Bratislava,UEFA Champions League
+Matchday 1,2024-09-19,18:45,Feyenoord Rotterdam,Bayer 04 Leverkusen,UEFA Champions League
+Matchday 1,2024-09-19,18:45,FK Crvena Zvezda,SL Benfica,UEFA Champions League
+Matchday 1,2024-09-19,21:00,AS Monaco FC,FC Barcelona,UEFA Champions League
+Matchday 1,2024-09-19,21:00,Stade Brestois 29,SK Sturm Graz,UEFA Champions League
+Matchday 1,2024-09-19,21:00,Atalanta BC,Arsenal FC,UEFA Champions League
+Matchday 1,2024-09-19,21:00,Atlético de Madrid,RB Leipzig,UEFA Champions League
+Matchday 5,2024-09-20,18:30,Cagliari Calcio,FC Empoli,Italy - Serie A
+Matchday 6,2024-09-20,20:00,Stoke City FC,Hull City AFC,EFL Championship
+Matchday 6,2024-09-20,20:00,PEC Zwolle,AZ,Netherlands - Eredivisie
+Matchday 6,2024-09-20,20:15,CD Nacional,SC Braga,Portugal - Liga Portugal
+Matchday 4,2024-09-20,20:30,FC Augsburg,FSV Mainz 05,Germany - Bundesliga
+Matchday 5,2024-09-20,20:45,Hellas Verona,Torino FC,Italy - Serie A
+Matchday 5,2024-09-21,12:30,West Ham United,Chelsea FC,England - Premier League
+Matchday 6,2024-09-21,12:30,Norwich City FC,Watford FC,EFL Championship
+Matchday 6,2024-09-21,12:30,Queens Park Rangers FC,Millwall FC,EFL Championship
+Matchday 6,2024-09-21,12:30,Sunderland AFC,Middlesbrough FC,EFL Championship
+Matchday 5,2024-09-21,15:00,Aston Villa,Wolverhampton Wanderers,England - Premier League
+Matchday 5,2024-09-21,15:00,Fulham FC,Newcastle United,England - Premier League
+Matchday 5,2024-09-21,15:00,Leicester City,Everton FC,England - Premier League
+Matchday 5,2024-09-21,15:00,Liverpool FC,AFC Bournemouth,England - Premier League
+Matchday 5,2024-09-21,15:00,Southampton FC,Ipswich Town,England - Premier League
+Matchday 5,2024-09-21,15:00,Tottenham Hotspur,Brentford FC,England - Premier League
+Matchday 6,2024-09-21,15:00,Bristol City FC,Oxford United FC,EFL Championship
+Matchday 6,2024-09-21,15:00,Burnley FC,Portsmouth FC,EFL Championship
+Matchday 6,2024-09-21,15:00,Cardiff City FC,Leeds United FC,EFL Championship
+Matchday 6,2024-09-21,15:00,Coventry City FC,Swansea City AFC,EFL Championship
+Matchday 6,2024-09-21,15:00,Luton Town FC,Sheffield Wednesday FC,EFL Championship
+Matchday 6,2024-09-21,15:00,Sheffield United FC,Derby County FC,EFL Championship
+Matchday 6,2024-09-21,15:00,West Bromwich Albion FC,Plymouth Argyle FC,EFL Championship
+Matchday 5,2024-09-21,15:00,Venezia FC,Genoa CFC,Italy - Serie A
+Matchday 4,2024-09-21,15:30,FC Heidenheim 1846,SC Freiburg,Germany - Bundesliga
+Matchday 4,2024-09-21,15:30,SV Werder Bremen,Bayern Munich,Germany - Bundesliga
+Matchday 4,2024-09-21,15:30,FC Union Berlin,TSG 1899 Hoffenheim,Germany - Bundesliga
+Matchday 4,2024-09-21,15:30,VfL Bochum,Holstein Kiel,Germany - Bundesliga
+Matchday 6,2024-09-21,15:30,CD Santa Clara,CF Estrela Amadora,Portugal - Liga Portugal
+Matchday 6,2024-09-21,15:30,Rio Ave FC,GD Estoril Praia,Portugal - Liga Portugal
+Matchday 6,2024-09-21,16:30,FC Utrecht,Willem II Tilburg,Netherlands - Eredivisie
+Matchday 5,2024-09-21,17:30,Crystal Palace,Manchester United,England - Premier League
+Matchday 5,2024-09-21,18:00,Juventus FC,SSC Napoli,Italy - Serie A
+Matchday 6,2024-09-21,18:00,Vitória Guimarães SC,FC Porto,Portugal - Liga Portugal
+Matchday 4,2024-09-21,18:30,Eintracht Frankfurt,Borussia Mönchengladbach,Germany - Bundesliga
+Matchday 6,2024-09-21,18:45,RKC Waalwijk,Sparta Rotterdam,Netherlands - Eredivisie
+Matchday 6,2024-09-21,20:00,Go Ahead Eagles,AFC Ajax,Netherlands - Eredivisie
+Matchday 6,2024-09-21,20:30,Moreirense FC,FC Famalicão,Portugal - Liga Portugal
+Matchday 5,2024-09-21,20:45,US Lecce,Parma Calcio 1913,Italy - Serie A
+Matchday 6,2024-09-21,21:00,NEC,Heracles Almelo,Netherlands - Eredivisie
+Matchday 6,2024-09-22,12:00,Preston North End FC,Blackburn Rovers FC,EFL Championship
+Matchday 6,2024-09-22,12:15,SC Heerenveen,FC Groningen,Netherlands - Eredivisie
+Matchday 5,2024-09-22,12:30,ACF Fiorentina,SS Lazio,Italy - Serie A
+Matchday 5,2024-09-22,14:00,Brighton & Hove Albion,Nottingham Forest,England - Premier League
+Matchday 6,2024-09-22,14:30,Almere City FC,FC Twente '65,Netherlands - Eredivisie
+Matchday 6,2024-09-22,14:30,Feyenoord Rotterdam,NAC Breda,Netherlands - Eredivisie
+Matchday 5,2024-09-22,15:00,AC Monza,Bologna FC 1909,Italy - Serie A
+Matchday 4,2024-09-22,15:30,Bayer 04 Leverkusen,VfL Wolfsburg,Germany - Bundesliga
+Matchday 6,2024-09-22,15:30,Gil Vicente FC,Casa Pia AC,Portugal - Liga Portugal
+Matchday 5,2024-09-22,16:30,Manchester City,Arsenal FC,England - Premier League
+Matchday 6,2024-09-22,16:45,Fortuna Sittard,PSV,Netherlands - Eredivisie
+Matchday 4,2024-09-22,17:30,VfB Stuttgart,Borussia Dortmund,Germany - Bundesliga
+Matchday 5,2024-09-22,18:00,AS Roma,Udinese Calcio,Italy - Serie A
+Matchday 6,2024-09-22,18:00,SC Farense,FC Arouca,Portugal - Liga Portugal
+Matchday 4,2024-09-22,19:30,FC St. Pauli,RB Leipzig,Germany - Bundesliga
+Matchday 6,2024-09-22,20:30,Sporting CP,Avs Futebol,Portugal - Liga Portugal
+Matchday 5,2024-09-22,20:45,Inter Milan,AC Milan,Italy - Serie A
+Matchday 6,2024-09-23,20:15,Boavista FC,SL Benfica,Portugal - Liga Portugal
+Matchday 5,2024-09-23,20:45,Atalanta BC,Como 1907,Italy - Serie A
+Matchday 7,2024-09-27,20:00,Plymouth Argyle FC,Luton Town FC,EFL Championship
+Matchday 7,2024-09-27,20:00,Heracles Almelo,SC Heerenveen,Netherlands - Eredivisie
+Matchday 7,2024-09-27,20:15,GD Estoril Praia,Sporting CP,Portugal - Liga Portugal
+Matchday 5,2024-09-27,20:30,Borussia Dortmund,VfL Bochum,Germany - Bundesliga
+Matchday 6,2024-09-27,20:45,AC Milan,US Lecce,Italy - Serie A
+Matchday 6,2024-09-28,12:30,Newcastle United,Manchester City,England - Premier League
+Matchday 7,2024-09-28,12:30,Blackburn Rovers FC,Queens Park Rangers FC,EFL Championship
+Matchday 7,2024-09-28,12:30,Derby County FC,Norwich City FC,EFL Championship
+Matchday 7,2024-09-28,12:30,Sheffield Wednesday FC,West Bromwich Albion FC,EFL Championship
+Matchday 6,2024-09-28,15:00,Arsenal FC,Leicester City,England - Premier League
+Matchday 6,2024-09-28,15:00,Brentford FC,West Ham United,England - Premier League
+Matchday 6,2024-09-28,15:00,Chelsea FC,Brighton & Hove Albion,England - Premier League
+Matchday 6,2024-09-28,15:00,Everton FC,Crystal Palace,England - Premier League
+Matchday 6,2024-09-28,15:00,Nottingham Forest,Fulham FC,England - Premier League
+Matchday 7,2024-09-28,15:00,Hull City AFC,Cardiff City FC,EFL Championship
+Matchday 7,2024-09-28,15:00,Leeds United FC,Coventry City FC,EFL Championship
+Matchday 7,2024-09-28,15:00,Middlesbrough FC,Stoke City FC,EFL Championship
+Matchday 7,2024-09-28,15:00,Millwall FC,Preston North End FC,EFL Championship
+Matchday 7,2024-09-28,15:00,Oxford United FC,Burnley FC,EFL Championship
+Matchday 7,2024-09-28,15:00,Portsmouth FC,Sheffield United FC,EFL Championship
+Matchday 7,2024-09-28,15:00,Watford FC,Sunderland AFC,EFL Championship
+Matchday 6,2024-09-28,15:00,Udinese Calcio,Inter Milan,Italy - Serie A
+Matchday 5,2024-09-28,15:30,RB Leipzig,FC Augsburg,Germany - Bundesliga
+Matchday 5,2024-09-28,15:30,SC Freiburg,FC St. Pauli,Germany - Bundesliga
+Matchday 5,2024-09-28,15:30,VfL Wolfsburg,VfB Stuttgart,Germany - Bundesliga
+Matchday 5,2024-09-28,15:30,FSV Mainz 05,FC Heidenheim 1846,Germany - Bundesliga
+Matchday 5,2024-09-28,15:30,Borussia Mönchengladbach,FC Union Berlin,Germany - Bundesliga
+Matchday 7,2024-09-28,15:30,CF Estrela Amadora,Moreirense FC,Portugal - Liga Portugal
+Matchday 7,2024-09-28,16:30,Willem II Tilburg,PSV,Netherlands - Eredivisie
+Matchday 6,2024-09-28,17:30,Wolverhampton Wanderers,Liverpool FC,England - Premier League
+Matchday 6,2024-09-28,18:00,Genoa CFC,Juventus FC,Italy - Serie A
+Matchday 7,2024-09-28,18:00,Casa Pia AC,Vitória Guimarães SC,Portugal - Liga Portugal
+Matchday 5,2024-09-28,18:30,Bayern Munich,Bayer 04 Leverkusen,Germany - Bundesliga
+Matchday 7,2024-09-28,18:45,NEC,Feyenoord Rotterdam,Netherlands - Eredivisie
+Matchday 7,2024-09-28,20:30,SL Benfica,Gil Vicente FC,Portugal - Liga Portugal
+Matchday 6,2024-09-28,20:45,Bologna FC 1909,Atalanta BC,Italy - Serie A
+Matchday 7,2024-09-28,21:00,Sparta Rotterdam,Fortuna Sittard,Netherlands - Eredivisie
+Matchday 7,2024-09-29,12:15,PEC Zwolle,Almere City FC,Netherlands - Eredivisie
+Matchday 6,2024-09-29,12:30,Torino FC,SS Lazio,Italy - Serie A
+Matchday 6,2024-09-29,14:00,Ipswich Town,Aston Villa,England - Premier League
+Matchday 7,2024-09-29,14:30,FC Twente '65,NAC Breda,Netherlands - Eredivisie
+Matchday 7,2024-09-29,14:30,FC Groningen,Go Ahead Eagles,Netherlands - Eredivisie
+Matchday 7,2024-09-29,14:30,RKC Waalwijk,AFC Ajax,Netherlands - Eredivisie
+Matchday 7,2024-09-29,15:00,Swansea City AFC,Bristol City FC,EFL Championship
+Matchday 6,2024-09-29,15:00,Como 1907,Hellas Verona,Italy - Serie A
+Matchday 6,2024-09-29,15:00,AS Roma,Venezia FC,Italy - Serie A
+Matchday 5,2024-09-29,15:30,Holstein Kiel,Eintracht Frankfurt,Germany - Bundesliga
+Matchday 7,2024-09-29,15:30,CD Santa Clara,Boavista FC,Portugal - Liga Portugal
+Matchday 7,2024-09-29,15:30,FC Famalicão,CD Nacional,Portugal - Liga Portugal
+Matchday 6,2024-09-29,16:30,Manchester United,Tottenham Hotspur,England - Premier League
+Matchday 5,2024-09-29,17:30,TSG 1899 Hoffenheim,SV Werder Bremen,Germany - Bundesliga
+Matchday 6,2024-09-29,18:00,FC Empoli,ACF Fiorentina,Italy - Serie A
+Matchday 7,2024-09-29,18:00,FC Porto,FC Arouca,Portugal - Liga Portugal
+Matchday 7,2024-09-29,20:00,AZ,FC Utrecht,Netherlands - Eredivisie
+Matchday 7,2024-09-29,20:30,SC Braga,Rio Ave FC,Portugal - Liga Portugal
+Matchday 6,2024-09-29,20:45,SSC Napoli,AC Monza,Italy - Serie A
+Matchday 6,2024-09-30,20:00,AFC Bournemouth,Southampton FC,England - Premier League
+Matchday 7,2024-09-30,20:15,Avs Futebol,SC Farense,Portugal - Liga Portugal
+Matchday 6,2024-09-30,20:45,Parma Calcio 1913,Cagliari Calcio,Italy - Serie A
+Matchday 2,2024-10-01,18:45,VfB Stuttgart,AC Sparta Praha,UEFA Champions League
+Matchday 2,2024-10-01,18:45,FC Red Bull Salzburg,Stade Brestois 29,UEFA Champions League
+Matchday 8,2024-10-01,19:45,Burnley FC,Plymouth Argyle FC,EFL Championship
+Matchday 8,2024-10-01,19:45,Cardiff City FC,Millwall FC,EFL Championship
+Matchday 8,2024-10-01,19:45,Coventry City FC,Blackburn Rovers FC,EFL Championship
+Matchday 8,2024-10-01,19:45,Luton Town FC,Oxford United FC,EFL Championship
+Matchday 8,2024-10-01,19:45,Queens Park Rangers FC,Hull City AFC,EFL Championship
+Matchday 8,2024-10-01,19:45,Sunderland AFC,Derby County FC,EFL Championship
+Matchday 8,2024-10-01,19:45,Norwich City FC,Leeds United FC,EFL Championship
+Matchday 8,2024-10-01,20:00,West Bromwich Albion FC,Middlesbrough FC,EFL Championship
+Matchday 2,2024-10-01,21:00,ŠK Slovan Bratislava,Manchester City,UEFA Champions League
+Matchday 2,2024-10-01,21:00,Borussia Dortmund,Celtic FC,UEFA Champions League
+Matchday 2,2024-10-01,21:00,FC Barcelona,BSC Young Boys,UEFA Champions League
+Matchday 2,2024-10-01,21:00,Inter Milan,FK Crvena Zvezda,UEFA Champions League
+Matchday 2,2024-10-01,21:00,Bayer 04 Leverkusen,AC Milan,UEFA Champions League
+Matchday 2,2024-10-01,21:00,Arsenal FC,Paris Saint-Germain,UEFA Champions League
+Matchday 2,2024-10-01,21:00,PSV,Sporting CP,UEFA Champions League
+Matchday 2,2024-10-02,18:45,Girona FC,Feyenoord Rotterdam,UEFA Champions League
+Matchday 2,2024-10-02,18:45,FK Shakhtar Donetsk,Atalanta BC,UEFA Champions League
+Matchday 8,2024-10-02,19:45,Sheffield United FC,Swansea City AFC,EFL Championship
+Matchday 8,2024-10-02,19:45,Preston North End FC,Watford FC,EFL Championship
+Matchday 8,2024-10-02,19:45,Stoke City FC,Portsmouth FC,EFL Championship
+Matchday 8,2024-10-02,20:00,Bristol City FC,Sheffield Wednesday FC,EFL Championship
+Matchday 2,2024-10-02,21:00,Aston Villa,Bayern Munich,UEFA Champions League
+Matchday 2,2024-10-02,21:00,SK Sturm Graz,Club Brugge KV,UEFA Champions League
+Matchday 2,2024-10-02,21:00,Liverpool FC,Bologna FC 1909,UEFA Champions League
+Matchday 2,2024-10-02,21:00,RB Leipzig,Juventus FC,UEFA Champions League
+Matchday 2,2024-10-02,21:00,SL Benfica,Atlético de Madrid,UEFA Champions League
+Matchday 2,2024-10-02,21:00,GNK Dinamo Zagreb,AS Monaco FC,UEFA Champions League
+Matchday 2,2024-10-02,21:00,LOSC Lille,Real Madrid,UEFA Champions League
+Matchday 7,2024-10-04,18:30,SSC Napoli,Como 1907,Italy - Serie A
+Matchday 9,2024-10-04,20:00,Sunderland AFC,Leeds United FC,EFL Championship
+Matchday 8,2024-10-04,20:00,Almere City FC,Willem II Tilburg,Netherlands - Eredivisie
+Matchday 8,2024-10-04,20:15,Rio Ave FC,FC Famalicão,Portugal - Liga Portugal
 Matchday 6,2024-10-04,20:30,FC Augsburg,Borussia Mönchengladbach,Germany - Bundesliga
-Matchday 6,2024-10-05,15:30,Bayer 04 Leverkusen,Holstein Kiel,Germany - Bundesliga
-Matchday 6,2024-10-05,15:30,SV Werder Bremen,SC Freiburg,Germany - Bundesliga
-Matchday 6,2024-10-05,15:30,FC Union Berlin,Borussia Dortmund,Germany - Bundesliga
-Matchday 6,2024-10-05,15:30,VfL Bochum,VfL Wolfsburg,Germany - Bundesliga
-Matchday 6,2024-10-05,18:30,FC St. Pauli,FSV Mainz 05,Germany - Bundesliga
-Matchday 6,2024-10-06,15:30,FC Heidenheim 1846,RB Leipzig,Germany - Bundesliga
-Matchday 6,2024-10-06,17:30,Eintracht Frankfurt,Bayern Munich,Germany - Bundesliga
-Matchday 6,2024-10-06,19:30,VfB Stuttgart,TSG 1899 Hoffenheim,Germany - Bundesliga
-Matchday 7,2024-10-18,20:30,Borussia Dortmund,FC St. Pauli,Germany - Bundesliga
-Matchday 7,2024-10-19,15:30,Bayer 04 Leverkusen,Eintracht Frankfurt,Germany - Bundesliga
-Matchday 7,2024-10-19,15:30,TSG 1899 Hoffenheim,VfL Bochum,Germany - Bundesliga
-Matchday 7,2024-10-19,15:30,SC Freiburg,FC Augsburg,Germany - Bundesliga
-Matchday 7,2024-10-19,15:30,FSV Mainz 05,RB Leipzig,Germany - Bundesliga
-Matchday 7,2024-10-19,15:30,Borussia Mönchengladbach,FC Heidenheim 1846,Germany - Bundesliga
-Matchday 7,2024-10-19,18:30,Bayern Munich,VfB Stuttgart,Germany - Bundesliga
-Matchday 7,2024-10-20,15:30,Holstein Kiel,FC Union Berlin,Germany - Bundesliga
-Matchday 7,2024-10-20,17:30,VfL Wolfsburg,SV Werder Bremen,Germany - Bundesliga
-Matchday 8,2024-10-25,20:30,FSV Mainz 05,Borussia Mönchengladbach,Germany - Bundesliga
-Matchday 8,2024-10-26,15:30,VfB Stuttgart,Holstein Kiel,Germany - Bundesliga
-Matchday 8,2024-10-26,15:30,RB Leipzig,SC Freiburg,Germany - Bundesliga
-Matchday 8,2024-10-26,15:30,FC Augsburg,Borussia Dortmund,Germany - Bundesliga
-Matchday 8,2024-10-26,15:30,FC St. Pauli,VfL Wolfsburg,Germany - Bundesliga
-Matchday 8,2024-10-26,18:30,SV Werder Bremen,Bayer 04 Leverkusen,Germany - Bundesliga
-Matchday 8,2024-10-27,15:30,VfL Bochum,Bayern Munich,Germany - Bundesliga
-Matchday 8,2024-10-27,17:30,FC Union Berlin,Eintracht Frankfurt,Germany - Bundesliga
-Matchday 8,2024-10-27,19:30,FC Heidenheim 1846,TSG 1899 Hoffenheim,Germany - Bundesliga
-Matchday 9,2024-11-01,20:30,Bayer 04 Leverkusen,VfB Stuttgart,Germany - Bundesliga
-Matchday 9,2024-11-02,15:30,Bayern Munich,FC Union Berlin,Germany - Bundesliga
-Matchday 9,2024-11-02,15:30,Eintracht Frankfurt,VfL Bochum,Germany - Bundesliga
-Matchday 9,2024-11-02,15:30,TSG 1899 Hoffenheim,FC St. Pauli,Germany - Bundesliga
-Matchday 9,2024-11-02,15:30,VfL Wolfsburg,FC Augsburg,Germany - Bundesliga
-Matchday 9,2024-11-02,15:30,Holstein Kiel,FC Heidenheim 1846,Germany - Bundesliga
-Matchday 9,2024-11-02,18:30,Borussia Dortmund,RB Leipzig,Germany - Bundesliga
-Matchday 9,2024-11-03,15:30,SC Freiburg,FSV Mainz 05,Germany - Bundesliga
-Matchday 9,2024-11-03,17:30,Borussia Mönchengladbach,SV Werder Bremen,Germany - Bundesliga
-Matchday 10,2024-11-08,20:30,FC Union Berlin,SC Freiburg,Germany - Bundesliga
-Matchday 10,2024-11-09,15:30,SV Werder Bremen,Holstein Kiel,Germany - Bundesliga
-Matchday 10,2024-11-09,15:30,FSV Mainz 05,Borussia Dortmund,Germany - Bundesliga
-Matchday 10,2024-11-09,15:30,VfL Bochum,Bayer 04 Leverkusen,Germany - Bundesliga
-Matchday 10,2024-11-09,15:30,FC St. Pauli,Bayern Munich,Germany - Bundesliga
-Matchday 10,2024-11-09,18:30,RB Leipzig,Borussia Mönchengladbach,Germany - Bundesliga
-Matchday 10,2024-11-10,15:30,FC Augsburg,TSG 1899 Hoffenheim,Germany - Bundesliga
-Matchday 10,2024-11-10,17:30,VfB Stuttgart,Eintracht Frankfurt,Germany - Bundesliga
-Matchday 10,2024-11-10,19:30,FC Heidenheim 1846,VfL Wolfsburg,Germany - Bundesliga
-Matchday 11,2024-11-22,20:30,Bayern Munich,FC Augsburg,Germany - Bundesliga
-Matchday 11,2024-11-23,15:30,Bayer 04 Leverkusen,FC Heidenheim 1846,Germany - Bundesliga
-Matchday 11,2024-11-23,15:30,VfB Stuttgart,VfL Bochum,Germany - Bundesliga
-Matchday 11,2024-11-23,15:30,Borussia Dortmund,SC Freiburg,Germany - Bundesliga
-Matchday 11,2024-11-23,15:30,TSG 1899 Hoffenheim,RB Leipzig,Germany - Bundesliga
-Matchday 11,2024-11-23,15:30,VfL Wolfsburg,FC Union Berlin,Germany - Bundesliga
-Matchday 11,2024-11-23,18:30,Eintracht Frankfurt,SV Werder Bremen,Germany - Bundesliga
-Matchday 11,2024-11-24,15:30,Holstein Kiel,FSV Mainz 05,Germany - Bundesliga
-Matchday 11,2024-11-24,17:30,Borussia Mönchengladbach,FC St. Pauli,Germany - Bundesliga
-Matchday 12,2024-11-29,20:30,FC St. Pauli,Holstein Kiel,Germany - Bundesliga
-Matchday 12,2024-11-30,15:30,RB Leipzig,VfL Wolfsburg,Germany - Bundesliga
-Matchday 12,2024-11-30,15:30,SV Werder Bremen,VfB Stuttgart,Germany - Bundesliga
-Matchday 12,2024-11-30,15:30,SC Freiburg,Borussia Mönchengladbach,Germany - Bundesliga
-Matchday 12,2024-11-30,15:30,FC Augsburg,VfL Bochum,Germany - Bundesliga
-Matchday 12,2024-11-30,15:30,FC Union Berlin,Bayer 04 Leverkusen,Germany - Bundesliga
-Matchday 12,2024-11-30,18:30,Borussia Dortmund,Bayern Munich,Germany - Bundesliga
-Matchday 12,2024-12-01,15:30,FSV Mainz 05,TSG 1899 Hoffenheim,Germany - Bundesliga
-Matchday 12,2024-12-01,17:30,FC Heidenheim 1846,Eintracht Frankfurt,Germany - Bundesliga
-Matchday 34,2025-05-17,15:30,FSV Mainz 05,Bayer 04 Leverkusen,Germany - Bundesliga
-Matchday 34,2025-05-17,15:30,RB Leipzig,VfB Stuttgart,Germany - Bundesliga
-Matchday 34,2025-05-17,15:30,TSG 1899 Hoffenheim,Bayern Munich,Germany - Bundesliga
-Matchday 34,2025-05-17,15:30,SC Freiburg,Eintracht Frankfurt,Germany - Bundesliga
-Matchday 34,2025-05-17,15:30,FC Heidenheim 1846,SV Werder Bremen,Germany - Bundesliga
-Matchday 34,2025-05-17,15:30,Borussia Mönchengladbach,VfL Wolfsburg,Germany - Bundesliga
-Matchday 34,2025-05-17,15:30,FC Augsburg,FC Union Berlin,Germany - Bundesliga
-Matchday 34,2025-05-17,15:30,FC St. Pauli,VfL Bochum,Germany - Bundesliga
-Matchday 34,2025-05-17,15:30,Borussia Dortmund,Holstein Kiel,Germany - Bundesliga
+Matchday 7,2024-10-04,20:45,Hellas Verona,Venezia FC,Italy - Serie A
 Matchday 7,2024-10-05,12:30,Crystal Palace,Liverpool FC,England - Premier League
+Matchday 9,2024-10-05,12:30,Burnley FC,Preston North End FC,EFL Championship
+Matchday 9,2024-10-05,12:30,Norwich City FC,Hull City AFC,EFL Championship
+Matchday 9,2024-10-05,12:30,Portsmouth FC,Oxford United FC,EFL Championship
 Matchday 7,2024-10-05,15:00,Arsenal FC,Southampton FC,England - Premier League
 Matchday 7,2024-10-05,15:00,Brentford FC,Wolverhampton Wanderers,England - Premier League
 Matchday 7,2024-10-05,15:00,Leicester City,AFC Bournemouth,England - Premier League
 Matchday 7,2024-10-05,15:00,Manchester City,Fulham FC,England - Premier League
 Matchday 7,2024-10-05,15:00,West Ham United,Ipswich Town,England - Premier League
+Matchday 9,2024-10-05,15:00,Coventry City FC,Sheffield Wednesday FC,EFL Championship
+Matchday 9,2024-10-05,15:00,Derby County FC,Queens Park Rangers FC,EFL Championship
+Matchday 9,2024-10-05,15:00,Plymouth Argyle FC,Blackburn Rovers FC,EFL Championship
+Matchday 9,2024-10-05,15:00,Sheffield United FC,Luton Town FC,EFL Championship
+Matchday 9,2024-10-05,15:00,Swansea City AFC,Stoke City FC,EFL Championship
+Matchday 9,2024-10-05,15:00,Watford FC,Middlesbrough FC,EFL Championship
+Matchday 9,2024-10-05,15:00,West Bromwich Albion FC,Millwall FC,EFL Championship
+Matchday 7,2024-10-05,15:00,Udinese Calcio,US Lecce,Italy - Serie A
+Matchday 6,2024-10-05,15:30,Bayer 04 Leverkusen,Holstein Kiel,Germany - Bundesliga
+Matchday 6,2024-10-05,15:30,SV Werder Bremen,SC Freiburg,Germany - Bundesliga
+Matchday 6,2024-10-05,15:30,FC Union Berlin,Borussia Dortmund,Germany - Bundesliga
+Matchday 6,2024-10-05,15:30,VfL Bochum,VfL Wolfsburg,Germany - Bundesliga
+Matchday 8,2024-10-05,15:30,Moreirense FC,CD Santa Clara,Portugal - Liga Portugal
+Matchday 8,2024-10-05,15:30,Gil Vicente FC,CF Estrela Amadora,Portugal - Liga Portugal
 Matchday 7,2024-10-05,17:30,Everton FC,Newcastle United,England - Premier League
+Matchday 7,2024-10-05,18:00,Atalanta BC,Genoa CFC,Italy - Serie A
+Matchday 8,2024-10-05,18:00,FC Arouca,Avs Futebol,Portugal - Liga Portugal
+Matchday 6,2024-10-05,18:30,FC St. Pauli,FSV Mainz 05,Germany - Bundesliga
+Matchday 8,2024-10-05,18:45,NAC Breda,NEC,Netherlands - Eredivisie
+Matchday 8,2024-10-05,20:00,PSV,Sparta Rotterdam,Netherlands - Eredivisie
+Matchday 8,2024-10-05,20:30,Sporting CP,Casa Pia AC,Portugal - Liga Portugal
+Matchday 7,2024-10-05,20:45,Inter Milan,Torino FC,Italy - Serie A
+Matchday 8,2024-10-05,21:00,FC Utrecht,RKC Waalwijk,Netherlands - Eredivisie
+Matchday 8,2024-10-06,12:15,Go Ahead Eagles,Heracles Almelo,Netherlands - Eredivisie
+Matchday 7,2024-10-06,12:30,Juventus FC,Cagliari Calcio,Italy - Serie A
 Matchday 7,2024-10-06,14:00,Aston Villa,Manchester United,England - Premier League
 Matchday 7,2024-10-06,14:00,Chelsea FC,Nottingham Forest,England - Premier League
+Matchday 8,2024-10-06,14:30,SC Heerenveen,PEC Zwolle,Netherlands - Eredivisie
+Matchday 8,2024-10-06,14:30,Feyenoord Rotterdam,FC Twente '65,Netherlands - Eredivisie
+Matchday 9,2024-10-06,15:00,Bristol City FC,Cardiff City FC,EFL Championship
+Matchday 7,2024-10-06,15:00,Bologna FC 1909,Parma Calcio 1913,Italy - Serie A
+Matchday 7,2024-10-06,15:00,SS Lazio,FC Empoli,Italy - Serie A
+Matchday 6,2024-10-06,15:30,FC Heidenheim 1846,RB Leipzig,Germany - Bundesliga
+Matchday 8,2024-10-06,15:30,Vitória Guimarães SC,Boavista FC,Portugal - Liga Portugal
+Matchday 8,2024-10-06,15:30,SC Farense,GD Estoril Praia,Portugal - Liga Portugal
 Matchday 7,2024-10-06,16:30,Brighton & Hove Albion,Tottenham Hotspur,England - Premier League
+Matchday 8,2024-10-06,16:45,AFC Ajax,FC Groningen,Netherlands - Eredivisie
+Matchday 6,2024-10-06,17:30,Eintracht Frankfurt,Bayern Munich,Germany - Bundesliga
+Matchday 7,2024-10-06,18:00,AC Monza,AS Roma,Italy - Serie A
+Matchday 8,2024-10-06,18:00,CD Nacional,SL Benfica,Portugal - Liga Portugal
+Matchday 6,2024-10-06,19:30,VfB Stuttgart,TSG 1899 Hoffenheim,Germany - Bundesliga
+Matchday 8,2024-10-06,20:00,Fortuna Sittard,AZ,Netherlands - Eredivisie
+Matchday 8,2024-10-06,20:30,FC Porto,SC Braga,Portugal - Liga Portugal
+Matchday 7,2024-10-06,20:45,ACF Fiorentina,AC Milan,Italy - Serie A
+Matchday 10,2024-10-18,20:00,Leeds United FC,Sheffield United FC,EFL Championship
+Matchday 7,2024-10-18,20:30,Borussia Dortmund,FC St. Pauli,Germany - Bundesliga
 Matchday 8,2024-10-19,12:30,Tottenham Hotspur,West Ham United,England - Premier League
+Matchday 10,2024-10-19,12:30,Cardiff City FC,Plymouth Argyle FC,EFL Championship
+Matchday 10,2024-10-19,12:30,Luton Town FC,Watford FC,EFL Championship
+Matchday 10,2024-10-19,12:30,Oxford United FC,West Bromwich Albion FC,EFL Championship
+Matchday 10,2024-10-19,12:30,Preston North End FC,Coventry City FC,EFL Championship
 Matchday 8,2024-10-19,15:00,Fulham FC,Aston Villa,England - Premier League
 Matchday 8,2024-10-19,15:00,Ipswich Town,Everton FC,England - Premier League
 Matchday 8,2024-10-19,15:00,Manchester United,Brentford FC,England - Premier League
 Matchday 8,2024-10-19,15:00,Newcastle United,Brighton & Hove Albion,England - Premier League
 Matchday 8,2024-10-19,15:00,Southampton FC,Leicester City,England - Premier League
+Matchday 10,2024-10-19,15:00,Blackburn Rovers FC,Swansea City AFC,EFL Championship
+Matchday 10,2024-10-19,15:00,Middlesbrough FC,Bristol City FC,EFL Championship
+Matchday 10,2024-10-19,15:00,Millwall FC,Derby County FC,EFL Championship
+Matchday 10,2024-10-19,15:00,Queens Park Rangers FC,Portsmouth FC,EFL Championship
+Matchday 10,2024-10-19,15:00,Sheffield Wednesday FC,Burnley FC,EFL Championship
+Matchday 10,2024-10-19,15:00,Stoke City FC,Norwich City FC,EFL Championship
+Matchday 8,2024-10-19,15:00,Como 1907,Parma Calcio 1913,Italy - Serie A
+Matchday 8,2024-10-19,15:00,Genoa CFC,Bologna FC 1909,Italy - Serie A
+Matchday 7,2024-10-19,15:30,Bayer 04 Leverkusen,Eintracht Frankfurt,Germany - Bundesliga
+Matchday 7,2024-10-19,15:30,TSG 1899 Hoffenheim,VfL Bochum,Germany - Bundesliga
+Matchday 7,2024-10-19,15:30,SC Freiburg,FC Augsburg,Germany - Bundesliga
+Matchday 7,2024-10-19,15:30,FSV Mainz 05,RB Leipzig,Germany - Bundesliga
+Matchday 7,2024-10-19,15:30,Borussia Mönchengladbach,FC Heidenheim 1846,Germany - Bundesliga
+Matchday 9,2024-10-19,16:30,Sparta Rotterdam,Almere City FC,Netherlands - Eredivisie
 Matchday 8,2024-10-19,17:30,AFC Bournemouth,Arsenal FC,England - Premier League
+Matchday 8,2024-10-19,18:00,AC Milan,Udinese Calcio,Italy - Serie A
+Matchday 7,2024-10-19,18:30,Bayern Munich,VfB Stuttgart,Germany - Bundesliga
+Matchday 9,2024-10-19,18:45,AZ,PSV,Netherlands - Eredivisie
+Matchday 9,2024-10-19,20:00,NEC,SC Heerenveen,Netherlands - Eredivisie
+Matchday 9,2024-10-19,20:00,RKC Waalwijk,FC Twente '65,Netherlands - Eredivisie
+Matchday 8,2024-10-19,20:45,Juventus FC,SS Lazio,Italy - Serie A
+Matchday 9,2024-10-19,21:00,Go Ahead Eagles,Feyenoord Rotterdam,Netherlands - Eredivisie
+Matchday 9,2024-10-20,12:15,Willem II Tilburg,Fortuna Sittard,Netherlands - Eredivisie
+Matchday 8,2024-10-20,12:30,FC Empoli,SSC Napoli,Italy - Serie A
 Matchday 8,2024-10-20,14:00,Wolverhampton Wanderers,Manchester City,England - Premier League
+Matchday 9,2024-10-20,14:30,FC Groningen,FC Utrecht,Netherlands - Eredivisie
+Matchday 9,2024-10-20,14:30,Heracles Almelo,AFC Ajax,Netherlands - Eredivisie
+Matchday 10,2024-10-20,15:00,Hull City AFC,Sunderland AFC,EFL Championship
+Matchday 8,2024-10-20,15:00,US Lecce,ACF Fiorentina,Italy - Serie A
+Matchday 8,2024-10-20,15:00,Venezia FC,Atalanta BC,Italy - Serie A
+Matchday 7,2024-10-20,15:30,Holstein Kiel,FC Union Berlin,Germany - Bundesliga
 Matchday 8,2024-10-20,16:30,Liverpool FC,Chelsea FC,England - Premier League
+Matchday 9,2024-10-20,16:45,PEC Zwolle,NAC Breda,Netherlands - Eredivisie
+Matchday 7,2024-10-20,17:30,VfL Wolfsburg,SV Werder Bremen,Germany - Bundesliga
+Matchday 8,2024-10-20,18:00,Cagliari Calcio,Torino FC,Italy - Serie A
+Matchday 8,2024-10-20,20:45,AS Roma,Inter Milan,Italy - Serie A
 Matchday 8,2024-10-21,20:00,Nottingham Forest,Crystal Palace,England - Premier League
+Matchday 8,2024-10-21,20:45,Hellas Verona,AC Monza,Italy - Serie A
+Matchday 3,2024-10-22,18:45,AS Monaco FC,FK Crvena Zvezda,UEFA Champions League
+Matchday 3,2024-10-22,18:45,AC Milan,Club Brugge KV,UEFA Champions League
+Matchday 11,2024-10-22,19:45,Cardiff City FC,Portsmouth FC,EFL Championship
+Matchday 11,2024-10-22,19:45,Leeds United FC,Watford FC,EFL Championship
+Matchday 11,2024-10-22,19:45,Oxford United FC,Derby County FC,EFL Championship
+Matchday 11,2024-10-22,19:45,Preston North End FC,Norwich City FC,EFL Championship
+Matchday 11,2024-10-22,19:45,Sheffield Wednesday FC,Swansea City AFC,EFL Championship
+Matchday 11,2024-10-22,19:45,Stoke City FC,Bristol City FC,EFL Championship
+Matchday 11,2024-10-22,20:00,Queens Park Rangers FC,Coventry City FC,EFL Championship
+Matchday 3,2024-10-22,21:00,Aston Villa,Bologna FC 1909,UEFA Champions League
+Matchday 3,2024-10-22,21:00,Girona FC,ŠK Slovan Bratislava,UEFA Champions League
+Matchday 3,2024-10-22,21:00,SK Sturm Graz,Sporting CP,UEFA Champions League
+Matchday 3,2024-10-22,21:00,Paris Saint-Germain,PSV,UEFA Champions League
+Matchday 3,2024-10-22,21:00,Real Madrid,Borussia Dortmund,UEFA Champions League
+Matchday 3,2024-10-22,21:00,Arsenal FC,FK Shakhtar Donetsk,UEFA Champions League
+Matchday 3,2024-10-22,21:00,Juventus FC,VfB Stuttgart,UEFA Champions League
+Matchday 3,2024-10-23,18:45,Stade Brestois 29,Bayer 04 Leverkusen,UEFA Champions League
+Matchday 3,2024-10-23,18:45,Atalanta BC,Celtic FC,UEFA Champions League
+Matchday 11,2024-10-23,19:45,Hull City AFC,Burnley FC,EFL Championship
+Matchday 11,2024-10-23,19:45,Blackburn Rovers FC,West Bromwich Albion FC,EFL Championship
+Matchday 11,2024-10-23,19:45,Luton Town FC,Sunderland AFC,EFL Championship
+Matchday 11,2024-10-23,19:45,Millwall FC,Plymouth Argyle FC,EFL Championship
+Matchday 11,2024-10-23,20:00,Middlesbrough FC,Sheffield United FC,EFL Championship
+Matchday 3,2024-10-23,21:00,BSC Young Boys,Inter Milan,UEFA Champions League
+Matchday 3,2024-10-23,21:00,FC Barcelona,Bayern Munich,UEFA Champions League
+Matchday 3,2024-10-23,21:00,Manchester City,AC Sparta Praha,UEFA Champions League
+Matchday 3,2024-10-23,21:00,RB Leipzig,Liverpool FC,UEFA Champions League
+Matchday 3,2024-10-23,21:00,Atlético de Madrid,LOSC Lille,UEFA Champions League
+Matchday 3,2024-10-23,21:00,SL Benfica,Feyenoord Rotterdam,UEFA Champions League
+Matchday 3,2024-10-23,21:00,FC Red Bull Salzburg,GNK Dinamo Zagreb,UEFA Champions League
+Matchday 9,2024-10-25,18:30,Udinese Calcio,Cagliari Calcio,Italy - Serie A
+Matchday 9,2024-10-25,18:45,Casa Pia AC,CD Nacional,Portugal - Liga Portugal
 Matchday 9,2024-10-25,20:00,Leicester City,Nottingham Forest,England - Premier League
+Matchday 12,2024-10-25,20:00,Portsmouth FC,Sheffield Wednesday FC,EFL Championship
+Matchday 10,2024-10-25,20:00,Almere City FC,NEC,Netherlands - Eredivisie
+Matchday 8,2024-10-25,20:30,FSV Mainz 05,Borussia Mönchengladbach,Germany - Bundesliga
+Matchday 9,2024-10-25,20:45,Torino FC,Como 1907,Italy - Serie A
+Matchday 9,2024-10-25,20:45,CD Santa Clara,Gil Vicente FC,Portugal - Liga Portugal
+Matchday 12,2024-10-26,12:30,Bristol City FC,Leeds United FC,EFL Championship
+Matchday 12,2024-10-26,12:30,Coventry City FC,Luton Town FC,EFL Championship
+Matchday 12,2024-10-26,12:30,Watford FC,Blackburn Rovers FC,EFL Championship
 Matchday 9,2024-10-26,15:00,Aston Villa,AFC Bournemouth,England - Premier League
 Matchday 9,2024-10-26,15:00,Brentford FC,Ipswich Town,England - Premier League
 Matchday 9,2024-10-26,15:00,Brighton & Hove Albion,Wolverhampton Wanderers,England - Premier League
 Matchday 9,2024-10-26,15:00,Manchester City,Southampton FC,England - Premier League
+Matchday 12,2024-10-26,15:00,Burnley FC,Queens Park Rangers FC,EFL Championship
+Matchday 12,2024-10-26,15:00,Derby County FC,Hull City AFC,EFL Championship
+Matchday 12,2024-10-26,15:00,Plymouth Argyle FC,Preston North End FC,EFL Championship
+Matchday 12,2024-10-26,15:00,Sheffield United FC,Stoke City FC,EFL Championship
+Matchday 12,2024-10-26,15:00,Sunderland AFC,Oxford United FC,EFL Championship
+Matchday 12,2024-10-26,15:00,Swansea City AFC,Millwall FC,EFL Championship
+Matchday 12,2024-10-26,15:00,West Bromwich Albion FC,Cardiff City FC,EFL Championship
+Matchday 9,2024-10-26,15:00,SSC Napoli,US Lecce,Italy - Serie A
+Matchday 8,2024-10-26,15:30,VfB Stuttgart,Holstein Kiel,Germany - Bundesliga
+Matchday 8,2024-10-26,15:30,RB Leipzig,SC Freiburg,Germany - Bundesliga
+Matchday 8,2024-10-26,15:30,FC Augsburg,Borussia Dortmund,Germany - Bundesliga
+Matchday 8,2024-10-26,15:30,FC St. Pauli,VfL Wolfsburg,Germany - Bundesliga
+Matchday 9,2024-10-26,15:30,GD Estoril Praia,FC Arouca,Portugal - Liga Portugal
+Matchday 10,2024-10-26,16:30,Fortuna Sittard,FC Groningen,Netherlands - Eredivisie
 Matchday 9,2024-10-26,17:30,Everton FC,Fulham FC,England - Premier League
+Matchday 9,2024-10-26,18:00,Bologna FC 1909,AC Milan,Italy - Serie A
+Matchday 9,2024-10-26,18:00,Boavista FC,Moreirense FC,Portugal - Liga Portugal
+Matchday 8,2024-10-26,18:30,SV Werder Bremen,Bayer 04 Leverkusen,Germany - Bundesliga
+Matchday 10,2024-10-26,20:00,PSV,PEC Zwolle,Netherlands - Eredivisie
+Matchday 9,2024-10-26,20:30,FC Famalicão,Sporting CP,Portugal - Liga Portugal
+Matchday 9,2024-10-26,20:45,Atalanta BC,Hellas Verona,Italy - Serie A
+Matchday 10,2024-10-26,21:00,SC Heerenveen,Sparta Rotterdam,Netherlands - Eredivisie
+Matchday 10,2024-10-27,12:15,FC Utrecht,Feyenoord Rotterdam,Netherlands - Eredivisie
+Matchday 9,2024-10-27,12:30,Parma Calcio 1913,FC Empoli,Italy - Serie A
 Matchday 9,2024-10-27,14:00,Chelsea FC,Newcastle United,England - Premier League
 Matchday 9,2024-10-27,14:00,Crystal Palace,Tottenham Hotspur,England - Premier League
 Matchday 9,2024-10-27,14:00,West Ham United,Manchester United,England - Premier League
+Matchday 10,2024-10-27,14:30,NAC Breda,RKC Waalwijk,Netherlands - Eredivisie
+Matchday 10,2024-10-27,14:30,FC Twente '65,Heracles Almelo,Netherlands - Eredivisie
+Matchday 12,2024-10-27,15:00,Norwich City FC,Middlesbrough FC,EFL Championship
+Matchday 9,2024-10-27,15:00,SS Lazio,Genoa CFC,Italy - Serie A
+Matchday 9,2024-10-27,15:00,AC Monza,Venezia FC,Italy - Serie A
+Matchday 8,2024-10-27,15:30,VfL Bochum,Bayern Munich,Germany - Bundesliga
+Matchday 9,2024-10-27,15:30,SC Braga,SC Farense,Portugal - Liga Portugal
 Matchday 9,2024-10-27,16:30,Arsenal FC,Liverpool FC,England - Premier League
+Matchday 10,2024-10-27,16:45,AFC Ajax,Willem II Tilburg,Netherlands - Eredivisie
+Matchday 8,2024-10-27,17:30,FC Union Berlin,Eintracht Frankfurt,Germany - Bundesliga
+Matchday 9,2024-10-27,18:00,Inter Milan,Juventus FC,Italy - Serie A
+Matchday 9,2024-10-27,18:00,SL Benfica,Rio Ave FC,Portugal - Liga Portugal
+Matchday 8,2024-10-27,19:30,FC Heidenheim 1846,TSG 1899 Hoffenheim,Germany - Bundesliga
+Matchday 10,2024-10-27,20:00,AZ,Go Ahead Eagles,Netherlands - Eredivisie
+Matchday 9,2024-10-27,20:30,CF Estrela Amadora,Vitória Guimarães SC,Portugal - Liga Portugal
+Matchday 9,2024-10-27,20:45,ACF Fiorentina,AS Roma,Italy - Serie A
+Matchday 9,2024-10-28,20:15,Avs Futebol,FC Porto,Portugal - Liga Portugal
+Matchday 11,2024-10-28,21:00,RCD Mallorca,Athletic Bilbao,Spain - LaLiga
+Matchday 10,2024-10-29,18:30,Cagliari Calcio,Bologna FC 1909,Italy - Serie A
+Matchday 10,2024-10-29,18:30,US Lecce,Hellas Verona,Italy - Serie A
+Matchday 10,2024-10-29,20:45,AC Milan,SSC Napoli,Italy - Serie A
+Matchday 4,2024-10-30,18:00,Feyenoord Rotterdam,AFC Ajax,Netherlands - Eredivisie
+Matchday 10,2024-10-30,18:30,FC Empoli,Inter Milan,Italy - Serie A
+Matchday 10,2024-10-30,18:30,Venezia FC,Udinese Calcio,Italy - Serie A
+Matchday 10,2024-10-30,20:45,Atalanta BC,AC Monza,Italy - Serie A
+Matchday 10,2024-10-30,20:45,Juventus FC,Parma Calcio 1913,Italy - Serie A
+Matchday 10,2024-10-31,18:30,Genoa CFC,ACF Fiorentina,Italy - Serie A
+Matchday 10,2024-10-31,20:45,Como 1907,SS Lazio,Italy - Serie A
+Matchday 10,2024-10-31,20:45,AS Roma,Torino FC,Italy - Serie A
+Matchday 10,2024-11-01,19:00,AS Monaco FC,Angers SCO,France - Ligue 1
+Matchday 13,2024-11-01,20:00,Luton Town FC,West Bromwich Albion FC,EFL Championship
+Matchday 10,2024-11-01,20:15,Sporting CP,CF Estrela Amadora,Portugal - Liga Portugal
+Matchday 9,2024-11-01,20:30,Bayer 04 Leverkusen,VfB Stuttgart,Germany - Bundesliga
+Matchday 12,2024-11-01,21:00,Deportivo Alavés,RCD Mallorca,Spain - LaLiga
+Matchday 10,2024-11-01,21:00,Lille OSC,Olympique Lyonnais,France - Ligue 1
 Matchday 10,2024-11-02,12:30,Newcastle United,Arsenal FC,England - Premier League
+Matchday 13,2024-11-02,12:30,Blackburn Rovers FC,Sheffield United FC,EFL Championship
+Matchday 13,2024-11-02,12:30,Oxford United FC,Swansea City AFC,EFL Championship
+Matchday 13,2024-11-02,12:30,Stoke City FC,Derby County FC,EFL Championship
+Matchday 12,2024-11-02,14:00,CA Osasuna,Real Valladolid CF,Spain - LaLiga
 Matchday 10,2024-11-02,15:00,AFC Bournemouth,Manchester City,England - Premier League
 Matchday 10,2024-11-02,15:00,Ipswich Town,Leicester City,England - Premier League
 Matchday 10,2024-11-02,15:00,Liverpool FC,Brighton & Hove Albion,England - Premier League
 Matchday 10,2024-11-02,15:00,Nottingham Forest,West Ham United,England - Premier League
 Matchday 10,2024-11-02,15:00,Southampton FC,Everton FC,England - Premier League
+Matchday 13,2024-11-02,15:00,Cardiff City FC,Norwich City FC,EFL Championship
+Matchday 13,2024-11-02,15:00,Hull City AFC,Portsmouth FC,EFL Championship
+Matchday 13,2024-11-02,15:00,Leeds United FC,Plymouth Argyle FC,EFL Championship
+Matchday 13,2024-11-02,15:00,Middlesbrough FC,Coventry City FC,EFL Championship
+Matchday 13,2024-11-02,15:00,Preston North End FC,Bristol City FC,EFL Championship
+Matchday 13,2024-11-02,15:00,Queens Park Rangers FC,Sunderland AFC,EFL Championship
+Matchday 13,2024-11-02,15:00,Sheffield Wednesday FC,Watford FC,EFL Championship
+Matchday 11,2024-11-02,15:00,Bologna FC 1909,US Lecce,Italy - Serie A
+Matchday 9,2024-11-02,15:30,Bayern Munich,FC Union Berlin,Germany - Bundesliga
+Matchday 9,2024-11-02,15:30,Eintracht Frankfurt,VfL Bochum,Germany - Bundesliga
+Matchday 9,2024-11-02,15:30,TSG 1899 Hoffenheim,FC St. Pauli,Germany - Bundesliga
+Matchday 9,2024-11-02,15:30,VfL Wolfsburg,FC Augsburg,Germany - Bundesliga
+Matchday 9,2024-11-02,15:30,Holstein Kiel,FC Heidenheim 1846,Germany - Bundesliga
+Matchday 10,2024-11-02,15:30,Rio Ave FC,Casa Pia AC,Portugal - Liga Portugal
+Matchday 12,2024-11-02,16:15,Girona FC,CD Leganés,Spain - LaLiga
+Matchday 11,2024-11-02,16:30,Willem II Tilburg,FC Twente '65,Netherlands - Eredivisie
+Matchday 10,2024-11-02,17:00,Paris Saint-Germain FC,Racing Club de Lens,France - Ligue 1
 Matchday 10,2024-11-02,17:30,Wolverhampton Wanderers,Crystal Palace,England - Premier League
+Matchday 11,2024-11-02,18:00,Udinese Calcio,Juventus FC,Italy - Serie A
+Matchday 10,2024-11-02,18:00,SC Farense,SL Benfica,Portugal - Liga Portugal
+Matchday 9,2024-11-02,18:30,Borussia Dortmund,RB Leipzig,Germany - Bundesliga
+Matchday 12,2024-11-02,18:30,Villarreal CF,Rayo Vallecano,Spain - LaLiga
+Matchday 11,2024-11-02,18:45,Heracles Almelo,NAC Breda,Netherlands - Eredivisie
+Matchday 11,2024-11-02,18:45,AFC Ajax,PSV,Netherlands - Eredivisie
+Matchday 10,2024-11-02,19:00,Stade Brestois 29,OGC Nice,France - Ligue 1
+Matchday 10,2024-11-02,20:30,Gil Vicente FC,Boavista FC,Portugal - Liga Portugal
+Matchday 11,2024-11-02,20:45,AC Monza,AC Milan,Italy - Serie A
+Matchday 12,2024-11-02,21:00,Valencia CF,Real Madrid,Spain - LaLiga
+Matchday 10,2024-11-02,21:00,AS Saint-Étienne,RC Strasbourg Alsace,France - Ligue 1
+Matchday 11,2024-11-02,21:00,Feyenoord Rotterdam,AZ,Netherlands - Eredivisie
+Matchday 11,2024-11-02,21:00,Fortuna Sittard,SC Heerenveen,Netherlands - Eredivisie
+Matchday 11,2024-11-03,12:15,Go Ahead Eagles,PEC Zwolle,Netherlands - Eredivisie
+Matchday 11,2024-11-03,12:30,SSC Napoli,Atalanta BC,Italy - Serie A
 Matchday 10,2024-11-03,14:00,Tottenham Hotspur,Aston Villa,England - Premier League
+Matchday 12,2024-11-03,14:00,Atlético de Madrid,UD Las Palmas,Spain - LaLiga
+Matchday 11,2024-11-03,14:30,NEC,FC Groningen,Netherlands - Eredivisie
+Matchday 11,2024-11-03,14:30,Sparta Rotterdam,FC Utrecht,Netherlands - Eredivisie
+Matchday 13,2024-11-03,15:00,Millwall FC,Burnley FC,EFL Championship
+Matchday 10,2024-11-03,15:00,Toulouse FC,Stade de Reims,France - Ligue 1
+Matchday 11,2024-11-03,15:00,Torino FC,ACF Fiorentina,Italy - Serie A
+Matchday 9,2024-11-03,15:30,SC Freiburg,FSV Mainz 05,Germany - Bundesliga
+Matchday 10,2024-11-03,15:30,Avs Futebol,FC Famalicão,Portugal - Liga Portugal
+Matchday 12,2024-11-03,16:15,FC Barcelona,RCD Espanyol Barcelona,Spain - LaLiga
 Matchday 10,2024-11-03,16:30,Manchester United,Chelsea FC,England - Premier League
+Matchday 11,2024-11-03,16:45,RKC Waalwijk,Almere City FC,Netherlands - Eredivisie
+Matchday 10,2024-11-03,17:00,AJ Auxerre,Stade Rennais FC 1901,France - Ligue 1
+Matchday 10,2024-11-03,17:00,Le Havre AC,Montpellier HSC,France - Ligue 1
+Matchday 9,2024-11-03,17:30,Borussia Mönchengladbach,SV Werder Bremen,Germany - Bundesliga
+Matchday 11,2024-11-03,18:00,Hellas Verona,AS Roma,Italy - Serie A
+Matchday 10,2024-11-03,18:00,FC Arouca,SC Braga,Portugal - Liga Portugal
+Matchday 10,2024-11-03,18:00,Vitória Guimarães SC,Moreirense FC,Portugal - Liga Portugal
+Matchday 12,2024-11-03,18:30,Sevilla FC,Real Sociedad,Spain - LaLiga
+Matchday 10,2024-11-03,20:30,FC Porto,GD Estoril Praia,Portugal - Liga Portugal
+Matchday 10,2024-11-03,20:45,FC Nantes,Olympique de Marseille,France - Ligue 1
+Matchday 11,2024-11-03,20:45,Inter Milan,Venezia FC,Italy - Serie A
+Matchday 12,2024-11-03,21:00,Athletic Bilbao,Real Betis Balompié,Spain - LaLiga
+Matchday 11,2024-11-04,18:30,FC Empoli,Como 1907,Italy - Serie A
+Matchday 11,2024-11-04,18:30,Parma Calcio 1913,Genoa CFC,Italy - Serie A
 Matchday 10,2024-11-04,20:00,Fulham FC,Brentford FC,England - Premier League
+Matchday 10,2024-11-04,20:15,CD Nacional,CD Santa Clara,Portugal - Liga Portugal
+Matchday 11,2024-11-04,20:45,SS Lazio,Cagliari Calcio,Italy - Serie A
+Matchday 12,2024-11-04,21:00,Celta de Vigo,Getafe CF,Spain - LaLiga
+Matchday 4,2024-11-05,18:45,ŠK Slovan Bratislava,GNK Dinamo Zagreb,UEFA Champions League
+Matchday 4,2024-11-05,18:45,PSV,Girona FC,UEFA Champions League
+Matchday 14,2024-11-05,19:45,Bristol City FC,Sheffield United FC,EFL Championship
+Matchday 14,2024-11-05,19:45,Oxford United FC,Hull City AFC,EFL Championship
+Matchday 14,2024-11-05,19:45,Queens Park Rangers FC,Middlesbrough FC,EFL Championship
+Matchday 14,2024-11-05,19:45,Sheffield Wednesday FC,Norwich City FC,EFL Championship
+Matchday 14,2024-11-05,20:00,Plymouth Argyle FC,Portsmouth FC,EFL Championship
+Matchday 14,2024-11-05,20:00,Swansea City AFC,Watford FC,EFL Championship
+Matchday 4,2024-11-05,21:00,Sporting CP,Manchester City,UEFA Champions League
+Matchday 4,2024-11-05,21:00,Bologna FC 1909,AS Monaco FC,UEFA Champions League
+Matchday 4,2024-11-05,21:00,Borussia Dortmund,SK Sturm Graz,UEFA Champions League
+Matchday 4,2024-11-05,21:00,Liverpool FC,Bayer 04 Leverkusen,UEFA Champions League
+Matchday 4,2024-11-05,21:00,Real Madrid,AC Milan,UEFA Champions League
+Matchday 4,2024-11-05,21:00,Celtic FC,RB Leipzig,UEFA Champions League
+Matchday 4,2024-11-05,21:00,LOSC Lille,Juventus FC,UEFA Champions League
+Matchday 4,2024-11-06,18:45,Club Brugge KV,Aston Villa,UEFA Champions League
+Matchday 4,2024-11-06,18:45,FK Shakhtar Donetsk,BSC Young Boys,UEFA Champions League
+Matchday 14,2024-11-06,19:45,Millwall FC,Leeds United FC,EFL Championship
+Matchday 14,2024-11-06,19:45,Blackburn Rovers FC,Stoke City FC,EFL Championship
+Matchday 14,2024-11-06,19:45,Coventry City FC,Derby County FC,EFL Championship
+Matchday 14,2024-11-06,20:00,Luton Town FC,Cardiff City FC,EFL Championship
+Matchday 14,2024-11-06,20:00,Preston North End FC,Sunderland AFC,EFL Championship
+Matchday 4,2024-11-06,21:00,AC Sparta Praha,Stade Brestois 29,UEFA Champions League
+Matchday 4,2024-11-06,21:00,VfB Stuttgart,Atalanta BC,UEFA Champions League
+Matchday 4,2024-11-06,21:00,Bayern Munich,SL Benfica,UEFA Champions League
+Matchday 4,2024-11-06,21:00,Inter Milan,Arsenal FC,UEFA Champions League
+Matchday 4,2024-11-06,21:00,Paris Saint-Germain,Atlético de Madrid,UEFA Champions League
+Matchday 4,2024-11-06,21:00,Feyenoord Rotterdam,FC Red Bull Salzburg,UEFA Champions League
+Matchday 4,2024-11-06,21:00,FK Crvena Zvezda,FC Barcelona,UEFA Champions League
+Matchday 14,2024-11-07,20:00,West Bromwich Albion FC,Burnley FC,EFL Championship
+Matchday 12,2024-11-07,20:45,Genoa CFC,Como 1907,Italy - Serie A
+Matchday 12,2024-11-08,18:30,Venezia FC,Parma Calcio 1913,Italy - Serie A
+Matchday 15,2024-11-08,20:00,Watford FC,Oxford United FC,EFL Championship
+Matchday 12,2024-11-08,20:00,FC Utrecht,Heracles Almelo,Netherlands - Eredivisie
+Matchday 11,2024-11-08,20:15,Moreirense FC,Gil Vicente FC,Portugal - Liga Portugal
+Matchday 10,2024-11-08,20:30,FC Union Berlin,SC Freiburg,Germany - Bundesliga
+Matchday 11,2024-11-08,20:45,Olympique de Marseille,AJ Auxerre,France - Ligue 1
+Matchday 12,2024-11-08,20:45,US Lecce,FC Empoli,Italy - Serie A
+Matchday 13,2024-11-08,21:00,Rayo Vallecano,UD Las Palmas,Spain - LaLiga
+Matchday 15,2024-11-09,12:30,Cardiff City FC,Blackburn Rovers FC,EFL Championship
+Matchday 15,2024-11-09,12:30,Middlesbrough FC,Luton Town FC,EFL Championship
+Matchday 15,2024-11-09,12:30,Stoke City FC,Millwall FC,EFL Championship
+Matchday 13,2024-11-09,14:00,Real Madrid,CA Osasuna,Spain - LaLiga
 Matchday 11,2024-11-09,15:00,Brentford FC,AFC Bournemouth,England - Premier League
 Matchday 11,2024-11-09,15:00,Crystal Palace,Fulham FC,England - Premier League
 Matchday 11,2024-11-09,15:00,West Ham United,Everton FC,England - Premier League
 Matchday 11,2024-11-09,15:00,Wolverhampton Wanderers,Southampton FC,England - Premier League
+Matchday 15,2024-11-09,15:00,Derby County FC,Plymouth Argyle FC,EFL Championship
+Matchday 15,2024-11-09,15:00,Leeds United FC,Queens Park Rangers FC,EFL Championship
+Matchday 15,2024-11-09,15:00,Norwich City FC,Bristol City FC,EFL Championship
+Matchday 15,2024-11-09,15:00,Portsmouth FC,Preston North End FC,EFL Championship
+Matchday 15,2024-11-09,15:00,Sunderland AFC,Coventry City FC,EFL Championship
+Matchday 10,2024-11-09,15:30,SV Werder Bremen,Holstein Kiel,Germany - Bundesliga
+Matchday 10,2024-11-09,15:30,FSV Mainz 05,Borussia Dortmund,Germany - Bundesliga
+Matchday 10,2024-11-09,15:30,VfL Bochum,Bayer 04 Leverkusen,Germany - Bundesliga
+Matchday 10,2024-11-09,15:30,FC St. Pauli,Bayern Munich,Germany - Bundesliga
+Matchday 11,2024-11-09,15:30,Casa Pia AC,SC Farense,Portugal - Liga Portugal
+Matchday 11,2024-11-09,15:30,GD Estoril Praia,Avs Futebol,Portugal - Liga Portugal
+Matchday 13,2024-11-09,16:15,Villarreal CF,Deportivo Alavés,Spain - LaLiga
+Matchday 12,2024-11-09,16:30,FC Groningen,Sparta Rotterdam,Netherlands - Eredivisie
+Matchday 11,2024-11-09,17:00,RC Strasbourg Alsace,AS Monaco FC,France - Ligue 1
 Matchday 11,2024-11-09,17:30,Brighton & Hove Albion,Manchester City,England - Premier League
+Matchday 12,2024-11-09,18:00,Cagliari Calcio,AC Milan,Italy - Serie A
+Matchday 11,2024-11-09,18:00,FC Famalicão,FC Arouca,Portugal - Liga Portugal
+Matchday 10,2024-11-09,18:30,RB Leipzig,Borussia Mönchengladbach,Germany - Bundesliga
+Matchday 13,2024-11-09,18:30,RCD Espanyol Barcelona,Valencia CF,Spain - LaLiga
+Matchday 12,2024-11-09,18:45,PEC Zwolle,Fortuna Sittard,Netherlands - Eredivisie
+Matchday 11,2024-11-09,19:00,Racing Club de Lens,FC Nantes,France - Ligue 1
 Matchday 11,2024-11-09,20:00,Liverpool FC,Aston Villa,England - Premier League
+Matchday 12,2024-11-09,20:00,NAC Breda,PSV,Netherlands - Eredivisie
+Matchday 11,2024-11-09,20:30,Boavista FC,Rio Ave FC,Portugal - Liga Portugal
+Matchday 12,2024-11-09,20:45,Juventus FC,Torino FC,Italy - Serie A
+Matchday 13,2024-11-09,21:00,Getafe CF,Girona FC,Spain - LaLiga
+Matchday 11,2024-11-09,21:00,Angers SCO,Paris Saint-Germain FC,France - Ligue 1
+Matchday 12,2024-11-09,21:00,RKC Waalwijk,NEC,Netherlands - Eredivisie
+Matchday 15,2024-11-10,12:00,Sheffield United FC,Sheffield Wednesday FC,EFL Championship
+Matchday 12,2024-11-10,12:15,Almere City FC,Feyenoord Rotterdam,Netherlands - Eredivisie
+Matchday 12,2024-11-10,12:30,Atalanta BC,Udinese Calcio,Italy - Serie A
+Matchday 15,2024-11-10,13:00,Hull City AFC,West Bromwich Albion FC,EFL Championship
 Matchday 11,2024-11-10,14:00,Manchester United,Leicester City,England - Premier League
 Matchday 11,2024-11-10,14:00,Nottingham Forest,Newcastle United,England - Premier League
 Matchday 11,2024-11-10,14:00,Tottenham Hotspur,Ipswich Town,England - Premier League
+Matchday 13,2024-11-10,14:00,Real Betis Balompié,Celta de Vigo,Spain - LaLiga
+Matchday 12,2024-11-10,14:30,SC Heerenveen,Go Ahead Eagles,Netherlands - Eredivisie
+Matchday 12,2024-11-10,14:30,FC Twente '65,AFC Ajax,Netherlands - Eredivisie
+Matchday 15,2024-11-10,15:00,Burnley FC,Swansea City AFC,EFL Championship
+Matchday 11,2024-11-10,15:00,OGC Nice,Lille OSC,France - Ligue 1
+Matchday 12,2024-11-10,15:00,ACF Fiorentina,Hellas Verona,Italy - Serie A
+Matchday 12,2024-11-10,15:00,AS Roma,Bologna FC 1909,Italy - Serie A
+Matchday 10,2024-11-10,15:30,FC Augsburg,TSG 1899 Hoffenheim,Germany - Bundesliga
+Matchday 11,2024-11-10,15:30,CF Estrela Amadora,CD Nacional,Portugal - Liga Portugal
+Matchday 13,2024-11-10,16:15,RCD Mallorca,Atlético de Madrid,Spain - LaLiga
 Matchday 11,2024-11-10,16:30,Chelsea FC,Arsenal FC,England - Premier League
+Matchday 11,2024-11-10,16:30,CD Santa Clara,Vitória Guimarães SC,Portugal - Liga Portugal
+Matchday 12,2024-11-10,16:45,AZ,Willem II Tilburg,Netherlands - Eredivisie
+Matchday 11,2024-11-10,17:00,Montpellier HSC,Stade Brestois 29,France - Ligue 1
+Matchday 11,2024-11-10,17:00,Le Havre AC,Stade de Reims,France - Ligue 1
+Matchday 11,2024-11-10,17:00,Stade Rennais FC 1901,Toulouse FC,France - Ligue 1
+Matchday 10,2024-11-10,17:30,VfB Stuttgart,Eintracht Frankfurt,Germany - Bundesliga
+Matchday 12,2024-11-10,18:00,AC Monza,SS Lazio,Italy - Serie A
+Matchday 13,2024-11-10,18:30,CD Leganés,Sevilla FC,Spain - LaLiga
+Matchday 13,2024-11-10,18:30,Real Valladolid CF,Athletic Bilbao,Spain - LaLiga
+Matchday 11,2024-11-10,18:45,SC Braga,Sporting CP,Portugal - Liga Portugal
+Matchday 10,2024-11-10,19:30,FC Heidenheim 1846,VfL Wolfsburg,Germany - Bundesliga
+Matchday 11,2024-11-10,20:45,Olympique Lyonnais,AS Saint-Étienne,France - Ligue 1
+Matchday 12,2024-11-10,20:45,Inter Milan,SSC Napoli,Italy - Serie A
+Matchday 11,2024-11-10,20:45,SL Benfica,FC Porto,Portugal - Liga Portugal
+Matchday 13,2024-11-10,21:00,Real Sociedad,FC Barcelona,Spain - LaLiga
+Matchday 16,2024-11-22,20:00,Plymouth Argyle FC,Watford FC,EFL Championship
+Matchday 11,2024-11-22,20:30,Bayern Munich,FC Augsburg,Germany - Bundesliga
+Matchday 14,2024-11-22,21:00,Getafe CF,Real Valladolid CF,Spain - LaLiga
 Matchday 12,2024-11-23,12:30,Leicester City,Chelsea FC,England - Premier League
+Matchday 16,2024-11-23,12:30,Bristol City FC,Burnley FC,EFL Championship
+Matchday 16,2024-11-23,12:30,Coventry City FC,Sheffield United FC,EFL Championship
+Matchday 16,2024-11-23,12:30,Sheffield Wednesday FC,Cardiff City FC,EFL Championship
+Matchday 14,2024-11-23,14:00,Valencia CF,Real Betis Balompié,Spain - LaLiga
 Matchday 12,2024-11-23,15:00,AFC Bournemouth,Brighton & Hove Albion,England - Premier League
 Matchday 12,2024-11-23,15:00,Arsenal FC,Nottingham Forest,England - Premier League
 Matchday 12,2024-11-23,15:00,Aston Villa,Crystal Palace,England - Premier League
 Matchday 12,2024-11-23,15:00,Everton FC,Brentford FC,England - Premier League
 Matchday 12,2024-11-23,15:00,Fulham FC,Wolverhampton Wanderers,England - Premier League
+Matchday 16,2024-11-23,15:00,Blackburn Rovers FC,Portsmouth FC,EFL Championship
+Matchday 16,2024-11-23,15:00,Luton Town FC,Hull City AFC,EFL Championship
+Matchday 16,2024-11-23,15:00,Millwall FC,Sunderland AFC,EFL Championship
+Matchday 16,2024-11-23,15:00,Oxford United FC,Middlesbrough FC,EFL Championship
+Matchday 16,2024-11-23,15:00,Preston North End FC,Derby County FC,EFL Championship
+Matchday 16,2024-11-23,15:00,Queens Park Rangers FC,Stoke City FC,EFL Championship
+Matchday 16,2024-11-23,15:00,West Bromwich Albion FC,Norwich City FC,EFL Championship
+Matchday 13,2024-11-23,15:00,Hellas Verona,Inter Milan,Italy - Serie A
+Matchday 11,2024-11-23,15:30,Bayer 04 Leverkusen,FC Heidenheim 1846,Germany - Bundesliga
+Matchday 11,2024-11-23,15:30,VfB Stuttgart,VfL Bochum,Germany - Bundesliga
+Matchday 11,2024-11-23,15:30,Borussia Dortmund,SC Freiburg,Germany - Bundesliga
+Matchday 11,2024-11-23,15:30,TSG 1899 Hoffenheim,RB Leipzig,Germany - Bundesliga
+Matchday 11,2024-11-23,15:30,VfL Wolfsburg,FC Union Berlin,Germany - Bundesliga
+Matchday 14,2024-11-23,16:15,Atlético de Madrid,Deportivo Alavés,Spain - LaLiga
+Matchday 13,2024-11-23,16:30,Go Ahead Eagles,Almere City FC,Netherlands - Eredivisie
 Matchday 12,2024-11-23,17:30,Manchester City,Tottenham Hotspur,England - Premier League
+Matchday 13,2024-11-23,18:00,AC Milan,Juventus FC,Italy - Serie A
+Matchday 11,2024-11-23,18:30,Eintracht Frankfurt,SV Werder Bremen,Germany - Bundesliga
+Matchday 14,2024-11-23,18:30,UD Las Palmas,RCD Mallorca,Spain - LaLiga
+Matchday 14,2024-11-23,18:30,Girona FC,RCD Espanyol Barcelona,Spain - LaLiga
+Matchday 13,2024-11-23,18:45,Feyenoord Rotterdam,SC Heerenveen,Netherlands - Eredivisie
+Matchday 13,2024-11-23,18:45,Heracles Almelo,RKC Waalwijk,Netherlands - Eredivisie
+Matchday 13,2024-11-23,20:45,Parma Calcio 1913,Atalanta BC,Italy - Serie A
+Matchday 14,2024-11-23,21:00,Celta de Vigo,FC Barcelona,Spain - LaLiga
+Matchday 13,2024-11-23,21:00,PSV,FC Groningen,Netherlands - Eredivisie
+Matchday 13,2024-11-23,21:00,Fortuna Sittard,FC Twente '65,Netherlands - Eredivisie
+Matchday 13,2024-11-24,12:15,NEC,FC Utrecht,Netherlands - Eredivisie
+Matchday 13,2024-11-24,12:30,Genoa CFC,Cagliari Calcio,Italy - Serie A
 Matchday 12,2024-11-24,14:00,Southampton FC,Liverpool FC,England - Premier League
+Matchday 14,2024-11-24,14:00,CA Osasuna,Villarreal CF,Spain - LaLiga
+Matchday 13,2024-11-24,14:30,Sparta Rotterdam,AZ,Netherlands - Eredivisie
+Matchday 13,2024-11-24,14:30,Willem II Tilburg,NAC Breda,Netherlands - Eredivisie
+Matchday 16,2024-11-24,15:00,Swansea City AFC,Leeds United FC,EFL Championship
+Matchday 13,2024-11-24,15:00,Como 1907,ACF Fiorentina,Italy - Serie A
+Matchday 13,2024-11-24,15:00,Torino FC,AC Monza,Italy - Serie A
+Matchday 11,2024-11-24,15:30,Holstein Kiel,FSV Mainz 05,Germany - Bundesliga
+Matchday 14,2024-11-24,16:15,Sevilla FC,Rayo Vallecano,Spain - LaLiga
 Matchday 12,2024-11-24,16:30,Ipswich Town,Manchester United,England - Premier League
+Matchday 13,2024-11-24,16:45,AFC Ajax,PEC Zwolle,Netherlands - Eredivisie
+Matchday 11,2024-11-24,17:30,Borussia Mönchengladbach,FC St. Pauli,Germany - Bundesliga
+Matchday 13,2024-11-24,18:00,SSC Napoli,AS Roma,Italy - Serie A
+Matchday 14,2024-11-24,18:30,CD Leganés,Real Madrid,Spain - LaLiga
+Matchday 13,2024-11-24,20:45,SS Lazio,Bologna FC 1909,Italy - Serie A
+Matchday 14,2024-11-24,21:00,Athletic Bilbao,Real Sociedad,Spain - LaLiga
+Matchday 12,2024-11-24,TBD,Paris Saint-Germain FC,Toulouse FC,France - Ligue 1
+Matchday 12,2024-11-24,TBD,Racing Club de Lens,Olympique de Marseille,France - Ligue 1
+Matchday 12,2024-11-24,TBD,OGC Nice,RC Strasbourg Alsace,France - Ligue 1
+Matchday 12,2024-11-24,TBD,AS Saint-Étienne,Montpellier HSC,France - Ligue 1
+Matchday 12,2024-11-24,TBD,Lille OSC,Stade Rennais FC 1901,France - Ligue 1
+Matchday 12,2024-11-24,TBD,FC Nantes,Le Havre AC,France - Ligue 1
+Matchday 12,2024-11-24,TBD,AS Monaco FC,Stade Brestois 29,France - Ligue 1
+Matchday 12,2024-11-24,TBD,AJ Auxerre,Angers SCO,France - Ligue 1
+Matchday 12,2024-11-24,TBD,Stade de Reims,Olympique Lyonnais,France - Ligue 1
+Matchday 13,2024-11-25,18:30,FC Empoli,Udinese Calcio,Italy - Serie A
 Matchday 12,2024-11-25,20:00,Newcastle United,West Ham United,England - Premier League
+Matchday 13,2024-11-25,20:45,Venezia FC,US Lecce,Italy - Serie A
+Matchday 5,2024-11-26,18:45,ŠK Slovan Bratislava,AC Milan,UEFA Champions League
+Matchday 5,2024-11-26,18:45,AC Sparta Praha,Atlético de Madrid,UEFA Champions League
+Matchday 17,2024-11-26,19:45,Burnley FC,Coventry City FC,EFL Championship
+Matchday 17,2024-11-26,19:45,Hull City AFC,Sheffield Wednesday FC,EFL Championship
+Matchday 17,2024-11-26,19:45,Norwich City FC,Plymouth Argyle FC,EFL Championship
+Matchday 17,2024-11-26,19:45,Sheffield United FC,Oxford United FC,EFL Championship
+Matchday 17,2024-11-26,19:45,Stoke City FC,Preston North End FC,EFL Championship
+Matchday 17,2024-11-26,19:45,Watford FC,Bristol City FC,EFL Championship
+Matchday 17,2024-11-26,20:00,Sunderland AFC,West Bromwich Albion FC,EFL Championship
+Matchday 5,2024-11-26,21:00,Sporting CP,Arsenal FC,UEFA Champions League
+Matchday 5,2024-11-26,21:00,BSC Young Boys,Atalanta BC,UEFA Champions League
+Matchday 5,2024-11-26,21:00,Bayern Munich,Paris Saint-Germain,UEFA Champions League
+Matchday 5,2024-11-26,21:00,FC Barcelona,Stade Brestois 29,UEFA Champions League
+Matchday 5,2024-11-26,21:00,Inter Milan,RB Leipzig,UEFA Champions League
+Matchday 5,2024-11-26,21:00,Manchester City,Feyenoord Rotterdam,UEFA Champions League
+Matchday 5,2024-11-26,21:00,Bayer 04 Leverkusen,FC Red Bull Salzburg,UEFA Champions League
+Matchday 5,2024-11-27,18:45,SK Sturm Graz,Girona FC,UEFA Champions League
+Matchday 5,2024-11-27,18:45,FK Crvena Zvezda,VfB Stuttgart,UEFA Champions League
+Matchday 17,2024-11-27,19:45,Leeds United FC,Luton Town FC,EFL Championship
+Matchday 17,2024-11-27,19:45,Cardiff City FC,Queens Park Rangers FC,EFL Championship
+Matchday 17,2024-11-27,19:45,Middlesbrough FC,Blackburn Rovers FC,EFL Championship
+Matchday 17,2024-11-27,19:45,Portsmouth FC,Millwall FC,EFL Championship
+Matchday 17,2024-11-27,20:00,Derby County FC,Swansea City AFC,EFL Championship
+Matchday 5,2024-11-27,21:00,AS Monaco FC,SL Benfica,UEFA Champions League
+Matchday 5,2024-11-27,21:00,Aston Villa,Juventus FC,UEFA Champions League
+Matchday 5,2024-11-27,21:00,Bologna FC 1909,LOSC Lille,UEFA Champions League
+Matchday 5,2024-11-27,21:00,Liverpool FC,Real Madrid,UEFA Champions League
+Matchday 5,2024-11-27,21:00,Celtic FC,Club Brugge KV,UEFA Champions League
+Matchday 5,2024-11-27,21:00,GNK Dinamo Zagreb,Borussia Dortmund,UEFA Champions League
+Matchday 5,2024-11-27,21:00,PSV,FK Shakhtar Donetsk,UEFA Champions League
 Matchday 13,2024-11-29,20:00,Brighton & Hove Albion,Southampton FC,England - Premier League
+Matchday 18,2024-11-29,20:00,Sheffield United FC,Sunderland AFC,EFL Championship
+Matchday 14,2024-11-29,20:00,SC Heerenveen,RKC Waalwijk,Netherlands - Eredivisie
+Matchday 12,2024-11-29,20:15,SC Farense,CF Estrela Amadora,Portugal - Liga Portugal
+Matchday 12,2024-11-29,20:30,FC St. Pauli,Holstein Kiel,Germany - Bundesliga
+Matchday 18,2024-11-30,12:30,Middlesbrough FC,Hull City AFC,EFL Championship
+Matchday 18,2024-11-30,12:30,Oxford United FC,Millwall FC,EFL Championship
+Matchday 18,2024-11-30,12:30,Watford FC,Queens Park Rangers FC,EFL Championship
 Matchday 13,2024-11-30,15:00,Brentford FC,Leicester City,England - Premier League
 Matchday 13,2024-11-30,15:00,Crystal Palace,Newcastle United,England - Premier League
 Matchday 13,2024-11-30,15:00,Nottingham Forest,Ipswich Town,England - Premier League
 Matchday 13,2024-11-30,15:00,Wolverhampton Wanderers,AFC Bournemouth,England - Premier League
+Matchday 18,2024-11-30,15:00,Blackburn Rovers FC,Leeds United FC,EFL Championship
+Matchday 18,2024-11-30,15:00,Bristol City FC,Plymouth Argyle FC,EFL Championship
+Matchday 18,2024-11-30,15:00,Coventry City FC,Cardiff City FC,EFL Championship
+Matchday 18,2024-11-30,15:00,Norwich City FC,Luton Town FC,EFL Championship
+Matchday 18,2024-11-30,15:00,Preston North End FC,West Bromwich Albion FC,EFL Championship
+Matchday 18,2024-11-30,15:00,Stoke City FC,Burnley FC,EFL Championship
+Matchday 18,2024-11-30,15:00,Swansea City AFC,Portsmouth FC,EFL Championship
+Matchday 12,2024-11-30,15:30,RB Leipzig,VfL Wolfsburg,Germany - Bundesliga
+Matchday 12,2024-11-30,15:30,SV Werder Bremen,VfB Stuttgart,Germany - Bundesliga
+Matchday 12,2024-11-30,15:30,SC Freiburg,Borussia Mönchengladbach,Germany - Bundesliga
+Matchday 12,2024-11-30,15:30,FC Augsburg,VfL Bochum,Germany - Bundesliga
+Matchday 12,2024-11-30,15:30,FC Union Berlin,Bayer 04 Leverkusen,Germany - Bundesliga
+Matchday 12,2024-11-30,15:30,Rio Ave FC,Moreirense FC,Portugal - Liga Portugal
+Matchday 14,2024-11-30,16:30,NAC Breda,Almere City FC,Netherlands - Eredivisie
 Matchday 13,2024-11-30,17:30,West Ham United,Arsenal FC,England - Premier League
+Matchday 12,2024-11-30,18:00,CD Nacional,Boavista FC,Portugal - Liga Portugal
+Matchday 12,2024-11-30,18:30,Borussia Dortmund,Bayern Munich,Germany - Bundesliga
+Matchday 14,2024-11-30,18:45,FC Groningen,Willem II Tilburg,Netherlands - Eredivisie
+Matchday 14,2024-11-30,20:00,Feyenoord Rotterdam,Fortuna Sittard,Netherlands - Eredivisie
+Matchday 12,2024-11-30,20:30,Sporting CP,CD Santa Clara,Portugal - Liga Portugal
+Matchday 14,2024-11-30,21:00,PEC Zwolle,Sparta Rotterdam,Netherlands - Eredivisie
+Matchday 14,2024-12-01,12:15,FC Utrecht,PSV,Netherlands - Eredivisie
 Matchday 13,2024-12-01,13:30,Chelsea FC,Aston Villa,England - Premier League
 Matchday 13,2024-12-01,13:30,Manchester United,Everton FC,England - Premier League
 Matchday 13,2024-12-01,13:30,Tottenham Hotspur,Fulham FC,England - Premier League
+Matchday 14,2024-12-01,14:30,AZ,Heracles Almelo,Netherlands - Eredivisie
+Matchday 14,2024-12-01,14:30,FC Twente '65,Go Ahead Eagles,Netherlands - Eredivisie
+Matchday 18,2024-12-01,15:00,Derby County FC,Sheffield Wednesday FC,EFL Championship
+Matchday 12,2024-12-01,15:30,FSV Mainz 05,TSG 1899 Hoffenheim,Germany - Bundesliga
+Matchday 12,2024-12-01,15:30,GD Estoril Praia,FC Famalicão,Portugal - Liga Portugal
 Matchday 13,2024-12-01,16:00,Liverpool FC,Manchester City,England - Premier League
+Matchday 14,2024-12-01,16:45,NEC,AFC Ajax,Netherlands - Eredivisie
+Matchday 12,2024-12-01,17:30,FC Heidenheim 1846,Eintracht Frankfurt,Germany - Bundesliga
+Matchday 12,2024-12-01,18:00,FC Arouca,SL Benfica,Portugal - Liga Portugal
+Matchday 12,2024-12-01,20:30,Avs Futebol,SC Braga,Portugal - Liga Portugal
+Matchday 15,2024-12-01,TBD,Deportivo Alavés,CD Leganés,Spain - LaLiga
+Matchday 15,2024-12-01,TBD,FC Barcelona,UD Las Palmas,Spain - LaLiga
+Matchday 15,2024-12-01,TBD,Sevilla FC,CA Osasuna,Spain - LaLiga
+Matchday 15,2024-12-01,TBD,Villarreal CF,Girona FC,Spain - LaLiga
+Matchday 15,2024-12-01,TBD,Rayo Vallecano,Athletic Bilbao,Spain - LaLiga
+Matchday 15,2024-12-01,TBD,RCD Mallorca,Valencia CF,Spain - LaLiga
+Matchday 15,2024-12-01,TBD,Real Madrid,Getafe CF,Spain - LaLiga
+Matchday 15,2024-12-01,TBD,Real Sociedad,Real Betis Balompié,Spain - LaLiga
+Matchday 15,2024-12-01,TBD,Real Valladolid CF,Atlético de Madrid,Spain - LaLiga
+Matchday 15,2024-12-01,TBD,RCD Espanyol Barcelona,Celta de Vigo,Spain - LaLiga
+Matchday 13,2024-12-01,TBD,Stade de Reims,Racing Club de Lens,France - Ligue 1
+Matchday 13,2024-12-01,TBD,Stade Rennais FC 1901,AS Saint-Étienne,France - Ligue 1
+Matchday 13,2024-12-01,TBD,Le Havre AC,Angers SCO,France - Ligue 1
+Matchday 13,2024-12-01,TBD,Toulouse FC,AJ Auxerre,France - Ligue 1
+Matchday 13,2024-12-01,TBD,Stade Brestois 29,RC Strasbourg Alsace,France - Ligue 1
+Matchday 13,2024-12-01,TBD,Montpellier HSC,Lille OSC,France - Ligue 1
+Matchday 13,2024-12-01,TBD,Paris Saint-Germain FC,FC Nantes,France - Ligue 1
+Matchday 13,2024-12-01,TBD,Olympique de Marseille,AS Monaco FC,France - Ligue 1
+Matchday 13,2024-12-01,TBD,Olympique Lyonnais,OGC Nice,France - Ligue 1
+Matchday 14,2024-12-01,TBD,Bologna FC 1909,Venezia FC,Italy - Serie A
+Matchday 14,2024-12-01,TBD,Cagliari Calcio,Hellas Verona,Italy - Serie A
+Matchday 14,2024-12-01,TBD,Como 1907,AC Monza,Italy - Serie A
+Matchday 14,2024-12-01,TBD,ACF Fiorentina,Inter Milan,Italy - Serie A
+Matchday 14,2024-12-01,TBD,US Lecce,Juventus FC,Italy - Serie A
+Matchday 14,2024-12-01,TBD,AC Milan,FC Empoli,Italy - Serie A
+Matchday 14,2024-12-01,TBD,Parma Calcio 1913,SS Lazio,Italy - Serie A
+Matchday 14,2024-12-01,TBD,AS Roma,Atalanta BC,Italy - Serie A
+Matchday 14,2024-12-01,TBD,Torino FC,SSC Napoli,Italy - Serie A
+Matchday 14,2024-12-01,TBD,Udinese Calcio,Genoa CFC,Italy - Serie A
+Matchday 12,2024-12-02,18:45,Vitória Guimarães SC,Gil Vicente FC,Portugal - Liga Portugal
+Matchday 12,2024-12-02,20:45,FC Porto,Casa Pia AC,Portugal - Liga Portugal
 Matchday 14,2024-12-03,19:45,AFC Bournemouth,Tottenham Hotspur,England - Premier League
 Matchday 14,2024-12-03,19:45,Arsenal FC,Manchester United,England - Premier League
 Matchday 14,2024-12-03,19:45,Aston Villa,Brentford FC,England - Premier League
@@ -151,136 +744,6 @@ Matchday 14,2024-12-03,19:45,Leicester City,West Ham United,England - Premier Le
 Matchday 14,2024-12-04,19:45,Manchester City,Nottingham Forest,England - Premier League
 Matchday 14,2024-12-04,19:45,Newcastle United,Liverpool FC,England - Premier League
 Matchday 14,2024-12-04,19:45,Southampton FC,Chelsea FC,England - Premier League
-Matchday 38,2025-05-25,16:00,AFC Bournemouth,Leicester City,England - Premier League
-Matchday 38,2025-05-25,16:00,Fulham FC,Manchester City,England - Premier League
-Matchday 38,2025-05-25,16:00,Ipswich Town,West Ham United,England - Premier League
-Matchday 38,2025-05-25,16:00,Liverpool FC,Crystal Palace,England - Premier League
-Matchday 38,2025-05-25,16:00,Manchester United,Aston Villa,England - Premier League
-Matchday 38,2025-05-25,16:00,Newcastle United,Everton FC,England - Premier League
-Matchday 38,2025-05-25,16:00,Nottingham Forest,Chelsea FC,England - Premier League
-Matchday 38,2025-05-25,16:00,Southampton FC,Arsenal FC,England - Premier League
-Matchday 38,2025-05-25,16:00,Tottenham Hotspur,Brighton & Hove Albion,England - Premier League
-Matchday 38,2025-05-25,16:00,Wolverhampton Wanderers,Brentford FC,England - Premier League
-Matchday 9,2024-10-04,20:00,Sunderland AFC,Leeds United FC,EFL Championship
-Matchday 9,2024-10-05,12:30,Burnley FC,Preston North End FC,EFL Championship
-Matchday 9,2024-10-05,12:30,Norwich City FC,Hull City AFC,EFL Championship
-Matchday 9,2024-10-05,12:30,Portsmouth FC,Oxford United FC,EFL Championship
-Matchday 9,2024-10-05,15:00,Coventry City FC,Sheffield Wednesday FC,EFL Championship
-Matchday 9,2024-10-05,15:00,Derby County FC,Queens Park Rangers FC,EFL Championship
-Matchday 9,2024-10-05,15:00,Plymouth Argyle FC,Blackburn Rovers FC,EFL Championship
-Matchday 9,2024-10-05,15:00,Sheffield United FC,Luton Town FC,EFL Championship
-Matchday 9,2024-10-05,15:00,Swansea City AFC,Stoke City FC,EFL Championship
-Matchday 9,2024-10-05,15:00,Watford FC,Middlesbrough FC,EFL Championship
-Matchday 9,2024-10-05,15:00,West Bromwich Albion FC,Millwall FC,EFL Championship
-Matchday 9,2024-10-06,15:00,Bristol City FC,Cardiff City FC,EFL Championship
-Matchday 10,2024-10-18,20:00,Leeds United FC,Sheffield United FC,EFL Championship
-Matchday 10,2024-10-19,12:30,Cardiff City FC,Plymouth Argyle FC,EFL Championship
-Matchday 10,2024-10-19,12:30,Luton Town FC,Watford FC,EFL Championship
-Matchday 10,2024-10-19,12:30,Oxford United FC,West Bromwich Albion FC,EFL Championship
-Matchday 10,2024-10-19,12:30,Preston North End FC,Coventry City FC,EFL Championship
-Matchday 10,2024-10-19,15:00,Blackburn Rovers FC,Swansea City AFC,EFL Championship
-Matchday 10,2024-10-19,15:00,Middlesbrough FC,Bristol City FC,EFL Championship
-Matchday 10,2024-10-19,15:00,Millwall FC,Derby County FC,EFL Championship
-Matchday 10,2024-10-19,15:00,Queens Park Rangers FC,Portsmouth FC,EFL Championship
-Matchday 10,2024-10-19,15:00,Sheffield Wednesday FC,Burnley FC,EFL Championship
-Matchday 10,2024-10-19,15:00,Stoke City FC,Norwich City FC,EFL Championship
-Matchday 10,2024-10-20,15:00,Hull City AFC,Sunderland AFC,EFL Championship
-Matchday 11,2024-10-22,19:45,Cardiff City FC,Portsmouth FC,EFL Championship
-Matchday 11,2024-10-22,19:45,Leeds United FC,Watford FC,EFL Championship
-Matchday 11,2024-10-22,19:45,Oxford United FC,Derby County FC,EFL Championship
-Matchday 11,2024-10-22,19:45,Preston North End FC,Norwich City FC,EFL Championship
-Matchday 11,2024-10-22,19:45,Sheffield Wednesday FC,Swansea City AFC,EFL Championship
-Matchday 11,2024-10-22,19:45,Stoke City FC,Bristol City FC,EFL Championship
-Matchday 11,2024-10-22,20:00,Queens Park Rangers FC,Coventry City FC,EFL Championship
-Matchday 11,2024-10-23,19:45,Hull City AFC,Burnley FC,EFL Championship
-Matchday 11,2024-10-23,19:45,Blackburn Rovers FC,West Bromwich Albion FC,EFL Championship
-Matchday 11,2024-10-23,19:45,Luton Town FC,Sunderland AFC,EFL Championship
-Matchday 11,2024-10-23,19:45,Millwall FC,Plymouth Argyle FC,EFL Championship
-Matchday 11,2024-10-23,20:00,Middlesbrough FC,Sheffield United FC,EFL Championship
-Matchday 12,2024-10-25,20:00,Portsmouth FC,Sheffield Wednesday FC,EFL Championship
-Matchday 12,2024-10-26,12:30,Bristol City FC,Leeds United FC,EFL Championship
-Matchday 12,2024-10-26,12:30,Coventry City FC,Luton Town FC,EFL Championship
-Matchday 12,2024-10-26,12:30,Watford FC,Blackburn Rovers FC,EFL Championship
-Matchday 12,2024-10-26,15:00,Burnley FC,Queens Park Rangers FC,EFL Championship
-Matchday 12,2024-10-26,15:00,Derby County FC,Hull City AFC,EFL Championship
-Matchday 12,2024-10-26,15:00,Plymouth Argyle FC,Preston North End FC,EFL Championship
-Matchday 12,2024-10-26,15:00,Sheffield United FC,Stoke City FC,EFL Championship
-Matchday 12,2024-10-26,15:00,Sunderland AFC,Oxford United FC,EFL Championship
-Matchday 12,2024-10-26,15:00,Swansea City AFC,Millwall FC,EFL Championship
-Matchday 12,2024-10-26,15:00,West Bromwich Albion FC,Cardiff City FC,EFL Championship
-Matchday 12,2024-10-27,15:00,Norwich City FC,Middlesbrough FC,EFL Championship
-Matchday 13,2024-11-01,20:00,Luton Town FC,West Bromwich Albion FC,EFL Championship
-Matchday 13,2024-11-02,12:30,Blackburn Rovers FC,Sheffield United FC,EFL Championship
-Matchday 13,2024-11-02,12:30,Oxford United FC,Swansea City AFC,EFL Championship
-Matchday 13,2024-11-02,12:30,Stoke City FC,Derby County FC,EFL Championship
-Matchday 13,2024-11-02,15:00,Cardiff City FC,Norwich City FC,EFL Championship
-Matchday 13,2024-11-02,15:00,Hull City AFC,Portsmouth FC,EFL Championship
-Matchday 13,2024-11-02,15:00,Leeds United FC,Plymouth Argyle FC,EFL Championship
-Matchday 13,2024-11-02,15:00,Middlesbrough FC,Coventry City FC,EFL Championship
-Matchday 13,2024-11-02,15:00,Preston North End FC,Bristol City FC,EFL Championship
-Matchday 13,2024-11-02,15:00,Queens Park Rangers FC,Sunderland AFC,EFL Championship
-Matchday 13,2024-11-02,15:00,Sheffield Wednesday FC,Watford FC,EFL Championship
-Matchday 13,2024-11-03,15:00,Millwall FC,Burnley FC,EFL Championship
-Matchday 14,2024-11-05,19:45,Bristol City FC,Sheffield United FC,EFL Championship
-Matchday 14,2024-11-05,19:45,Oxford United FC,Hull City AFC,EFL Championship
-Matchday 14,2024-11-05,19:45,Queens Park Rangers FC,Middlesbrough FC,EFL Championship
-Matchday 14,2024-11-05,19:45,Sheffield Wednesday FC,Norwich City FC,EFL Championship
-Matchday 14,2024-11-05,20:00,Plymouth Argyle FC,Portsmouth FC,EFL Championship
-Matchday 14,2024-11-05,20:00,Swansea City AFC,Watford FC,EFL Championship
-Matchday 14,2024-11-06,19:45,Millwall FC,Leeds United FC,EFL Championship
-Matchday 14,2024-11-06,19:45,Blackburn Rovers FC,Stoke City FC,EFL Championship
-Matchday 14,2024-11-06,19:45,Coventry City FC,Derby County FC,EFL Championship
-Matchday 14,2024-11-06,20:00,Luton Town FC,Cardiff City FC,EFL Championship
-Matchday 14,2024-11-06,20:00,Preston North End FC,Sunderland AFC,EFL Championship
-Matchday 14,2024-11-07,20:00,West Bromwich Albion FC,Burnley FC,EFL Championship
-Matchday 15,2024-11-08,20:00,Watford FC,Oxford United FC,EFL Championship
-Matchday 15,2024-11-09,12:30,Cardiff City FC,Blackburn Rovers FC,EFL Championship
-Matchday 15,2024-11-09,12:30,Middlesbrough FC,Luton Town FC,EFL Championship
-Matchday 15,2024-11-09,12:30,Stoke City FC,Millwall FC,EFL Championship
-Matchday 15,2024-11-09,15:00,Derby County FC,Plymouth Argyle FC,EFL Championship
-Matchday 15,2024-11-09,15:00,Leeds United FC,Queens Park Rangers FC,EFL Championship
-Matchday 15,2024-11-09,15:00,Norwich City FC,Bristol City FC,EFL Championship
-Matchday 15,2024-11-09,15:00,Portsmouth FC,Preston North End FC,EFL Championship
-Matchday 15,2024-11-09,15:00,Sunderland AFC,Coventry City FC,EFL Championship
-Matchday 15,2024-11-10,12:00,Sheffield United FC,Sheffield Wednesday FC,EFL Championship
-Matchday 15,2024-11-10,13:00,Hull City AFC,West Bromwich Albion FC,EFL Championship
-Matchday 15,2024-11-10,15:00,Burnley FC,Swansea City AFC,EFL Championship
-Matchday 16,2024-11-22,20:00,Plymouth Argyle FC,Watford FC,EFL Championship
-Matchday 16,2024-11-23,12:30,Bristol City FC,Burnley FC,EFL Championship
-Matchday 16,2024-11-23,12:30,Coventry City FC,Sheffield United FC,EFL Championship
-Matchday 16,2024-11-23,12:30,Sheffield Wednesday FC,Cardiff City FC,EFL Championship
-Matchday 16,2024-11-23,15:00,Blackburn Rovers FC,Portsmouth FC,EFL Championship
-Matchday 16,2024-11-23,15:00,Luton Town FC,Hull City AFC,EFL Championship
-Matchday 16,2024-11-23,15:00,Millwall FC,Sunderland AFC,EFL Championship
-Matchday 16,2024-11-23,15:00,Oxford United FC,Middlesbrough FC,EFL Championship
-Matchday 16,2024-11-23,15:00,Preston North End FC,Derby County FC,EFL Championship
-Matchday 16,2024-11-23,15:00,Queens Park Rangers FC,Stoke City FC,EFL Championship
-Matchday 16,2024-11-23,15:00,West Bromwich Albion FC,Norwich City FC,EFL Championship
-Matchday 16,2024-11-24,15:00,Swansea City AFC,Leeds United FC,EFL Championship
-Matchday 17,2024-11-26,19:45,Burnley FC,Coventry City FC,EFL Championship
-Matchday 17,2024-11-26,19:45,Hull City AFC,Sheffield Wednesday FC,EFL Championship
-Matchday 17,2024-11-26,19:45,Norwich City FC,Plymouth Argyle FC,EFL Championship
-Matchday 17,2024-11-26,19:45,Sheffield United FC,Oxford United FC,EFL Championship
-Matchday 17,2024-11-26,19:45,Stoke City FC,Preston North End FC,EFL Championship
-Matchday 17,2024-11-26,19:45,Watford FC,Bristol City FC,EFL Championship
-Matchday 17,2024-11-26,20:00,Sunderland AFC,West Bromwich Albion FC,EFL Championship
-Matchday 17,2024-11-27,19:45,Leeds United FC,Luton Town FC,EFL Championship
-Matchday 17,2024-11-27,19:45,Cardiff City FC,Queens Park Rangers FC,EFL Championship
-Matchday 17,2024-11-27,19:45,Middlesbrough FC,Blackburn Rovers FC,EFL Championship
-Matchday 17,2024-11-27,19:45,Portsmouth FC,Millwall FC,EFL Championship
-Matchday 17,2024-11-27,20:00,Derby County FC,Swansea City AFC,EFL Championship
-Matchday 18,2024-11-29,20:00,Sheffield United FC,Sunderland AFC,EFL Championship
-Matchday 18,2024-11-30,12:30,Middlesbrough FC,Hull City AFC,EFL Championship
-Matchday 18,2024-11-30,12:30,Oxford United FC,Millwall FC,EFL Championship
-Matchday 18,2024-11-30,12:30,Watford FC,Queens Park Rangers FC,EFL Championship
-Matchday 18,2024-11-30,15:00,Blackburn Rovers FC,Leeds United FC,EFL Championship
-Matchday 18,2024-11-30,15:00,Bristol City FC,Plymouth Argyle FC,EFL Championship
-Matchday 18,2024-11-30,15:00,Coventry City FC,Cardiff City FC,EFL Championship
-Matchday 18,2024-11-30,15:00,Norwich City FC,Luton Town FC,EFL Championship
-Matchday 18,2024-11-30,15:00,Preston North End FC,West Bromwich Albion FC,EFL Championship
-Matchday 18,2024-11-30,15:00,Stoke City FC,Burnley FC,EFL Championship
-Matchday 18,2024-11-30,15:00,Swansea City AFC,Portsmouth FC,EFL Championship
-Matchday 18,2024-12-01,15:00,Derby County FC,Sheffield Wednesday FC,EFL Championship
 Matchday 19,2024-12-06,20:00,Burnley FC,Middlesbrough FC,EFL Championship
 Matchday 19,2024-12-07,12:30,Leeds United FC,Derby County FC,EFL Championship
 Matchday 19,2024-12-07,12:30,Sheffield Wednesday FC,Preston North End FC,EFL Championship
@@ -292,7 +755,75 @@ Matchday 19,2024-12-07,15:00,Millwall FC,Coventry City FC,EFL Championship
 Matchday 19,2024-12-07,15:00,Plymouth Argyle FC,Oxford United FC,EFL Championship
 Matchday 19,2024-12-07,15:00,Portsmouth FC,Bristol City FC,EFL Championship
 Matchday 19,2024-12-07,15:00,Queens Park Rangers FC,Norwich City FC,EFL Championship
+Matchday 13,2024-12-07,TBD,Bayer 04 Leverkusen,FC St. Pauli,Germany - Bundesliga
+Matchday 13,2024-12-07,TBD,VfB Stuttgart,FC Union Berlin,Germany - Bundesliga
+Matchday 13,2024-12-07,TBD,Bayern Munich,FC Heidenheim 1846,Germany - Bundesliga
+Matchday 13,2024-12-07,TBD,Eintracht Frankfurt,FC Augsburg,Germany - Bundesliga
+Matchday 13,2024-12-07,TBD,TSG 1899 Hoffenheim,SC Freiburg,Germany - Bundesliga
+Matchday 13,2024-12-07,TBD,VfL Wolfsburg,FSV Mainz 05,Germany - Bundesliga
+Matchday 13,2024-12-07,TBD,Borussia Mönchengladbach,Borussia Dortmund,Germany - Bundesliga
+Matchday 13,2024-12-07,TBD,VfL Bochum,SV Werder Bremen,Germany - Bundesliga
+Matchday 13,2024-12-07,TBD,Holstein Kiel,RB Leipzig,Germany - Bundesliga
+Matchday 15,2024-12-07,TBD,Aston Villa,Southampton FC,England - Premier League
+Matchday 15,2024-12-07,TBD,Brentford FC,Newcastle United,England - Premier League
+Matchday 15,2024-12-07,TBD,Crystal Palace,Manchester City,England - Premier League
+Matchday 15,2024-12-07,TBD,Everton FC,Liverpool FC,England - Premier League
+Matchday 15,2024-12-07,TBD,Fulham FC,Arsenal FC,England - Premier League
+Matchday 15,2024-12-07,TBD,Ipswich Town,AFC Bournemouth,England - Premier League
+Matchday 15,2024-12-07,TBD,Leicester City,Brighton & Hove Albion,England - Premier League
+Matchday 15,2024-12-07,TBD,Manchester United,Nottingham Forest,England - Premier League
+Matchday 15,2024-12-07,TBD,Tottenham Hotspur,Chelsea FC,England - Premier League
+Matchday 15,2024-12-07,TBD,West Ham United,Wolverhampton Wanderers,England - Premier League
 Matchday 19,2024-12-08,15:00,West Bromwich Albion FC,Sheffield United FC,EFL Championship
+Matchday 16,2024-12-08,TBD,Athletic Bilbao,Villarreal CF,Spain - LaLiga
+Matchday 16,2024-12-08,TBD,Atlético de Madrid,Sevilla FC,Spain - LaLiga
+Matchday 16,2024-12-08,TBD,Real Betis Balompié,FC Barcelona,Spain - LaLiga
+Matchday 16,2024-12-08,TBD,CA Osasuna,Deportivo Alavés,Spain - LaLiga
+Matchday 16,2024-12-08,TBD,CD Leganés,Real Sociedad,Spain - LaLiga
+Matchday 16,2024-12-08,TBD,Celta de Vigo,RCD Mallorca,Spain - LaLiga
+Matchday 16,2024-12-08,TBD,Girona FC,Real Madrid,Spain - LaLiga
+Matchday 16,2024-12-08,TBD,Valencia CF,Rayo Vallecano,Spain - LaLiga
+Matchday 16,2024-12-08,TBD,UD Las Palmas,Real Valladolid CF,Spain - LaLiga
+Matchday 16,2024-12-08,TBD,Getafe CF,RCD Espanyol Barcelona,Spain - LaLiga
+Matchday 14,2024-12-08,TBD,OGC Nice,Le Havre AC,France - Ligue 1
+Matchday 14,2024-12-08,TBD,AJ Auxerre,Paris Saint-Germain FC,France - Ligue 1
+Matchday 14,2024-12-08,TBD,AS Saint-Étienne,Olympique de Marseille,France - Ligue 1
+Matchday 14,2024-12-08,TBD,Angers SCO,Olympique Lyonnais,France - Ligue 1
+Matchday 14,2024-12-08,TBD,Lille OSC,Stade Brestois 29,France - Ligue 1
+Matchday 14,2024-12-08,TBD,Racing Club de Lens,Montpellier HSC,France - Ligue 1
+Matchday 14,2024-12-08,TBD,RC Strasbourg Alsace,Stade de Reims,France - Ligue 1
+Matchday 14,2024-12-08,TBD,FC Nantes,Stade Rennais FC 1901,France - Ligue 1
+Matchday 14,2024-12-08,TBD,AS Monaco FC,Toulouse FC,France - Ligue 1
+Matchday 15,2024-12-08,TBD,Atalanta BC,AC Milan,Italy - Serie A
+Matchday 15,2024-12-08,TBD,ACF Fiorentina,Cagliari Calcio,Italy - Serie A
+Matchday 15,2024-12-08,TBD,Genoa CFC,Torino FC,Italy - Serie A
+Matchday 15,2024-12-08,TBD,Hellas Verona,FC Empoli,Italy - Serie A
+Matchday 15,2024-12-08,TBD,Inter Milan,Parma Calcio 1913,Italy - Serie A
+Matchday 15,2024-12-08,TBD,Juventus FC,Bologna FC 1909,Italy - Serie A
+Matchday 15,2024-12-08,TBD,AC Monza,Udinese Calcio,Italy - Serie A
+Matchday 15,2024-12-08,TBD,SSC Napoli,SS Lazio,Italy - Serie A
+Matchday 15,2024-12-08,TBD,AS Roma,US Lecce,Italy - Serie A
+Matchday 15,2024-12-08,TBD,Venezia FC,Como 1907,Italy - Serie A
+Matchday 15,2024-12-08,TBD,Almere City FC,FC Utrecht,Netherlands - Eredivisie
+Matchday 15,2024-12-08,TBD,AZ,AFC Ajax,Netherlands - Eredivisie
+Matchday 15,2024-12-08,TBD,FC Groningen,PEC Zwolle,Netherlands - Eredivisie
+Matchday 15,2024-12-08,TBD,Go Ahead Eagles,NEC,Netherlands - Eredivisie
+Matchday 15,2024-12-08,TBD,Heracles Almelo,Fortuna Sittard,Netherlands - Eredivisie
+Matchday 15,2024-12-08,TBD,PSV,FC Twente '65,Netherlands - Eredivisie
+Matchday 15,2024-12-08,TBD,RKC Waalwijk,Feyenoord Rotterdam,Netherlands - Eredivisie
+Matchday 15,2024-12-08,TBD,Sparta Rotterdam,NAC Breda,Netherlands - Eredivisie
+Matchday 15,2024-12-08,TBD,Willem II Tilburg,SC Heerenveen,Netherlands - Eredivisie
+Matchday 13,2024-12-08,TBD,Boavista FC,SC Farense,Portugal - Liga Portugal
+Matchday 13,2024-12-08,TBD,SL Benfica,Vitória Guimarães SC,Portugal - Liga Portugal
+Matchday 13,2024-12-08,TBD,SC Braga,GD Estoril Praia,Portugal - Liga Portugal
+Matchday 13,2024-12-08,TBD,Gil Vicente FC,CD Nacional,Portugal - Liga Portugal
+Matchday 13,2024-12-08,TBD,Moreirense FC,Sporting CP,Portugal - Liga Portugal
+Matchday 13,2024-12-08,TBD,Casa Pia AC,Avs Futebol,Portugal - Liga Portugal
+Matchday 13,2024-12-08,TBD,CF Estrela Amadora,FC Arouca,Portugal - Liga Portugal
+Matchday 13,2024-12-08,TBD,CD Santa Clara,Rio Ave FC,Portugal - Liga Portugal
+Matchday 13,2024-12-08,TBD,FC Famalicão,FC Porto,Portugal - Liga Portugal
+Matchday 6,2024-12-10,18:45,Girona FC,Liverpool FC,UEFA Champions League
+Matchday 6,2024-12-10,18:45,GNK Dinamo Zagreb,Celtic FC,UEFA Champions League
 Matchday 20,2024-12-10,19:45,Burnley FC,Derby County FC,EFL Championship
 Matchday 20,2024-12-10,19:45,Luton Town FC,Stoke City FC,EFL Championship
 Matchday 20,2024-12-10,19:45,Plymouth Argyle FC,Swansea City AFC,EFL Championship
@@ -300,11 +831,27 @@ Matchday 20,2024-12-10,19:45,Portsmouth FC,Norwich City FC,EFL Championship
 Matchday 20,2024-12-10,19:45,Sheffield Wednesday FC,Blackburn Rovers FC,EFL Championship
 Matchday 20,2024-12-10,19:45,Sunderland AFC,Bristol City FC,EFL Championship
 Matchday 20,2024-12-10,20:00,Leeds United FC,Middlesbrough FC,EFL Championship
+Matchday 6,2024-12-10,21:00,Stade Brestois 29,PSV,UEFA Champions League
+Matchday 6,2024-12-10,21:00,RB Leipzig,Aston Villa,UEFA Champions League
+Matchday 6,2024-12-10,21:00,Atalanta BC,Real Madrid,UEFA Champions League
+Matchday 6,2024-12-10,21:00,Bayer 04 Leverkusen,Inter Milan,UEFA Champions League
+Matchday 6,2024-12-10,21:00,Club Brugge KV,Sporting CP,UEFA Champions League
+Matchday 6,2024-12-10,21:00,FK Shakhtar Donetsk,Bayern Munich,UEFA Champions League
+Matchday 6,2024-12-10,21:00,FC Red Bull Salzburg,Paris Saint-Germain,UEFA Champions League
+Matchday 6,2024-12-11,18:45,Atlético de Madrid,ŠK Slovan Bratislava,UEFA Champions League
+Matchday 6,2024-12-11,18:45,LOSC Lille,SK Sturm Graz,UEFA Champions League
 Matchday 20,2024-12-11,19:45,Millwall FC,Sheffield United FC,EFL Championship
 Matchday 20,2024-12-11,19:45,Cardiff City FC,Preston North End FC,EFL Championship
 Matchday 20,2024-12-11,19:45,Hull City AFC,Watford FC,EFL Championship
 Matchday 20,2024-12-11,19:45,Queens Park Rangers FC,Oxford United FC,EFL Championship
 Matchday 20,2024-12-11,20:00,West Bromwich Albion FC,Coventry City FC,EFL Championship
+Matchday 6,2024-12-11,21:00,VfB Stuttgart,BSC Young Boys,UEFA Champions League
+Matchday 6,2024-12-11,21:00,Borussia Dortmund,FC Barcelona,UEFA Champions League
+Matchday 6,2024-12-11,21:00,AC Milan,FK Crvena Zvezda,UEFA Champions League
+Matchday 6,2024-12-11,21:00,SL Benfica,Bologna FC 1909,UEFA Champions League
+Matchday 6,2024-12-11,21:00,Arsenal FC,AS Monaco FC,UEFA Champions League
+Matchday 6,2024-12-11,21:00,Juventus FC,Manchester City,UEFA Champions League
+Matchday 6,2024-12-11,21:00,Feyenoord Rotterdam,AC Sparta Praha,UEFA Champions League
 Matchday 21,2024-12-13,20:00,Derby County FC,Portsmouth FC,EFL Championship
 Matchday 21,2024-12-14,12:30,Bristol City FC,Queens Park Rangers FC,EFL Championship
 Matchday 21,2024-12-14,12:30,Coventry City FC,Hull City AFC,EFL Championship
@@ -315,8 +862,74 @@ Matchday 21,2024-12-14,15:00,Oxford United FC,Sheffield Wednesday FC,EFL Champio
 Matchday 21,2024-12-14,15:00,Sheffield United FC,Plymouth Argyle FC,EFL Championship
 Matchday 21,2024-12-14,15:00,Stoke City FC,Cardiff City FC,EFL Championship
 Matchday 21,2024-12-14,15:00,Swansea City AFC,Sunderland AFC,EFL Championship
+Matchday 14,2024-12-14,TBD,RB Leipzig,Eintracht Frankfurt,Germany - Bundesliga
+Matchday 14,2024-12-14,TBD,Borussia Dortmund,TSG 1899 Hoffenheim,Germany - Bundesliga
+Matchday 14,2024-12-14,TBD,FC Heidenheim 1846,VfB Stuttgart,Germany - Bundesliga
+Matchday 14,2024-12-14,TBD,SC Freiburg,VfL Wolfsburg,Germany - Bundesliga
+Matchday 14,2024-12-14,TBD,FSV Mainz 05,Bayern Munich,Germany - Bundesliga
+Matchday 14,2024-12-14,TBD,Borussia Mönchengladbach,Holstein Kiel,Germany - Bundesliga
+Matchday 14,2024-12-14,TBD,FC Union Berlin,VfL Bochum,Germany - Bundesliga
+Matchday 14,2024-12-14,TBD,FC St. Pauli,SV Werder Bremen,Germany - Bundesliga
+Matchday 14,2024-12-14,TBD,FC Augsburg,Bayer 04 Leverkusen,Germany - Bundesliga
+Matchday 16,2024-12-14,TBD,AFC Bournemouth,West Ham United,England - Premier League
+Matchday 16,2024-12-14,TBD,Arsenal FC,Everton FC,England - Premier League
+Matchday 16,2024-12-14,TBD,Brighton & Hove Albion,Crystal Palace,England - Premier League
+Matchday 16,2024-12-14,TBD,Chelsea FC,Brentford FC,England - Premier League
+Matchday 16,2024-12-14,TBD,Liverpool FC,Fulham FC,England - Premier League
+Matchday 16,2024-12-14,TBD,Manchester City,Manchester United,England - Premier League
+Matchday 16,2024-12-14,TBD,Newcastle United,Leicester City,England - Premier League
+Matchday 16,2024-12-14,TBD,Nottingham Forest,Aston Villa,England - Premier League
+Matchday 16,2024-12-14,TBD,Southampton FC,Tottenham Hotspur,England - Premier League
+Matchday 16,2024-12-14,TBD,Wolverhampton Wanderers,Ipswich Town,England - Premier League
 Matchday 21,2024-12-15,14:00,Watford FC,West Bromwich Albion FC,EFL Championship
 Matchday 21,2024-12-15,15:00,Norwich City FC,Burnley FC,EFL Championship
+Matchday 17,2024-12-15,TBD,Atlético de Madrid,Getafe CF,Spain - LaLiga
+Matchday 17,2024-12-15,TBD,Deportivo Alavés,Athletic Bilbao,Spain - LaLiga
+Matchday 17,2024-12-15,TBD,FC Barcelona,CD Leganés,Spain - LaLiga
+Matchday 17,2024-12-15,TBD,Sevilla FC,Celta de Vigo,Spain - LaLiga
+Matchday 17,2024-12-15,TBD,Villarreal CF,Real Betis Balompié,Spain - LaLiga
+Matchday 17,2024-12-15,TBD,Rayo Vallecano,Real Madrid,Spain - LaLiga
+Matchday 17,2024-12-15,TBD,RCD Mallorca,Girona FC,Spain - LaLiga
+Matchday 17,2024-12-15,TBD,Real Sociedad,UD Las Palmas,Spain - LaLiga
+Matchday 17,2024-12-15,TBD,Real Valladolid CF,Valencia CF,Spain - LaLiga
+Matchday 17,2024-12-15,TBD,RCD Espanyol Barcelona,CA Osasuna,Spain - LaLiga
+Matchday 15,2024-12-15,TBD,Stade Rennais FC 1901,Angers SCO,France - Ligue 1
+Matchday 15,2024-12-15,TBD,Le Havre AC,RC Strasbourg Alsace,France - Ligue 1
+Matchday 15,2024-12-15,TBD,Stade de Reims,AS Monaco FC,France - Ligue 1
+Matchday 15,2024-12-15,TBD,AJ Auxerre,Racing Club de Lens,France - Ligue 1
+Matchday 15,2024-12-15,TBD,Toulouse FC,AS Saint-Étienne,France - Ligue 1
+Matchday 15,2024-12-15,TBD,Montpellier HSC,OGC Nice,France - Ligue 1
+Matchday 15,2024-12-15,TBD,Stade Brestois 29,FC Nantes,France - Ligue 1
+Matchday 15,2024-12-15,TBD,Olympique de Marseille,Lille OSC,France - Ligue 1
+Matchday 15,2024-12-15,TBD,Paris Saint-Germain FC,Olympique Lyonnais,France - Ligue 1
+Matchday 16,2024-12-15,TBD,Bologna FC 1909,ACF Fiorentina,Italy - Serie A
+Matchday 16,2024-12-15,TBD,Cagliari Calcio,Atalanta BC,Italy - Serie A
+Matchday 16,2024-12-15,TBD,Como 1907,AS Roma,Italy - Serie A
+Matchday 16,2024-12-15,TBD,FC Empoli,Torino FC,Italy - Serie A
+Matchday 16,2024-12-15,TBD,Juventus FC,Venezia FC,Italy - Serie A
+Matchday 16,2024-12-15,TBD,SS Lazio,Inter Milan,Italy - Serie A
+Matchday 16,2024-12-15,TBD,US Lecce,AC Monza,Italy - Serie A
+Matchday 16,2024-12-15,TBD,AC Milan,Genoa CFC,Italy - Serie A
+Matchday 16,2024-12-15,TBD,Parma Calcio 1913,Hellas Verona,Italy - Serie A
+Matchday 16,2024-12-15,TBD,Udinese Calcio,SSC Napoli,Italy - Serie A
+Matchday 16,2024-12-15,TBD,AFC Ajax,Almere City FC,Netherlands - Eredivisie
+Matchday 16,2024-12-15,TBD,FC Utrecht,Go Ahead Eagles,Netherlands - Eredivisie
+Matchday 16,2024-12-15,TBD,Feyenoord Rotterdam,Heracles Almelo,Netherlands - Eredivisie
+Matchday 16,2024-12-15,TBD,Fortuna Sittard,RKC Waalwijk,Netherlands - Eredivisie
+Matchday 16,2024-12-15,TBD,NAC Breda,AZ,Netherlands - Eredivisie
+Matchday 16,2024-12-15,TBD,NEC,Sparta Rotterdam,Netherlands - Eredivisie
+Matchday 16,2024-12-15,TBD,PEC Zwolle,Willem II Tilburg,Netherlands - Eredivisie
+Matchday 16,2024-12-15,TBD,SC Heerenveen,PSV,Netherlands - Eredivisie
+Matchday 16,2024-12-15,TBD,FC Twente '65,FC Groningen,Netherlands - Eredivisie
+Matchday 14,2024-12-15,TBD,SC Farense,Gil Vicente FC,Portugal - Liga Portugal
+Matchday 14,2024-12-15,TBD,SC Braga,FC Famalicão,Portugal - Liga Portugal
+Matchday 14,2024-12-15,TBD,FC Arouca,CD Santa Clara,Portugal - Liga Portugal
+Matchday 14,2024-12-15,TBD,Avs Futebol,SL Benfica,Portugal - Liga Portugal
+Matchday 14,2024-12-15,TBD,Rio Ave FC,Vitória Guimarães SC,Portugal - Liga Portugal
+Matchday 14,2024-12-15,TBD,CD Nacional,Moreirense FC,Portugal - Liga Portugal
+Matchday 14,2024-12-15,TBD,FC Porto,CF Estrela Amadora,Portugal - Liga Portugal
+Matchday 14,2024-12-15,TBD,GD Estoril Praia,Casa Pia AC,Portugal - Liga Portugal
+Matchday 14,2024-12-15,TBD,Sporting CP,Boavista FC,Portugal - Liga Portugal
 Matchday 22,2024-12-20,20:00,Luton Town FC,Derby County FC,EFL Championship
 Matchday 22,2024-12-21,12:30,Hull City AFC,Swansea City AFC,EFL Championship
 Matchday 22,2024-12-21,12:30,Portsmouth FC,Coventry City FC,EFL Championship
@@ -328,7 +941,64 @@ Matchday 22,2024-12-21,15:00,Millwall FC,Blackburn Rovers FC,EFL Championship
 Matchday 22,2024-12-21,15:00,Plymouth Argyle FC,Middlesbrough FC,EFL Championship
 Matchday 22,2024-12-21,15:00,Queens Park Rangers FC,Preston North End FC,EFL Championship
 Matchday 22,2024-12-21,15:00,Sunderland AFC,Norwich City FC,EFL Championship
+Matchday 15,2024-12-21,TBD,Bayer 04 Leverkusen,SC Freiburg,Germany - Bundesliga
+Matchday 15,2024-12-21,TBD,VfB Stuttgart,FC St. Pauli,Germany - Bundesliga
+Matchday 15,2024-12-21,TBD,Bayern Munich,RB Leipzig,Germany - Bundesliga
+Matchday 15,2024-12-21,TBD,Eintracht Frankfurt,FSV Mainz 05,Germany - Bundesliga
+Matchday 15,2024-12-21,TBD,TSG 1899 Hoffenheim,Borussia Mönchengladbach,Germany - Bundesliga
+Matchday 15,2024-12-21,TBD,SV Werder Bremen,FC Union Berlin,Germany - Bundesliga
+Matchday 15,2024-12-21,TBD,VfL Wolfsburg,Borussia Dortmund,Germany - Bundesliga
+Matchday 15,2024-12-21,TBD,VfL Bochum,FC Heidenheim 1846,Germany - Bundesliga
+Matchday 15,2024-12-21,TBD,Holstein Kiel,FC Augsburg,Germany - Bundesliga
+Matchday 17,2024-12-21,TBD,Aston Villa,Manchester City,England - Premier League
+Matchday 17,2024-12-21,TBD,Brentford FC,Nottingham Forest,England - Premier League
+Matchday 17,2024-12-21,TBD,Crystal Palace,Arsenal FC,England - Premier League
+Matchday 17,2024-12-21,TBD,Everton FC,Chelsea FC,England - Premier League
+Matchday 17,2024-12-21,TBD,Fulham FC,Southampton FC,England - Premier League
+Matchday 17,2024-12-21,TBD,Ipswich Town,Newcastle United,England - Premier League
+Matchday 17,2024-12-21,TBD,Leicester City,Wolverhampton Wanderers,England - Premier League
+Matchday 17,2024-12-21,TBD,Manchester United,AFC Bournemouth,England - Premier League
+Matchday 17,2024-12-21,TBD,Tottenham Hotspur,Liverpool FC,England - Premier League
+Matchday 17,2024-12-21,TBD,West Ham United,Brighton & Hove Albion,England - Premier League
 Matchday 22,2024-12-22,15:00,West Bromwich Albion FC,Bristol City FC,EFL Championship
+Matchday 18,2024-12-22,TBD,Real Betis Balompié,Rayo Vallecano,Spain - LaLiga
+Matchday 18,2024-12-22,TBD,CA Osasuna,Athletic Bilbao,Spain - LaLiga
+Matchday 18,2024-12-22,TBD,CD Leganés,Villarreal CF,Spain - LaLiga
+Matchday 18,2024-12-22,TBD,Celta de Vigo,Real Sociedad,Spain - LaLiga
+Matchday 18,2024-12-22,TBD,FC Barcelona,Atlético de Madrid,Spain - LaLiga
+Matchday 18,2024-12-22,TBD,Getafe CF,RCD Mallorca,Spain - LaLiga
+Matchday 18,2024-12-22,TBD,Girona FC,Real Valladolid CF,Spain - LaLiga
+Matchday 18,2024-12-22,TBD,Valencia CF,Deportivo Alavés,Spain - LaLiga
+Matchday 18,2024-12-22,TBD,Real Madrid,Sevilla FC,Spain - LaLiga
+Matchday 18,2024-12-22,TBD,UD Las Palmas,RCD Espanyol Barcelona,Spain - LaLiga
+Matchday 17,2024-12-22,TBD,Atalanta BC,FC Empoli,Italy - Serie A
+Matchday 17,2024-12-22,TBD,ACF Fiorentina,Udinese Calcio,Italy - Serie A
+Matchday 17,2024-12-22,TBD,Genoa CFC,SSC Napoli,Italy - Serie A
+Matchday 17,2024-12-22,TBD,Hellas Verona,AC Milan,Italy - Serie A
+Matchday 17,2024-12-22,TBD,Inter Milan,Como 1907,Italy - Serie A
+Matchday 17,2024-12-22,TBD,US Lecce,SS Lazio,Italy - Serie A
+Matchday 17,2024-12-22,TBD,AC Monza,Juventus FC,Italy - Serie A
+Matchday 17,2024-12-22,TBD,AS Roma,Parma Calcio 1913,Italy - Serie A
+Matchday 17,2024-12-22,TBD,Torino FC,Bologna FC 1909,Italy - Serie A
+Matchday 17,2024-12-22,TBD,Venezia FC,Cagliari Calcio,Italy - Serie A
+Matchday 17,2024-12-22,TBD,Almere City FC,SC Heerenveen,Netherlands - Eredivisie
+Matchday 17,2024-12-22,TBD,AZ,FC Twente '65,Netherlands - Eredivisie
+Matchday 17,2024-12-22,TBD,FC Utrecht,Fortuna Sittard,Netherlands - Eredivisie
+Matchday 17,2024-12-22,TBD,Go Ahead Eagles,NAC Breda,Netherlands - Eredivisie
+Matchday 17,2024-12-22,TBD,Heracles Almelo,FC Groningen,Netherlands - Eredivisie
+Matchday 17,2024-12-22,TBD,PSV,Feyenoord Rotterdam,Netherlands - Eredivisie
+Matchday 17,2024-12-22,TBD,RKC Waalwijk,PEC Zwolle,Netherlands - Eredivisie
+Matchday 17,2024-12-22,TBD,Sparta Rotterdam,AFC Ajax,Netherlands - Eredivisie
+Matchday 17,2024-12-22,TBD,Willem II Tilburg,NEC,Netherlands - Eredivisie
+Matchday 15,2024-12-22,TBD,Gil Vicente FC,Sporting CP,Portugal - Liga Portugal
+Matchday 15,2024-12-22,TBD,SL Benfica,GD Estoril Praia,Portugal - Liga Portugal
+Matchday 15,2024-12-22,TBD,Vitória Guimarães SC,CD Nacional,Portugal - Liga Portugal
+Matchday 15,2024-12-22,TBD,CF Estrela Amadora,Rio Ave FC,Portugal - Liga Portugal
+Matchday 15,2024-12-22,TBD,Moreirense FC,FC Porto,Portugal - Liga Portugal
+Matchday 15,2024-12-22,TBD,Boavista FC,Avs Futebol,Portugal - Liga Portugal
+Matchday 15,2024-12-22,TBD,Casa Pia AC,FC Arouca,Portugal - Liga Portugal
+Matchday 15,2024-12-22,TBD,CD Santa Clara,SC Braga,Portugal - Liga Portugal
+Matchday 15,2024-12-22,TBD,FC Famalicão,SC Farense,Portugal - Liga Portugal
 Matchday 23,2024-12-26,15:00,Blackburn Rovers FC,Sunderland AFC,EFL Championship
 Matchday 23,2024-12-26,15:00,Bristol City FC,Luton Town FC,EFL Championship
 Matchday 23,2024-12-26,15:00,Coventry City FC,Plymouth Argyle FC,EFL Championship
@@ -341,6 +1011,16 @@ Matchday 23,2024-12-26,15:00,Swansea City AFC,Queens Park Rangers FC,EFL Champio
 Matchday 23,2024-12-26,15:00,Watford FC,Portsmouth FC,EFL Championship
 Matchday 23,2024-12-26,17:30,Derby County FC,West Bromwich Albion FC,EFL Championship
 Matchday 23,2024-12-26,20:00,Stoke City FC,Leeds United FC,EFL Championship
+Matchday 18,2024-12-26,TBD,AFC Bournemouth,Crystal Palace,England - Premier League
+Matchday 18,2024-12-26,TBD,Arsenal FC,Ipswich Town,England - Premier League
+Matchday 18,2024-12-26,TBD,Brighton & Hove Albion,Brentford FC,England - Premier League
+Matchday 18,2024-12-26,TBD,Chelsea FC,Fulham FC,England - Premier League
+Matchday 18,2024-12-26,TBD,Liverpool FC,Leicester City,England - Premier League
+Matchday 18,2024-12-26,TBD,Manchester City,Everton FC,England - Premier League
+Matchday 18,2024-12-26,TBD,Newcastle United,Aston Villa,England - Premier League
+Matchday 18,2024-12-26,TBD,Nottingham Forest,Tottenham Hotspur,England - Premier League
+Matchday 18,2024-12-26,TBD,Southampton FC,West Ham United,England - Premier League
+Matchday 18,2024-12-26,TBD,Wolverhampton Wanderers,Manchester United,England - Premier League
 Matchday 24,2024-12-29,12:30,Norwich City FC,Queens Park Rangers FC,EFL Championship
 Matchday 24,2024-12-29,12:30,Preston North End FC,Sheffield Wednesday FC,EFL Championship
 Matchday 24,2024-12-29,12:30,Sheffield United FC,West Bromwich Albion FC,EFL Championship
@@ -353,583 +1033,32 @@ Matchday 24,2024-12-29,15:00,Swansea City AFC,Luton Town FC,EFL Championship
 Matchday 24,2024-12-29,15:00,Watford FC,Cardiff City FC,EFL Championship
 Matchday 24,2024-12-29,17:45,Derby County FC,Leeds United FC,EFL Championship
 Matchday 24,2024-12-29,20:00,Middlesbrough FC,Burnley FC,EFL Championship
-Matchday 25,2025-01-01,12:30,Plymouth Argyle FC,Bristol City FC,EFL Championship
-Matchday 25,2025-01-01,12:30,Queens Park Rangers FC,Watford FC,EFL Championship
-Matchday 25,2025-01-01,13:00,Millwall FC,Oxford United FC,EFL Championship
-Matchday 25,2025-01-01,15:00,Leeds United FC,Blackburn Rovers FC,EFL Championship
-Matchday 25,2025-01-01,15:00,Luton Town FC,Norwich City FC,EFL Championship
-Matchday 25,2025-01-01,15:00,Portsmouth FC,Swansea City AFC,EFL Championship
-Matchday 25,2025-01-01,15:00,Sheffield Wednesday FC,Derby County FC,EFL Championship
-Matchday 25,2025-01-01,15:00,West Bromwich Albion FC,Preston North End FC,EFL Championship
-Matchday 25,2025-01-01,15:00,Burnley FC,Stoke City FC,EFL Championship
-Matchday 25,2025-01-01,15:00,Cardiff City FC,Coventry City FC,EFL Championship
-Matchday 25,2025-01-01,17:30,Hull City AFC,Middlesbrough FC,EFL Championship
-Matchday 25,2025-01-01,20:00,Sunderland AFC,Sheffield United FC,EFL Championship
-Matchday 26,2025-01-04,12:30,Blackburn Rovers FC,Burnley FC,EFL Championship
-Matchday 26,2025-01-04,12:30,Stoke City FC,Plymouth Argyle FC,EFL Championship
-Matchday 26,2025-01-04,12:30,Swansea City AFC,West Bromwich Albion FC,EFL Championship
-Matchday 26,2025-01-04,15:00,Bristol City FC,Derby County FC,EFL Championship
-Matchday 26,2025-01-04,15:00,Hull City AFC,Leeds United FC,EFL Championship
-Matchday 26,2025-01-04,15:00,Middlesbrough FC,Cardiff City FC,EFL Championship
-Matchday 26,2025-01-04,15:00,Norwich City FC,Coventry City FC,EFL Championship
-Matchday 26,2025-01-04,15:00,Preston North End FC,Oxford United FC,EFL Championship
-Matchday 26,2025-01-04,15:00,Sheffield Wednesday FC,Millwall FC,EFL Championship
-Matchday 26,2025-01-04,15:00,Watford FC,Sheffield United FC,EFL Championship
-Matchday 26,2025-01-05,15:00,Sunderland AFC,Portsmouth FC,EFL Championship
-Matchday 26,2025-01-06,20:00,Queens Park Rangers FC,Luton Town FC,EFL Championship
-Matchday 27,2025-01-18,15:00,Burnley FC,Sunderland AFC,EFL Championship
-Matchday 27,2025-01-18,15:00,Cardiff City FC,Swansea City AFC,EFL Championship
-Matchday 27,2025-01-18,15:00,Coventry City FC,Bristol City FC,EFL Championship
-Matchday 27,2025-01-18,15:00,Derby County FC,Watford FC,EFL Championship
-Matchday 27,2025-01-18,15:00,Leeds United FC,Sheffield Wednesday FC,EFL Championship
-Matchday 27,2025-01-18,15:00,Luton Town FC,Preston North End FC,EFL Championship
-Matchday 27,2025-01-18,15:00,Millwall FC,Hull City AFC,EFL Championship
-Matchday 27,2025-01-18,15:00,Oxford United FC,Blackburn Rovers FC,EFL Championship
-Matchday 27,2025-01-18,15:00,Plymouth Argyle FC,Queens Park Rangers FC,EFL Championship
-Matchday 27,2025-01-18,15:00,Portsmouth FC,Middlesbrough FC,EFL Championship
-Matchday 27,2025-01-18,15:00,Sheffield United FC,Norwich City FC,EFL Championship
-Matchday 27,2025-01-18,15:00,West Bromwich Albion FC,Stoke City FC,EFL Championship
-Matchday 28,2025-01-21,19:45,Blackburn Rovers FC,Coventry City FC,EFL Championship
-Matchday 28,2025-01-21,19:45,Derby County FC,Sunderland AFC,EFL Championship
-Matchday 28,2025-01-21,19:45,Hull City AFC,Queens Park Rangers FC,EFL Championship
-Matchday 28,2025-01-21,19:45,Middlesbrough FC,West Bromwich Albion FC,EFL Championship
-Matchday 28,2025-01-21,19:45,Millwall FC,Cardiff City FC,EFL Championship
-Matchday 28,2025-01-21,19:45,Oxford United FC,Luton Town FC,EFL Championship
-Matchday 28,2025-01-21,19:45,Swansea City AFC,Sheffield United FC,EFL Championship
-Matchday 28,2025-01-21,19:45,Watford FC,Preston North End FC,EFL Championship
-Matchday 28,2025-01-22,19:45,Leeds United FC,Norwich City FC,EFL Championship
-Matchday 28,2025-01-22,19:45,Plymouth Argyle FC,Burnley FC,EFL Championship
-Matchday 28,2025-01-22,19:45,Portsmouth FC,Stoke City FC,EFL Championship
-Matchday 28,2025-01-22,19:45,Sheffield Wednesday FC,Bristol City FC,EFL Championship
-Matchday 29,2025-01-25,15:00,Bristol City FC,Blackburn Rovers FC,EFL Championship
-Matchday 29,2025-01-25,15:00,Burnley FC,Leeds United FC,EFL Championship
-Matchday 29,2025-01-25,15:00,Cardiff City FC,Derby County FC,EFL Championship
-Matchday 29,2025-01-25,15:00,Coventry City FC,Watford FC,EFL Championship
-Matchday 29,2025-01-25,15:00,Luton Town FC,Millwall FC,EFL Championship
-Matchday 29,2025-01-25,15:00,Norwich City FC,Swansea City AFC,EFL Championship
-Matchday 29,2025-01-25,15:00,Preston North End FC,Middlesbrough FC,EFL Championship
-Matchday 29,2025-01-25,15:00,Queens Park Rangers FC,Sheffield Wednesday FC,EFL Championship
-Matchday 29,2025-01-25,15:00,Sheffield United FC,Hull City AFC,EFL Championship
-Matchday 29,2025-01-25,15:00,Stoke City FC,Oxford United FC,EFL Championship
-Matchday 29,2025-01-25,15:00,Sunderland AFC,Plymouth Argyle FC,EFL Championship
-Matchday 29,2025-01-25,15:00,West Bromwich Albion FC,Portsmouth FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Blackburn Rovers FC,Preston North End FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Derby County FC,Sheffield United FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Hull City AFC,Stoke City FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Leeds United FC,Cardiff City FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Middlesbrough FC,Sunderland AFC,EFL Championship
-Matchday 30,2025-02-01,15:00,Millwall FC,Queens Park Rangers FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Oxford United FC,Bristol City FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Plymouth Argyle FC,West Bromwich Albion FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Portsmouth FC,Burnley FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Sheffield Wednesday FC,Luton Town FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Swansea City AFC,Coventry City FC,EFL Championship
-Matchday 30,2025-02-01,15:00,Watford FC,Norwich City FC,EFL Championship
-Matchday 31,2025-02-08,15:00,Bristol City FC,Swansea City AFC,EFL Championship
-Matchday 31,2025-02-08,15:00,Burnley FC,Oxford United FC,EFL Championship
-Matchday 31,2025-02-08,15:00,Cardiff City FC,Hull City AFC,EFL Championship
-Matchday 31,2025-02-08,15:00,Coventry City FC,Leeds United FC,EFL Championship
-Matchday 31,2025-02-08,15:00,Luton Town FC,Plymouth Argyle FC,EFL Championship
-Matchday 31,2025-02-08,15:00,Norwich City FC,Derby County FC,EFL Championship
-Matchday 31,2025-02-08,15:00,Preston North End FC,Millwall FC,EFL Championship
-Matchday 31,2025-02-08,15:00,Queens Park Rangers FC,Blackburn Rovers FC,EFL Championship
-Matchday 31,2025-02-08,15:00,Sheffield United FC,Portsmouth FC,EFL Championship
-Matchday 31,2025-02-08,15:00,Stoke City FC,Middlesbrough FC,EFL Championship
-Matchday 31,2025-02-08,15:00,Sunderland AFC,Watford FC,EFL Championship
-Matchday 31,2025-02-08,15:00,West Bromwich Albion FC,Sheffield Wednesday FC,EFL Championship
-Matchday 32,2025-02-11,19:45,Bristol City FC,Stoke City FC,EFL Championship
-Matchday 32,2025-02-11,19:45,Coventry City FC,Queens Park Rangers FC,EFL Championship
-Matchday 32,2025-02-11,19:45,Derby County FC,Oxford United FC,EFL Championship
-Matchday 32,2025-02-11,19:45,Norwich City FC,Preston North End FC,EFL Championship
-Matchday 32,2025-02-11,19:45,Plymouth Argyle FC,Millwall FC,EFL Championship
-Matchday 32,2025-02-11,19:45,Portsmouth FC,Cardiff City FC,EFL Championship
-Matchday 32,2025-02-11,19:45,Swansea City AFC,Sheffield Wednesday FC,EFL Championship
-Matchday 32,2025-02-11,19:45,Watford FC,Leeds United FC,EFL Championship
-Matchday 32,2025-02-12,19:45,Burnley FC,Hull City AFC,EFL Championship
-Matchday 32,2025-02-12,19:45,Sheffield United FC,Middlesbrough FC,EFL Championship
-Matchday 32,2025-02-12,19:45,Sunderland AFC,Luton Town FC,EFL Championship
-Matchday 32,2025-02-12,19:45,West Bromwich Albion FC,Blackburn Rovers FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Blackburn Rovers FC,Plymouth Argyle FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Cardiff City FC,Bristol City FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Hull City AFC,Norwich City FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Leeds United FC,Sunderland AFC,EFL Championship
-Matchday 33,2025-02-15,15:00,Luton Town FC,Sheffield United FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Middlesbrough FC,Watford FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Millwall FC,West Bromwich Albion FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Oxford United FC,Portsmouth FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Preston North End FC,Burnley FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Queens Park Rangers FC,Derby County FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Sheffield Wednesday FC,Coventry City FC,EFL Championship
-Matchday 33,2025-02-15,15:00,Stoke City FC,Swansea City AFC,EFL Championship
-Matchday 34,2025-02-22,15:00,Bristol City FC,Middlesbrough FC,EFL Championship
-Matchday 34,2025-02-22,15:00,Burnley FC,Sheffield Wednesday FC,EFL Championship
-Matchday 34,2025-02-22,15:00,Coventry City FC,Preston North End FC,EFL Championship
-Matchday 34,2025-02-22,15:00,Derby County FC,Millwall FC,EFL Championship
-Matchday 34,2025-02-22,15:00,Norwich City FC,Stoke City FC,EFL Championship
-Matchday 34,2025-02-22,15:00,Plymouth Argyle FC,Cardiff City FC,EFL Championship
-Matchday 34,2025-02-22,15:00,Portsmouth FC,Queens Park Rangers FC,EFL Championship
-Matchday 34,2025-02-22,15:00,Sheffield United FC,Leeds United FC,EFL Championship
-Matchday 34,2025-02-22,15:00,Sunderland AFC,Hull City AFC,EFL Championship
-Matchday 34,2025-02-22,15:00,Swansea City AFC,Blackburn Rovers FC,EFL Championship
-Matchday 34,2025-02-22,15:00,Watford FC,Luton Town FC,EFL Championship
-Matchday 34,2025-02-22,15:00,West Bromwich Albion FC,Oxford United FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Blackburn Rovers FC,Norwich City FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Cardiff City FC,Burnley FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Hull City AFC,Plymouth Argyle FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Leeds United FC,West Bromwich Albion FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Luton Town FC,Portsmouth FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Middlesbrough FC,Derby County FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Millwall FC,Bristol City FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Oxford United FC,Coventry City FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Preston North End FC,Swansea City AFC,EFL Championship
-Matchday 35,2025-03-01,15:00,Queens Park Rangers FC,Sheffield United FC,EFL Championship
-Matchday 35,2025-03-01,15:00,Sheffield Wednesday FC,Sunderland AFC,EFL Championship
-Matchday 35,2025-03-01,15:00,Stoke City FC,Watford FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Bristol City FC,Hull City AFC,EFL Championship
-Matchday 36,2025-03-08,15:00,Burnley FC,Luton Town FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Coventry City FC,Stoke City FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Derby County FC,Blackburn Rovers FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Norwich City FC,Oxford United FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Plymouth Argyle FC,Sheffield Wednesday FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Portsmouth FC,Leeds United FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Sheffield United FC,Preston North End FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Sunderland AFC,Cardiff City FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Swansea City AFC,Middlesbrough FC,EFL Championship
-Matchday 36,2025-03-08,15:00,Watford FC,Millwall FC,EFL Championship
-Matchday 36,2025-03-08,15:00,West Bromwich Albion FC,Queens Park Rangers FC,EFL Championship
-Matchday 37,2025-03-11,19:45,Burnley FC,West Bromwich Albion FC,EFL Championship
-Matchday 37,2025-03-11,19:45,Cardiff City FC,Luton Town FC,EFL Championship
-Matchday 37,2025-03-11,19:45,Derby County FC,Coventry City FC,EFL Championship
-Matchday 37,2025-03-11,19:45,Middlesbrough FC,Queens Park Rangers FC,EFL Championship
-Matchday 37,2025-03-11,19:45,Portsmouth FC,Plymouth Argyle FC,EFL Championship
-Matchday 37,2025-03-11,19:45,Stoke City FC,Blackburn Rovers FC,EFL Championship
-Matchday 37,2025-03-11,19:45,Sunderland AFC,Preston North End FC,EFL Championship
-Matchday 37,2025-03-12,19:45,Hull City AFC,Oxford United FC,EFL Championship
-Matchday 37,2025-03-12,19:45,Leeds United FC,Millwall FC,EFL Championship
-Matchday 37,2025-03-12,19:45,Norwich City FC,Sheffield Wednesday FC,EFL Championship
-Matchday 37,2025-03-12,19:45,Sheffield United FC,Bristol City FC,EFL Championship
-Matchday 37,2025-03-12,19:45,Watford FC,Swansea City AFC,EFL Championship
-Matchday 38,2025-03-15,15:00,Blackburn Rovers FC,Cardiff City FC,EFL Championship
-Matchday 38,2025-03-15,15:00,Bristol City FC,Norwich City FC,EFL Championship
-Matchday 38,2025-03-15,15:00,Coventry City FC,Sunderland AFC,EFL Championship
-Matchday 38,2025-03-15,15:00,Luton Town FC,Middlesbrough FC,EFL Championship
-Matchday 38,2025-03-15,15:00,Millwall FC,Stoke City FC,EFL Championship
-Matchday 38,2025-03-15,15:00,Oxford United FC,Watford FC,EFL Championship
-Matchday 38,2025-03-15,15:00,Plymouth Argyle FC,Derby County FC,EFL Championship
-Matchday 38,2025-03-15,15:00,Preston North End FC,Portsmouth FC,EFL Championship
-Matchday 38,2025-03-15,15:00,Queens Park Rangers FC,Leeds United FC,EFL Championship
-Matchday 38,2025-03-15,15:00,Sheffield Wednesday FC,Sheffield United FC,EFL Championship
-Matchday 38,2025-03-15,15:00,Swansea City AFC,Burnley FC,EFL Championship
-Matchday 38,2025-03-15,15:00,West Bromwich Albion FC,Hull City AFC,EFL Championship
-Matchday 39,2025-03-29,15:00,Sunderland AFC,Millwall FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Cardiff City FC,Sheffield Wednesday FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Derby County FC,Preston North End FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Burnley FC,Bristol City FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Middlesbrough FC,Oxford United FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Watford FC,Plymouth Argyle FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Hull City AFC,Luton Town FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Leeds United FC,Swansea City AFC,EFL Championship
-Matchday 39,2025-03-29,15:00,Norwich City FC,West Bromwich Albion FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Portsmouth FC,Blackburn Rovers FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Sheffield United FC,Coventry City FC,EFL Championship
-Matchday 39,2025-03-29,15:00,Stoke City FC,Queens Park Rangers FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Blackburn Rovers FC,Middlesbrough FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Bristol City FC,Watford FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Coventry City FC,Burnley FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Luton Town FC,Leeds United FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Millwall FC,Portsmouth FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Oxford United FC,Sheffield United FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Plymouth Argyle FC,Norwich City FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Preston North End FC,Stoke City FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Queens Park Rangers FC,Cardiff City FC,EFL Championship
-Matchday 40,2025-04-05,15:00,Sheffield Wednesday FC,Hull City AFC,EFL Championship
-Matchday 40,2025-04-05,15:00,Swansea City AFC,Derby County FC,EFL Championship
-Matchday 40,2025-04-05,15:00,West Bromwich Albion FC,Sunderland AFC,EFL Championship
-Matchday 41,2025-04-08,19:45,Blackburn Rovers FC,Sheffield Wednesday FC,EFL Championship
-Matchday 41,2025-04-08,19:45,Bristol City FC,West Bromwich Albion FC,EFL Championship
-Matchday 41,2025-04-08,19:45,Middlesbrough FC,Leeds United FC,EFL Championship
-Matchday 41,2025-04-08,19:45,Norwich City FC,Sunderland AFC,EFL Championship
-Matchday 41,2025-04-08,19:45,Preston North End FC,Cardiff City FC,EFL Championship
-Matchday 41,2025-04-08,19:45,Sheffield United FC,Millwall FC,EFL Championship
-Matchday 41,2025-04-08,19:45,Stoke City FC,Luton Town FC,EFL Championship
-Matchday 41,2025-04-08,19:45,Watford FC,Hull City AFC,EFL Championship
-Matchday 41,2025-04-09,19:45,Coventry City FC,Portsmouth FC,EFL Championship
-Matchday 41,2025-04-09,19:45,Derby County FC,Burnley FC,EFL Championship
-Matchday 41,2025-04-09,19:45,Oxford United FC,Queens Park Rangers FC,EFL Championship
-Matchday 41,2025-04-09,19:45,Swansea City AFC,Plymouth Argyle FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Burnley FC,Norwich City FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Cardiff City FC,Stoke City FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Hull City AFC,Coventry City FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Leeds United FC,Preston North End FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Luton Town FC,Blackburn Rovers FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Millwall FC,Middlesbrough FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Plymouth Argyle FC,Sheffield United FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Portsmouth FC,Derby County FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Queens Park Rangers FC,Bristol City FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Sheffield Wednesday FC,Oxford United FC,EFL Championship
-Matchday 42,2025-04-12,15:00,Sunderland AFC,Swansea City AFC,EFL Championship
-Matchday 42,2025-04-12,15:00,West Bromwich Albion FC,Watford FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Blackburn Rovers FC,Millwall FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Bristol City FC,Sunderland AFC,EFL Championship
-Matchday 43,2025-04-18,15:00,Coventry City FC,West Bromwich Albion FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Derby County FC,Luton Town FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Middlesbrough FC,Plymouth Argyle FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Watford FC,Burnley FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Norwich City FC,Portsmouth FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Oxford United FC,Leeds United FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Preston North End FC,Queens Park Rangers FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Sheffield United FC,Cardiff City FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Stoke City FC,Sheffield Wednesday FC,EFL Championship
-Matchday 43,2025-04-18,15:00,Swansea City AFC,Hull City AFC,EFL Championship
-Matchday 44,2025-04-21,15:00,Burnley FC,Sheffield United FC,EFL Championship
-Matchday 44,2025-04-21,15:00,Cardiff City FC,Oxford United FC,EFL Championship
-Matchday 44,2025-04-21,15:00,Hull City AFC,Preston North End FC,EFL Championship
-Matchday 44,2025-04-21,15:00,Leeds United FC,Stoke City FC,EFL Championship
-Matchday 44,2025-04-21,15:00,Luton Town FC,Bristol City FC,EFL Championship
-Matchday 44,2025-04-21,15:00,Millwall FC,Norwich City FC,EFL Championship
-Matchday 44,2025-04-21,15:00,Plymouth Argyle FC,Coventry City FC,EFL Championship
-Matchday 44,2025-04-21,15:00,Portsmouth FC,Watford FC,EFL Championship
-Matchday 44,2025-04-21,15:00,Queens Park Rangers FC,Swansea City AFC,EFL Championship
-Matchday 44,2025-04-21,15:00,Sheffield Wednesday FC,Middlesbrough FC,EFL Championship
-Matchday 44,2025-04-21,15:00,Sunderland AFC,Blackburn Rovers FC,EFL Championship
-Matchday 44,2025-04-21,15:00,West Bromwich Albion FC,Derby County FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Blackburn Rovers FC,Watford FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Cardiff City FC,West Bromwich Albion FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Hull City AFC,Derby County FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Leeds United FC,Bristol City FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Luton Town FC,Coventry City FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Middlesbrough FC,Norwich City FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Millwall FC,Swansea City AFC,EFL Championship
-Matchday 45,2025-04-26,15:00,Oxford United FC,Sunderland AFC,EFL Championship
-Matchday 45,2025-04-26,15:00,Preston North End FC,Plymouth Argyle FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Queens Park Rangers FC,Burnley FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Sheffield Wednesday FC,Portsmouth FC,EFL Championship
-Matchday 45,2025-04-26,15:00,Stoke City FC,Sheffield United FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Bristol City FC,Preston North End FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Burnley FC,Millwall FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Coventry City FC,Middlesbrough FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Derby County FC,Stoke City FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Norwich City FC,Cardiff City FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Plymouth Argyle FC,Leeds United FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Portsmouth FC,Hull City AFC,EFL Championship
-Matchday 46,2025-05-03,15:00,Sheffield United FC,Blackburn Rovers FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Sunderland AFC,Queens Park Rangers FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Swansea City AFC,Oxford United FC,EFL Championship
-Matchday 46,2025-05-03,15:00,Watford FC,Sheffield Wednesday FC,EFL Championship
-Matchday 46,2025-05-03,15:00,West Bromwich Albion FC,Luton Town FC,EFL Championship
-Matchday 9,2024-10-04,21:00,CD Leganés,Valencia CF,Spain - LaLiga
-Matchday 9,2024-10-05,14:00,RCD Espanyol Barcelona,RCD Mallorca,Spain - LaLiga
-Matchday 9,2024-10-05,16:15,Getafe CF,CA Osasuna,Spain - LaLiga
-Matchday 9,2024-10-05,18:30,Real Valladolid CF,Rayo Vallecano,Spain - LaLiga
-Matchday 9,2024-10-05,18:30,UD Las Palmas,Celta de Vigo,Spain - LaLiga
-Matchday 9,2024-10-05,21:00,Real Madrid,Villarreal CF,Spain - LaLiga
-Matchday 9,2024-10-06,14:00,Girona FC,Athletic Bilbao,Spain - LaLiga
-Matchday 9,2024-10-06,16:15,Deportivo Alavés,FC Barcelona,Spain - LaLiga
-Matchday 9,2024-10-06,18:30,Sevilla FC,Real Betis Balompié,Spain - LaLiga
-Matchday 9,2024-10-06,21:00,Real Sociedad,Atlético de Madrid,Spain - LaLiga
-Matchday 10,2024-10-18,21:00,Deportivo Alavés,Real Valladolid CF,Spain - LaLiga
-Matchday 10,2024-10-19,14:00,Athletic Bilbao,RCD Espanyol Barcelona,Spain - LaLiga
-Matchday 10,2024-10-19,16:15,CA Osasuna,Real Betis Balompié,Spain - LaLiga
-Matchday 10,2024-10-19,18:30,Girona FC,Real Sociedad,Spain - LaLiga
-Matchday 10,2024-10-19,21:00,Celta de Vigo,Real Madrid,Spain - LaLiga
-Matchday 10,2024-10-20,14:00,RCD Mallorca,Rayo Vallecano,Spain - LaLiga
-Matchday 10,2024-10-20,16:15,Atlético de Madrid,CD Leganés,Spain - LaLiga
-Matchday 10,2024-10-20,18:30,Villarreal CF,Getafe CF,Spain - LaLiga
-Matchday 10,2024-10-20,21:00,FC Barcelona,Sevilla FC,Spain - LaLiga
-Matchday 10,2024-10-21,21:00,Valencia CF,UD Las Palmas,Spain - LaLiga
-Matchday 7,2024-10-04,20:45,Olympique Marseille,Angers SCO,France - Ligue 1
-Matchday 7,2024-10-05,17:00,AS Saint-Étienne,AJ Auxerre,France - Ligue 1
-Matchday 7,2024-10-05,19:00,LOSC Lille,Toulouse FC,France - Ligue 1
-Matchday 7,2024-10-05,21:00,Stade Rennais FC,AS Monaco FC,France - Ligue 1
-Matchday 7,2024-10-06,15:00,Olympique Lyon,FC Nantes,France - Ligue 1
-Matchday 7,2024-10-06,17:00,Stade Brestois 29,Le Havre AC,France - Ligue 1
-Matchday 7,2024-10-06,17:00,RC Strasbourg Alsace,RC Lens,France - Ligue 1
-Matchday 7,2024-10-06,17:00,Stade Reims,Montpellier HSC,France - Ligue 1
-Matchday 7,2024-10-06,20:45,OGC Nice,Paris Saint-Germain,France - Ligue 1
-Matchday 7,2024-10-04,18:30,SSC Napoli,Como 1907,Italy - Serie A
-Matchday 7,2024-10-04,20:45,Hellas Verona,Venezia FC,Italy - Serie A
-Matchday 7,2024-10-05,15:00,Udinese Calcio,US Lecce,Italy - Serie A
-Matchday 7,2024-10-05,18:00,Atalanta BC,Genoa CFC,Italy - Serie A
-Matchday 7,2024-10-05,20:45,Inter Milan,Torino FC,Italy - Serie A
-Matchday 7,2024-10-06,12:30,Juventus FC,Cagliari Calcio,Italy - Serie A
-Matchday 7,2024-10-06,15:00,Bologna FC 1909,Parma Calcio 1913,Italy - Serie A
-Matchday 7,2024-10-06,15:00,SS Lazio,FC Empoli,Italy - Serie A
-Matchday 7,2024-10-06,18:00,AC Monza,AS Roma,Italy - Serie A
-Matchday 7,2024-10-06,20:45,ACF Fiorentina,AC Milan,Italy - Serie A
-Matchday 8,2024-10-19,15:00,Como 1907,Parma Calcio 1913,Italy - Serie A
-Matchday 8,2024-10-19,15:00,Genoa CFC,Bologna FC 1909,Italy - Serie A
-Matchday 8,2024-10-19,18:00,AC Milan,Udinese Calcio,Italy - Serie A
-Matchday 8,2024-10-19,20:45,Juventus FC,SS Lazio,Italy - Serie A
-Matchday 8,2024-10-20,12:30,FC Empoli,SSC Napoli,Italy - Serie A
-Matchday 8,2024-10-20,15:00,US Lecce,ACF Fiorentina,Italy - Serie A
-Matchday 8,2024-10-20,15:00,Venezia FC,Atalanta BC,Italy - Serie A
-Matchday 8,2024-10-20,18:00,Cagliari Calcio,Torino FC,Italy - Serie A
-Matchday 8,2024-10-20,20:45,AS Roma,Inter Milan,Italy - Serie A
-Matchday 8,2024-10-21,20:45,Hellas Verona,AC Monza,Italy - Serie A
-Matchday 9,2024-10-25,18:30,Udinese Calcio,Cagliari Calcio,Italy - Serie A
-Matchday 9,2024-10-25,20:45,Torino FC,Como 1907,Italy - Serie A
-Matchday 9,2024-10-26,15:00,SSC Napoli,US Lecce,Italy - Serie A
-Matchday 9,2024-10-26,18:00,Bologna FC 1909,AC Milan,Italy - Serie A
-Matchday 9,2024-10-26,20:45,Atalanta BC,Hellas Verona,Italy - Serie A
-Matchday 9,2024-10-27,12:30,Parma Calcio 1913,FC Empoli,Italy - Serie A
-Matchday 9,2024-10-27,15:00,SS Lazio,Genoa CFC,Italy - Serie A
-Matchday 9,2024-10-27,15:00,AC Monza,Venezia FC,Italy - Serie A
-Matchday 9,2024-10-27,18:00,Inter Milan,Juventus FC,Italy - Serie A
-Matchday 9,2024-10-27,20:45,ACF Fiorentina,AS Roma,Italy - Serie A
-Matchday 10,2024-10-29,18:30,Cagliari Calcio,Bologna FC 1909,Italy - Serie A
-Matchday 10,2024-10-29,18:30,US Lecce,Hellas Verona,Italy - Serie A
-Matchday 10,2024-10-29,20:45,AC Milan,SSC Napoli,Italy - Serie A
-Matchday 10,2024-10-30,18:30,FC Empoli,Inter Milan,Italy - Serie A
-Matchday 10,2024-10-30,18:30,Venezia FC,Udinese Calcio,Italy - Serie A
-Matchday 10,2024-10-30,20:45,Atalanta BC,AC Monza,Italy - Serie A
-Matchday 10,2024-10-30,20:45,Juventus FC,Parma Calcio 1913,Italy - Serie A
-Matchday 10,2024-10-31,18:30,Genoa CFC,ACF Fiorentina,Italy - Serie A
-Matchday 10,2024-10-31,20:45,Como 1907,SS Lazio,Italy - Serie A
-Matchday 10,2024-10-31,20:45,AS Roma,Torino FC,Italy - Serie A
-Matchday 11,2024-11-02,15:00,Bologna FC 1909,US Lecce,Italy - Serie A
-Matchday 11,2024-11-02,18:00,Udinese Calcio,Juventus FC,Italy - Serie A
-Matchday 11,2024-11-02,20:45,AC Monza,AC Milan,Italy - Serie A
-Matchday 11,2024-11-03,12:30,SSC Napoli,Atalanta BC,Italy - Serie A
-Matchday 11,2024-11-03,15:00,Torino FC,ACF Fiorentina,Italy - Serie A
-Matchday 11,2024-11-03,18:00,Hellas Verona,AS Roma,Italy - Serie A
-Matchday 11,2024-11-03,20:45,Inter Milan,Venezia FC,Italy - Serie A
-Matchday 11,2024-11-04,18:30,FC Empoli,Como 1907,Italy - Serie A
-Matchday 11,2024-11-04,18:30,Parma Calcio 1913,Genoa CFC,Italy - Serie A
-Matchday 11,2024-11-04,20:45,SS Lazio,Cagliari Calcio,Italy - Serie A
-Matchday 12,2024-11-07,20:45,Genoa CFC,Como 1907,Italy - Serie A
-Matchday 12,2024-11-08,18:30,Venezia FC,Parma Calcio 1913,Italy - Serie A
-Matchday 12,2024-11-08,20:45,US Lecce,FC Empoli,Italy - Serie A
-Matchday 12,2024-11-09,18:00,Cagliari Calcio,AC Milan,Italy - Serie A
-Matchday 12,2024-11-09,20:45,Juventus FC,Torino FC,Italy - Serie A
-Matchday 12,2024-11-10,12:30,Atalanta BC,Udinese Calcio,Italy - Serie A
-Matchday 12,2024-11-10,15:00,ACF Fiorentina,Hellas Verona,Italy - Serie A
-Matchday 12,2024-11-10,15:00,AS Roma,Bologna FC 1909,Italy - Serie A
-Matchday 12,2024-11-10,18:00,AC Monza,SS Lazio,Italy - Serie A
-Matchday 12,2024-11-10,20:45,Inter Milan,SSC Napoli,Italy - Serie A
-Matchday 13,2024-11-23,15:00,Hellas Verona,Inter Milan,Italy - Serie A
-Matchday 13,2024-11-23,18:00,AC Milan,Juventus FC,Italy - Serie A
-Matchday 13,2024-11-23,20:45,Parma Calcio 1913,Atalanta BC,Italy - Serie A
-Matchday 13,2024-11-24,12:30,Genoa CFC,Cagliari Calcio,Italy - Serie A
-Matchday 13,2024-11-24,15:00,Como 1907,ACF Fiorentina,Italy - Serie A
-Matchday 13,2024-11-24,15:00,Torino FC,AC Monza,Italy - Serie A
-Matchday 13,2024-11-24,18:00,SSC Napoli,AS Roma,Italy - Serie A
-Matchday 13,2024-11-24,20:45,SS Lazio,Bologna FC 1909,Italy - Serie A
-Matchday 13,2024-11-25,18:30,FC Empoli,Udinese Calcio,Italy - Serie A
-Matchday 13,2024-11-25,20:45,Venezia FC,US Lecce,Italy - Serie A
-Matchday 8,2024-10-04,20:00,Almere City FC,Willem II Tilburg,Netherlands - Eredivisie
-Matchday 8,2024-10-05,18:45,NAC Breda,NEC,Netherlands - Eredivisie
-Matchday 8,2024-10-05,20:00,PSV,Sparta Rotterdam,Netherlands - Eredivisie
-Matchday 8,2024-10-05,21:00,FC Utrecht,RKC Waalwijk,Netherlands - Eredivisie
-Matchday 8,2024-10-06,12:15,Go Ahead Eagles,Heracles Almelo,Netherlands - Eredivisie
-Matchday 8,2024-10-06,14:30,SC Heerenveen,PEC Zwolle,Netherlands - Eredivisie
-Matchday 8,2024-10-06,14:30,Feyenoord Rotterdam,FC Twente '65,Netherlands - Eredivisie
-Matchday 8,2024-10-06,16:45,AFC Ajax,FC Groningen,Netherlands - Eredivisie
-Matchday 8,2024-10-06,20:00,Fortuna Sittard,AZ,Netherlands - Eredivisie
-Matchday 9,2024-10-19,16:30,Sparta Rotterdam,Almere City FC,Netherlands - Eredivisie
-Matchday 9,2024-10-19,18:45,AZ,PSV,Netherlands - Eredivisie
-Matchday 9,2024-10-19,20:00,NEC,SC Heerenveen,Netherlands - Eredivisie
-Matchday 9,2024-10-19,20:00,RKC Waalwijk,FC Twente '65,Netherlands - Eredivisie
-Matchday 9,2024-10-19,21:00,Go Ahead Eagles,Feyenoord Rotterdam,Netherlands - Eredivisie
-Matchday 9,2024-10-20,12:15,Willem II Tilburg,Fortuna Sittard,Netherlands - Eredivisie
-Matchday 9,2024-10-20,14:30,FC Groningen,FC Utrecht,Netherlands - Eredivisie
-Matchday 9,2024-10-20,14:30,Heracles Almelo,AFC Ajax,Netherlands - Eredivisie
-Matchday 9,2024-10-20,16:45,PEC Zwolle,NAC Breda,Netherlands - Eredivisie
-Matchday 10,2024-10-25,20:00,Almere City FC,NEC,Netherlands - Eredivisie
-Matchday 10,2024-10-26,16:30,Fortuna Sittard,FC Groningen,Netherlands - Eredivisie
-Matchday 10,2024-10-26,20:00,PSV,PEC Zwolle,Netherlands - Eredivisie
-Matchday 10,2024-10-26,21:00,SC Heerenveen,Sparta Rotterdam,Netherlands - Eredivisie
-Matchday 10,2024-10-27,12:15,FC Utrecht,Feyenoord Rotterdam,Netherlands - Eredivisie
-Matchday 10,2024-10-27,14:30,NAC Breda,RKC Waalwijk,Netherlands - Eredivisie
-Matchday 10,2024-10-27,14:30,FC Twente '65,Heracles Almelo,Netherlands - Eredivisie
-Matchday 10,2024-10-27,16:45,AFC Ajax,Willem II Tilburg,Netherlands - Eredivisie
-Matchday 10,2024-10-27,20:00,AZ,Go Ahead Eagles,Netherlands - Eredivisie
-Matchday 4,2024-10-30,18:00,Feyenoord Rotterdam,AFC Ajax,Netherlands - Eredivisie
-Matchday 11,2024-11-02,16:30,Willem II Tilburg,FC Twente '65,Netherlands - Eredivisie
-Matchday 11,2024-11-02,18:45,Heracles Almelo,NAC Breda,Netherlands - Eredivisie
-Matchday 11,2024-11-02,18:45,AFC Ajax,PSV,Netherlands - Eredivisie
-Matchday 11,2024-11-02,21:00,Feyenoord Rotterdam,AZ,Netherlands - Eredivisie
-Matchday 11,2024-11-02,21:00,Fortuna Sittard,SC Heerenveen,Netherlands - Eredivisie
-Matchday 11,2024-11-03,12:15,Go Ahead Eagles,PEC Zwolle,Netherlands - Eredivisie
-Matchday 11,2024-11-03,14:30,NEC,FC Groningen,Netherlands - Eredivisie
-Matchday 11,2024-11-03,14:30,Sparta Rotterdam,FC Utrecht,Netherlands - Eredivisie
-Matchday 11,2024-11-03,16:45,RKC Waalwijk,Almere City FC,Netherlands - Eredivisie
-Matchday 12,2024-11-08,20:00,FC Utrecht,Heracles Almelo,Netherlands - Eredivisie
-Matchday 12,2024-11-09,16:30,FC Groningen,Sparta Rotterdam,Netherlands - Eredivisie
-Matchday 12,2024-11-09,18:45,PEC Zwolle,Fortuna Sittard,Netherlands - Eredivisie
-Matchday 12,2024-11-09,20:00,NAC Breda,PSV,Netherlands - Eredivisie
-Matchday 12,2024-11-09,21:00,RKC Waalwijk,NEC,Netherlands - Eredivisie
-Matchday 12,2024-11-10,12:15,Almere City FC,Feyenoord Rotterdam,Netherlands - Eredivisie
-Matchday 12,2024-11-10,14:30,SC Heerenveen,Go Ahead Eagles,Netherlands - Eredivisie
-Matchday 12,2024-11-10,14:30,FC Twente '65,AFC Ajax,Netherlands - Eredivisie
-Matchday 12,2024-11-10,16:45,AZ,Willem II Tilburg,Netherlands - Eredivisie
-Matchday 13,2024-11-23,16:30,Go Ahead Eagles,Almere City FC,Netherlands - Eredivisie
-Matchday 13,2024-11-23,18:45,Feyenoord Rotterdam,SC Heerenveen,Netherlands - Eredivisie
-Matchday 13,2024-11-23,18:45,Heracles Almelo,RKC Waalwijk,Netherlands - Eredivisie
-Matchday 13,2024-11-23,21:00,PSV,FC Groningen,Netherlands - Eredivisie
-Matchday 13,2024-11-23,21:00,Fortuna Sittard,FC Twente '65,Netherlands - Eredivisie
-Matchday 13,2024-11-24,12:15,NEC,FC Utrecht,Netherlands - Eredivisie
-Matchday 13,2024-11-24,14:30,Sparta Rotterdam,AZ,Netherlands - Eredivisie
-Matchday 13,2024-11-24,14:30,Willem II Tilburg,NAC Breda,Netherlands - Eredivisie
-Matchday 13,2024-11-24,16:45,AFC Ajax,PEC Zwolle,Netherlands - Eredivisie
-Matchday 14,2024-11-29,20:00,SC Heerenveen,RKC Waalwijk,Netherlands - Eredivisie
-Matchday 14,2024-11-30,16:30,NAC Breda,Almere City FC,Netherlands - Eredivisie
-Matchday 14,2024-11-30,18:45,FC Groningen,Willem II Tilburg,Netherlands - Eredivisie
-Matchday 14,2024-11-30,20:00,Feyenoord Rotterdam,Fortuna Sittard,Netherlands - Eredivisie
-Matchday 14,2024-11-30,21:00,PEC Zwolle,Sparta Rotterdam,Netherlands - Eredivisie
-Matchday 14,2024-12-01,12:15,FC Utrecht,PSV,Netherlands - Eredivisie
-Matchday 14,2024-12-01,14:30,AZ,Heracles Almelo,Netherlands - Eredivisie
-Matchday 14,2024-12-01,14:30,FC Twente '65,Go Ahead Eagles,Netherlands - Eredivisie
-Matchday 14,2024-12-01,16:45,NEC,AFC Ajax,Netherlands - Eredivisie
-Matchday 8,2024-10-04,20:15,Rio Ave FC,FC Famalicão,Portugal - Liga Portugal
-Matchday 8,2024-10-05,15:30,Moreirense FC,CD Santa Clara,Portugal - Liga Portugal
-Matchday 8,2024-10-05,15:30,Gil Vicente FC,CF Estrela Amadora,Portugal - Liga Portugal
-Matchday 8,2024-10-05,18:00,FC Arouca,Avs Futebol,Portugal - Liga Portugal
-Matchday 8,2024-10-05,20:30,Sporting CP,Casa Pia AC,Portugal - Liga Portugal
-Matchday 8,2024-10-06,15:30,Vitória Guimarães SC,Boavista FC,Portugal - Liga Portugal
-Matchday 8,2024-10-06,15:30,SC Farense,GD Estoril Praia,Portugal - Liga Portugal
-Matchday 8,2024-10-06,18:00,CD Nacional,SL Benfica,Portugal - Liga Portugal
-Matchday 8,2024-10-06,20:30,FC Porto,SC Braga,Portugal - Liga Portugal
-Matchday 9,2024-10-25,18:45,Casa Pia AC,CD Nacional,Portugal - Liga Portugal
-Matchday 9,2024-10-25,20:45,CD Santa Clara,Gil Vicente FC,Portugal - Liga Portugal
-Matchday 9,2024-10-26,15:30,GD Estoril Praia,FC Arouca,Portugal - Liga Portugal
-Matchday 9,2024-10-26,18:00,Boavista FC,Moreirense FC,Portugal - Liga Portugal
-Matchday 9,2024-10-26,20:30,FC Famalicão,Sporting CP,Portugal - Liga Portugal
-Matchday 9,2024-10-27,15:30,SC Braga,SC Farense,Portugal - Liga Portugal
-Matchday 9,2024-10-27,18:00,SL Benfica,Rio Ave FC,Portugal - Liga Portugal
-Matchday 9,2024-10-27,20:30,CF Estrela Amadora,Vitória Guimarães SC,Portugal - Liga Portugal
-Matchday 9,2024-10-28,20:15,Avs Futebol,FC Porto,Portugal - Liga Portugal
-Matchday 10,2024-11-01,20:15,Sporting CP,CF Estrela Amadora,Portugal - Liga Portugal
-Matchday 10,2024-11-02,15:30,Rio Ave FC,Casa Pia AC,Portugal - Liga Portugal
-Matchday 10,2024-11-02,18:00,SC Farense,SL Benfica,Portugal - Liga Portugal
-Matchday 10,2024-11-02,20:30,Gil Vicente FC,Boavista FC,Portugal - Liga Portugal
-Matchday 10,2024-11-03,15:30,Avs Futebol,FC Famalicão,Portugal - Liga Portugal
-Matchday 10,2024-11-03,18:00,FC Arouca,SC Braga,Portugal - Liga Portugal
-Matchday 10,2024-11-03,18:00,Vitória Guimarães SC,Moreirense FC,Portugal - Liga Portugal
-Matchday 10,2024-11-03,20:30,FC Porto,GD Estoril Praia,Portugal - Liga Portugal
-Matchday 10,2024-11-04,20:15,CD Nacional,CD Santa Clara,Portugal - Liga Portugal
-Matchday 11,2024-11-08,20:15,Moreirense FC,Gil Vicente FC,Portugal - Liga Portugal
-Matchday 11,2024-11-09,15:30,Casa Pia AC,SC Farense,Portugal - Liga Portugal
-Matchday 11,2024-11-09,15:30,GD Estoril Praia,Avs Futebol,Portugal - Liga Portugal
-Matchday 11,2024-11-09,18:00,FC Famalicão,FC Arouca,Portugal - Liga Portugal
-Matchday 11,2024-11-09,20:30,Boavista FC,Rio Ave FC,Portugal - Liga Portugal
-Matchday 11,2024-11-10,15:30,CF Estrela Amadora,CD Nacional,Portugal - Liga Portugal
-Matchday 11,2024-11-10,16:30,CD Santa Clara,Vitória Guimarães SC,Portugal - Liga Portugal
-Matchday 11,2024-11-10,18:45,SC Braga,Sporting CP,Portugal - Liga Portugal
-Matchday 11,2024-11-10,20:45,SL Benfica,FC Porto,Portugal - Liga Portugal
-Matchday 12,2024-11-29,20:15,SC Farense,CF Estrela Amadora,Portugal - Liga Portugal
-Matchday 12,2024-11-30,15:30,Rio Ave FC,Moreirense FC,Portugal - Liga Portugal
-Matchday 12,2024-11-30,18:00,CD Nacional,Boavista FC,Portugal - Liga Portugal
-Matchday 12,2024-11-30,20:30,Sporting CP,CD Santa Clara,Portugal - Liga Portugal
-Matchday 12,2024-12-01,15:30,GD Estoril Praia,FC Famalicão,Portugal - Liga Portugal
-Matchday 12,2024-12-01,18:00,FC Arouca,SL Benfica,Portugal - Liga Portugal
-Matchday 12,2024-12-01,20:30,Avs Futebol,SC Braga,Portugal - Liga Portugal
-Matchday 12,2024-12-02,18:45,Vitória Guimarães SC,Gil Vicente FC,Portugal - Liga Portugal
-Matchday 12,2024-12-02,20:45,FC Porto,Casa Pia AC,Portugal - Liga Portugal
-Matchday 3,2024-10-22,18:45,AS Monaco FC,FK Crvena Zvezda,UEFA Champions League
-Matchday 3,2024-10-22,18:45,AC Milan,Club Brugge KV,UEFA Champions League
-Matchday 3,2024-10-22,21:00,Aston Villa,Bologna FC 1909,UEFA Champions League
-Matchday 3,2024-10-22,21:00,Girona FC,ŠK Slovan Bratislava,UEFA Champions League
-Matchday 3,2024-10-22,21:00,SK Sturm Graz,Sporting CP,UEFA Champions League
-Matchday 3,2024-10-22,21:00,Paris Saint-Germain,PSV,UEFA Champions League
-Matchday 3,2024-10-22,21:00,Real Madrid,Borussia Dortmund,UEFA Champions League
-Matchday 3,2024-10-22,21:00,Arsenal FC,FK Shakhtar Donetsk,UEFA Champions League
-Matchday 3,2024-10-22,21:00,Juventus FC,VfB Stuttgart,UEFA Champions League
-Matchday 3,2024-10-23,18:45,Stade Brestois 29,Bayer 04 Leverkusen,UEFA Champions League
-Matchday 3,2024-10-23,18:45,Atalanta BC,Celtic FC,UEFA Champions League
-Matchday 3,2024-10-23,21:00,BSC Young Boys,Inter Milan,UEFA Champions League
-Matchday 3,2024-10-23,21:00,FC Barcelona,Bayern Munich,UEFA Champions League
-Matchday 3,2024-10-23,21:00,Manchester City,AC Sparta Praha,UEFA Champions League
-Matchday 3,2024-10-23,21:00,RB Leipzig,Liverpool FC,UEFA Champions League
-Matchday 3,2024-10-23,21:00,Atlético de Madrid,LOSC Lille,UEFA Champions League
-Matchday 3,2024-10-23,21:00,SL Benfica,Feyenoord Rotterdam,UEFA Champions League
-Matchday 3,2024-10-23,21:00,FC Red Bull Salzburg,GNK Dinamo Zagreb,UEFA Champions League
-Matchday 4,2024-11-05,18:45,ŠK Slovan Bratislava,GNK Dinamo Zagreb,UEFA Champions League
-Matchday 4,2024-11-05,18:45,PSV,Girona FC,UEFA Champions League
-Matchday 4,2024-11-05,21:00,Sporting CP,Manchester City,UEFA Champions League
-Matchday 4,2024-11-05,21:00,Bologna FC 1909,AS Monaco FC,UEFA Champions League
-Matchday 4,2024-11-05,21:00,Borussia Dortmund,SK Sturm Graz,UEFA Champions League
-Matchday 4,2024-11-05,21:00,Liverpool FC,Bayer 04 Leverkusen,UEFA Champions League
-Matchday 4,2024-11-05,21:00,Real Madrid,AC Milan,UEFA Champions League
-Matchday 4,2024-11-05,21:00,Celtic FC,RB Leipzig,UEFA Champions League
-Matchday 4,2024-11-05,21:00,LOSC Lille,Juventus FC,UEFA Champions League
-Matchday 4,2024-11-06,18:45,Club Brugge KV,Aston Villa,UEFA Champions League
-Matchday 4,2024-11-06,18:45,FK Shakhtar Donetsk,BSC Young Boys,UEFA Champions League
-Matchday 4,2024-11-06,21:00,AC Sparta Praha,Stade Brestois 29,UEFA Champions League
-Matchday 4,2024-11-06,21:00,VfB Stuttgart,Atalanta BC,UEFA Champions League
-Matchday 4,2024-11-06,21:00,Bayern Munich,SL Benfica,UEFA Champions League
-Matchday 4,2024-11-06,21:00,Inter Milan,Arsenal FC,UEFA Champions League
-Matchday 4,2024-11-06,21:00,Paris Saint-Germain,Atlético de Madrid,UEFA Champions League
-Matchday 4,2024-11-06,21:00,Feyenoord Rotterdam,FC Red Bull Salzburg,UEFA Champions League
-Matchday 4,2024-11-06,21:00,FK Crvena Zvezda,FC Barcelona,UEFA Champions League
-Matchday 5,2024-11-26,18:45,ŠK Slovan Bratislava,AC Milan,UEFA Champions League
-Matchday 5,2024-11-26,18:45,AC Sparta Praha,Atlético de Madrid,UEFA Champions League
-Matchday 5,2024-11-26,21:00,Sporting CP,Arsenal FC,UEFA Champions League
-Matchday 5,2024-11-26,21:00,BSC Young Boys,Atalanta BC,UEFA Champions League
-Matchday 5,2024-11-26,21:00,Bayern Munich,Paris Saint-Germain,UEFA Champions League
-Matchday 5,2024-11-26,21:00,FC Barcelona,Stade Brestois 29,UEFA Champions League
-Matchday 5,2024-11-26,21:00,Inter Milan,RB Leipzig,UEFA Champions League
-Matchday 5,2024-11-26,21:00,Manchester City,Feyenoord Rotterdam,UEFA Champions League
-Matchday 5,2024-11-26,21:00,Bayer 04 Leverkusen,FC Red Bull Salzburg,UEFA Champions League
-Matchday 5,2024-11-27,18:45,SK Sturm Graz,Girona FC,UEFA Champions League
-Matchday 5,2024-11-27,18:45,FK Crvena Zvezda,VfB Stuttgart,UEFA Champions League
-Matchday 5,2024-11-27,21:00,AS Monaco FC,SL Benfica,UEFA Champions League
-Matchday 5,2024-11-27,21:00,Aston Villa,Juventus FC,UEFA Champions League
-Matchday 5,2024-11-27,21:00,Bologna FC 1909,LOSC Lille,UEFA Champions League
-Matchday 5,2024-11-27,21:00,Liverpool FC,Real Madrid,UEFA Champions League
-Matchday 5,2024-11-27,21:00,Celtic FC,Club Brugge KV,UEFA Champions League
-Matchday 5,2024-11-27,21:00,GNK Dinamo Zagreb,Borussia Dortmund,UEFA Champions League
-Matchday 5,2024-11-27,21:00,PSV,FK Shakhtar Donetsk,UEFA Champions League
-Matchday 6,2024-12-10,18:45,Girona FC,Liverpool FC,UEFA Champions League
-Matchday 6,2024-12-10,18:45,GNK Dinamo Zagreb,Celtic FC,UEFA Champions League
-Matchday 6,2024-12-10,21:00,Stade Brestois 29,PSV,UEFA Champions League
-Matchday 6,2024-12-10,21:00,RB Leipzig,Aston Villa,UEFA Champions League
-Matchday 6,2024-12-10,21:00,Atalanta BC,Real Madrid,UEFA Champions League
-Matchday 6,2024-12-10,21:00,Bayer 04 Leverkusen,Inter Milan,UEFA Champions League
-Matchday 6,2024-12-10,21:00,Club Brugge KV,Sporting CP,UEFA Champions League
-Matchday 6,2024-12-10,21:00,FK Shakhtar Donetsk,Bayern Munich,UEFA Champions League
-Matchday 6,2024-12-10,21:00,FC Red Bull Salzburg,Paris Saint-Germain,UEFA Champions League
-Matchday 6,2024-12-11,18:45,Atlético de Madrid,ŠK Slovan Bratislava,UEFA Champions League
-Matchday 6,2024-12-11,18:45,LOSC Lille,SK Sturm Graz,UEFA Champions League
-Matchday 6,2024-12-11,21:00,VfB Stuttgart,BSC Young Boys,UEFA Champions League
-Matchday 6,2024-12-11,21:00,Borussia Dortmund,FC Barcelona,UEFA Champions League
-Matchday 6,2024-12-11,21:00,AC Milan,FK Crvena Zvezda,UEFA Champions League
-Matchday 6,2024-12-11,21:00,SL Benfica,Bologna FC 1909,UEFA Champions League
-Matchday 6,2024-12-11,21:00,Arsenal FC,AS Monaco FC,UEFA Champions League
-Matchday 6,2024-12-11,21:00,Juventus FC,Manchester City,UEFA Champions League
-Matchday 6,2024-12-11,21:00,Feyenoord Rotterdam,AC Sparta Praha,UEFA Champions League
-Matchday 7,2025-01-21,18:45,AS Monaco FC,Aston Villa,UEFA Champions League
-Matchday 7,2025-01-21,18:45,Atalanta BC,SK Sturm Graz,UEFA Champions League
-Matchday 7,2025-01-21,21:00,Bologna FC 1909,Borussia Dortmund,UEFA Champions League
-Matchday 7,2025-01-21,21:00,ŠK Slovan Bratislava,VfB Stuttgart,UEFA Champions League
-Matchday 7,2025-01-21,21:00,Liverpool FC,LOSC Lille,UEFA Champions League
-Matchday 7,2025-01-21,21:00,Atlético de Madrid,Bayer 04 Leverkusen,UEFA Champions League
-Matchday 7,2025-01-21,21:00,SL Benfica,FC Barcelona,UEFA Champions League
-Matchday 7,2025-01-21,21:00,Club Brugge KV,Juventus FC,UEFA Champions League
-Matchday 7,2025-01-21,21:00,FK Crvena Zvezda,PSV,UEFA Champions League
-Matchday 7,2025-01-22,18:45,RB Leipzig,Sporting CP,UEFA Champions League
-Matchday 7,2025-01-22,18:45,FK Shakhtar Donetsk,Stade Brestois 29,UEFA Champions League
-Matchday 7,2025-01-22,21:00,AC Sparta Praha,Inter Milan,UEFA Champions League
-Matchday 7,2025-01-22,21:00,Paris Saint-Germain,Manchester City,UEFA Champions League
-Matchday 7,2025-01-22,21:00,Real Madrid,FC Red Bull Salzburg,UEFA Champions League
-Matchday 7,2025-01-22,21:00,AC Milan,Girona FC,UEFA Champions League
-Matchday 7,2025-01-22,21:00,Arsenal FC,GNK Dinamo Zagreb,UEFA Champions League
-Matchday 7,2025-01-22,21:00,Celtic FC,BSC Young Boys,UEFA Champions League
-Matchday 7,2025-01-22,21:00,Feyenoord Rotterdam,Bayern Munich,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Sporting CP,Bologna FC 1909,UEFA Champions League
-Matchday 8,2025-01-29,21:00,BSC Young Boys,FK Crvena Zvezda,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Aston Villa,Celtic FC,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Girona FC,Arsenal FC,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Stade Brestois 29,Real Madrid,UEFA Champions League
-Matchday 8,2025-01-29,21:00,SK Sturm Graz,RB Leipzig,UEFA Champions League
-Matchday 8,2025-01-29,21:00,VfB Stuttgart,Paris Saint-Germain,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Bayern Munich,ŠK Slovan Bratislava,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Borussia Dortmund,FK Shakhtar Donetsk,UEFA Champions League
-Matchday 8,2025-01-29,21:00,FC Barcelona,Atalanta BC,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Inter Milan,AS Monaco FC,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Manchester City,Club Brugge KV,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Bayer 04 Leverkusen,AC Sparta Praha,UEFA Champions League
-Matchday 8,2025-01-29,21:00,Juventus FC,SL Benfica,UEFA Champions League
-Matchday 8,2025-01-29,21:00,GNK Dinamo Zagreb,AC Milan,UEFA Champions League
-Matchday 8,2025-01-29,21:00,LOSC Lille,Feyenoord Rotterdam,UEFA Champions League
-Matchday 8,2025-01-29,21:00,PSV,Liverpool FC,UEFA Champions League
-Matchday 8,2025-01-29,21:00,FC Red Bull Salzburg,Atlético de Madrid,UEFA Champions League
+Matchday 19,2024-12-29,TBD,Aston Villa,Brighton & Hove Albion,England - Premier League
+Matchday 19,2024-12-29,TBD,Brentford FC,Arsenal FC,England - Premier League
+Matchday 19,2024-12-29,TBD,Crystal Palace,Southampton FC,England - Premier League
+Matchday 19,2024-12-29,TBD,Everton FC,Nottingham Forest,England - Premier League
+Matchday 19,2024-12-29,TBD,Fulham FC,AFC Bournemouth,England - Premier League
+Matchday 19,2024-12-29,TBD,Ipswich Town,Chelsea FC,England - Premier League
+Matchday 19,2024-12-29,TBD,Leicester City,Manchester City,England - Premier League
+Matchday 19,2024-12-29,TBD,Manchester United,Newcastle United,England - Premier League
+Matchday 19,2024-12-29,TBD,Tottenham Hotspur,Wolverhampton Wanderers,England - Premier League
+Matchday 19,2024-12-29,TBD,West Ham United,Liverpool FC,England - Premier League
+Matchday 18,2024-12-29,TBD,Bologna FC 1909,Hellas Verona,Italy - Serie A
+Matchday 18,2024-12-29,TBD,Cagliari Calcio,Inter Milan,Italy - Serie A
+Matchday 18,2024-12-29,TBD,Como 1907,US Lecce,Italy - Serie A
+Matchday 18,2024-12-29,TBD,FC Empoli,Genoa CFC,Italy - Serie A
+Matchday 18,2024-12-29,TBD,Juventus FC,ACF Fiorentina,Italy - Serie A
+Matchday 18,2024-12-29,TBD,SS Lazio,Atalanta BC,Italy - Serie A
+Matchday 18,2024-12-29,TBD,AC Milan,AS Roma,Italy - Serie A
+Matchday 18,2024-12-29,TBD,SSC Napoli,Venezia FC,Italy - Serie A
+Matchday 18,2024-12-29,TBD,Parma Calcio 1913,AC Monza,Italy - Serie A
+Matchday 18,2024-12-29,TBD,Udinese Calcio,Torino FC,Italy - Serie A
+Matchday 16,2024-12-29,TBD,GD Estoril Praia,Moreirense FC,Portugal - Liga Portugal
+Matchday 16,2024-12-29,TBD,SC Braga,Casa Pia AC,Portugal - Liga Portugal
+Matchday 16,2024-12-29,TBD,FC Arouca,Gil Vicente FC,Portugal - Liga Portugal
+Matchday 16,2024-12-29,TBD,SC Farense,Vitória Guimarães SC,Portugal - Liga Portugal
+Matchday 16,2024-12-29,TBD,Avs Futebol,CF Estrela Amadora,Portugal - Liga Portugal
+Matchday 16,2024-12-29,TBD,FC Famalicão,CD Santa Clara,Portugal - Liga Portugal
+Matchday 16,2024-12-29,TBD,Rio Ave FC,CD Nacional,Portugal - Liga Portugal
+Matchday 16,2024-12-29,TBD,FC Porto,Boavista FC,Portugal - Liga Portugal
+Matchday 16,2024-12-29,TBD,Sporting CP,SL Benfica,Portugal - Liga Portugal
