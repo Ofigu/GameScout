@@ -4,7 +4,7 @@ GameScout is a web application that provides comprehensive soccer/football fixtu
 
 ## Features
 
-- **Live Fixtures Dashboard**: Browse soccer matches from top leagues with an interactive calendar
+- **Fixtures Dashboard**: Browse soccer matches from top leagues with an interactive calendar
 - **Detailed Match Statistics**:
   - Head-to-head record between teams
   - Recent form analysis
@@ -107,15 +107,6 @@ The application uses several CSV datasets:
 - `/api/fixtures/:date`: Get fixtures for a specific date
 - `/api/game-stats/:team1/:team2`: Get detailed game statistics
 - `/api/user`: Get current user information
-
-## Future Improvements
-
-- Add more leagues and competitions
-- Implement advanced statistics and predictions
-- Add user preferences and favorites
-- Enhance mobile experience
-- Add real-time score updates
-- Implement social features and user interactions
 
 ## Contributing
 
