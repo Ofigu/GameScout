@@ -36,7 +36,7 @@ except Exception as e:
 # Normalize club name - cross between different data sources
 def normalize_club_name(name):
     # Remove common suffixes and prefixes
-    name = re.sub(r'\b(FC|SC|AC|SS|CF|United|City|Club|VfB|VfL)\b', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'\b(FC|SC|AC|SS|CF|United|City|Club|VfB|VfL|SL)\b', '', name, flags=re.IGNORECASE)
     # Remove non-alphanumeric characters
     name = re.sub(r'[^a-zA-Z0-9\s]', '', name)
     # Convert to lowercase and trim
